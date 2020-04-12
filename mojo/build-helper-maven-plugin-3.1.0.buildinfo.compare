@@ -1,0 +1,5 @@
+version=3.1.0
+ok=0
+ko=3
+okFiles=""
+koFiles="build-helper-maven-plugin-3.1.0-source-release.zip build-helper-maven-plugin-3.1.0.jar build-helper-maven-plugin-3.1.0-sources.jar"

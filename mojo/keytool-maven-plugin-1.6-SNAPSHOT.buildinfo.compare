@@ -1,0 +1,5 @@
+version=1.6-SNAPSHOT
+ok=0
+ko=13
+okFiles=""
+koFiles="keytool-api-1.6-1.6-SNAPSHOT-sources.jar keytool-maven-plugin-1.6-SNAPSHOT.jar keytool-api-1.5-1.6-SNAPSHOT.jar keytool-api-1.5-1.6-SNAPSHOT-sources.jar keytool-api-1.6-1.6-SNAPSHOT.jar keytool-api-test-1.6-SNAPSHOT-sources.jar keytool-api-1.6-SNAPSHOT.jar keytool-api-1.7-1.6-SNAPSHOT.jar keytool-api-1.6-SNAPSHOT-sources.jar keytool-api-test-1.6-SNAPSHOT.jar keytool-api-1.7-1.6-SNAPSHOT-sources.jar keytool-maven-plugin-1.6-SNAPSHOT-sources.jar keytool-1.6-SNAPSHOT-source-release.zip"

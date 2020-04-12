@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Build Number Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=buildnumber-maven-plugin
+version=1.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/buildnumber-maven-plugin.git
+source.scm.tag=buildnumber-maven-plugin-1.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=buildnumber-maven-plugin-1.4.jar
+outputs.0.length=40278
+outputs.0.checksums.sha512=37d1b5adbc3a3de92e2055439065bac284a2ae3ddc16c15fc0e70fba5d6183e2d9951b3e46979e53ca170df785c56492c50f81045909241695c817f0af7af7bc
+
+outputs.1.filename=buildnumber-maven-plugin-1.4-source-release.zip
+outputs.1.length=270442
+outputs.1.checksums.sha512=2ae709aa1be801577b473a09bc14095ec36172fd16b6addbbe3e21d066aa04e42ea2b00be93c067c05414074b295935cc6e056e9d6f0f6dddf712142b747172c
+
+outputs.2.filename=buildnumber-maven-plugin-1.4-sources.jar
+outputs.2.length=22521
+outputs.2.checksums.sha512=888ed3028e1ff373ce8dd796c9a3410ae3682188d5506ebc3edb4bcc8846e907c160a5e7941a71ad49f429b791423ea7ab8c1b6eda38b5c9672fbaae24b2cac5

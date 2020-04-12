@@ -1,0 +1,5 @@
+version=2.0.1-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="wagon-maven-plugin-2.0.1-SNAPSHOT-source-release.zip wagon-maven-plugin-2.0.1-SNAPSHOT-sources.jar wagon-maven-plugin-2.0.1-SNAPSHOT.jar"

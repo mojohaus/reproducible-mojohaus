@@ -1,0 +1,5 @@
+version=2.2-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="javancss-maven-plugin-2.2-SNAPSHOT-sources.jar javancss-maven-plugin-2.2-SNAPSHOT.jar javancss-maven-plugin-2.2-SNAPSHOT-source-release.zip"

@@ -1,0 +1,5 @@
+version=1.4
+ok=0
+ko=3
+okFiles=""
+koFiles="buildnumber-maven-plugin-1.4-source-release.zip buildnumber-maven-plugin-1.4-sources.jar buildnumber-maven-plugin-1.4.jar"

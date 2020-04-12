@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Native2Ascii Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=native2ascii-maven-plugin
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/native2ascii.git
+source.scm.tag=v2.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=native2ascii-maven-plugin-2.0.1.jar
+outputs.0.length=22203
+outputs.0.checksums.sha512=f8d629c024b25587cfebefd1cb939ff0d3e89544b601b21f160a9d15ffe5215dc98ecf1ab7a28b59c6f56f2cbe7f089ede7913f8c7fd7af4cc14324d356d99e4
+
+outputs.1.filename=native2ascii-maven-plugin-2.0.1-source-release.zip
+outputs.1.length=36665
+outputs.1.checksums.sha512=f33a97e3adaf5466ee23319c0c80e906c54752a329df3583eda91c8fb27e3385939ffe93fc19766c0dd47e95434368a75fa69fe1d4a1f4b19347453fa6ccec0e
+
+outputs.2.filename=native2ascii-maven-plugin-2.0.1-sources.jar
+outputs.2.length=16793
+outputs.2.checksums.sha512=2c6f47229ba895358a5e14b351b4bad025a08d8fed76bb8e26dd038a10a84501ca4485d74126ff722b31ab2f620ca4538c490f1669b43884f3d16a8c83e6ae12

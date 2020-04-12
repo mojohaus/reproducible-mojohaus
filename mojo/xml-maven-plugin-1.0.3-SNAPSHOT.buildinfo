@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=XML Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=xml-maven-plugin
+version=1.0.3-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/xml-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=xml-maven-plugin-1.0.3-SNAPSHOT.jar
+outputs.0.length=64562
+outputs.0.checksums.sha512=6b4e5b38cef3107e10611c030f4f0bd1a82339c5324aad02814c1160837c4de2efd2ee38af92200afaa2f74fbb63920464e5c61a36408307fb1e1fd52968a213
+
+outputs.1.filename=xml-maven-plugin-1.0.3-SNAPSHOT-source-release.zip
+outputs.1.length=242893
+outputs.1.checksums.sha512=f2f5955e1bab54063e602d810308b8d071134f1817f926ebc7b43470b8954aa6968049d8644ccfa236671b7d6900b1422a993e22c4fe662498d6bb8cf98e26e4
+
+outputs.2.filename=xml-maven-plugin-1.0.3-SNAPSHOT-sources.jar
+outputs.2.length=39880
+outputs.2.checksums.sha512=5323e8fdbd17247f7e92a2f737a68d9a24fb4904a924535ed14612db8507e5a2467ae32153ff7a2e140fde2b58714a5ee4f96a53aa8441bde9cdfafe2d808c6b

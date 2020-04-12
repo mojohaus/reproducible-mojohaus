@@ -1,0 +1,5 @@
+version=1.4
+ok=0
+ko=13
+okFiles=""
+koFiles="keytool-api-test-1.4.jar keytool-api-1.4.jar keytool-api-1.5-1.4-sources.jar keytool-api-1.7-1.4.jar keytool-api-test-1.4-sources.jar keytool-api-1.6-1.4.jar keytool-api-1.4-sources.jar keytool-api-1.5-1.4.jar keytool-api-1.6-1.4-sources.jar keytool-api-1.7-1.4-sources.jar keytool-1.4-source-release.zip keytool-maven-plugin-1.4-sources.jar keytool-maven-plugin-1.4.jar"

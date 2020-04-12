@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JAXB-2 Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=jaxb2-maven-plugin
+version=2.5.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/jaxb2-maven-plugin.git
+source.scm.tag=jaxb2-maven-plugin-2.5.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0.5
+
+# output
+
+outputs.0.filename=jaxb2-maven-plugin-2.5.0.jar
+outputs.0.length=176334
+outputs.0.checksums.sha512=961dde6f9cea3291be8c651f3977a80fb8c0bbbf2e3f2cd5b2ee73cffbc919aee642cc1e71240bb7e6c0b52b72648bf595692288f019d9b9d2aa5e3ec7e63435
+
+outputs.1.filename=jaxb2-maven-plugin-2.5.0-source-release.zip
+outputs.1.length=917354
+outputs.1.checksums.sha512=fce0dc4b9f43dd6b0e986cc8d07024bdec092696b8b1d7e56dd32c51e24b18c473bb9180dc08682cd2b9880aa52211a92af85c791b30fd44d0e3c0000223bbcb
+
+outputs.2.filename=jaxb2-maven-plugin-2.5.0-sources.jar
+outputs.2.length=165736
+outputs.2.checksums.sha512=6966671d1b37f6d89c1f8c240e63d8350aebb1388e093a99188dc64ebe69c7092e22c910e0a25f2a8ec688fd876908e29e6692b4102ecc7e2731c55745d4f7e6

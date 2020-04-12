@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Versions Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=versions-maven-plugin
+version=2.7
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/versions-maven-plugin.git
+source.scm.tag=versions-maven-plugin-2.7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=versions-maven-plugin-2.7.jar
+outputs.0.length=310330
+outputs.0.checksums.sha512=d8e650888fc9a4eb1e8269e9ab2b78970ff08486808f7c059c5d5b675e31bec0d3d5d454f95a8598a72cfbdd716e943bfda44db7822d1ccf5072a4c295e1cd75
+
+outputs.1.filename=versions-maven-plugin-2.7-source-release.zip
+outputs.1.length=641683
+outputs.1.checksums.sha512=34da8a637125ab9c3f160da88a8b2c716aea673777020f825dedcf28c625be2d3ddaf82291cd55a565fec981e7b7c6e5230d878e4c831e38207ead8032b1640f
+
+outputs.2.filename=versions-maven-plugin-2.7-sources.jar
+outputs.2.length=215011
+outputs.2.checksums.sha512=df9936298ca4905ff4390b1d4bdad1683fc7d18c08e9835cc8d05ada149b2a941347d69013d88e58d3471d1c2dd1fa4b6ecce39426845260b27750a6f9c93e2f

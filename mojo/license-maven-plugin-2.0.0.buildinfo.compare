@@ -1,0 +1,5 @@
+version=2.0.0
+ok=1
+ko=4
+okFiles="test.license.properties"
+koFiles="THIRD-PARTY.properties license-maven-plugin-2.0.0.jar license-maven-plugin-2.0.0-sources.jar license-maven-plugin-2.0.0-source-release.zip"

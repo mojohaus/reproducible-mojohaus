@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Wagon Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=wagon-maven-plugin
+version=2.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/wagon-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=wagon-maven-plugin-2.0.1-SNAPSHOT.jar
+outputs.0.length=60181
+outputs.0.checksums.sha512=b66c7f7af9d3a5916eefbbf642fac13bdc043f36212701c95140e18cccecf57a098f0b13424db61b08895dae58847fe563c76363527d2d09c92d99bf7d6f0186
+
+outputs.1.filename=wagon-maven-plugin-2.0.1-SNAPSHOT-source-release.zip
+outputs.1.length=77629
+outputs.1.checksums.sha512=81ecd9703d4fd6fb85caf66cfe6294ee1dc13c385c394b13386e0e57c757b9b94e03d60bb45596e2a2eea3cd6231d87f1aaa072347b1b675cf4d87dc6b6a5db9
+
+outputs.2.filename=wagon-maven-plugin-2.0.1-SNAPSHOT-sources.jar
+outputs.2.length=47302
+outputs.2.checksums.sha512=8dcd5bdb5434515444e3a881ee811864575a2abde956319c3db1f016d7567fb2e5496ca8e86558de7a9eac3e6cdcb32a865120d8c253a3b84d8749807d6f394d

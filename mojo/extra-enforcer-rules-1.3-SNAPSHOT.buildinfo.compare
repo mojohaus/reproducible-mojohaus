@@ -1,0 +1,5 @@
+version=1.3-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="extra-enforcer-rules-1.3-SNAPSHOT-source-release.zip extra-enforcer-rules-1.3-SNAPSHOT.jar extra-enforcer-rules-1.3-SNAPSHOT-sources.jar"

@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Castor Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=castor-maven-plugin
+version=3.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/castor-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=castor-maven-plugin-3.0-SNAPSHOT.jar
+outputs.0.length=30022
+outputs.0.checksums.sha512=b0e4b27b6ce16420582d09d8650833ffce59074ee0887aa6d6f1d6590161d20e9f6a92d11f7795b522e55f0b19c3a362a48ecb5a8fe61bc44c86a6974fcb372c
+
+outputs.1.filename=castor-maven-plugin-3.0-SNAPSHOT-source-release.zip
+outputs.1.length=242135
+outputs.1.checksums.sha512=965e46d0dbc32fb1a2ce76b30a24248048d1ce282093df363ad94bd867a0be0edc4b5b396204f8f30c1fb338a319c054b2aa3c86193cbd7f8abfd4ff4e1d1914
+
+outputs.2.filename=castor-maven-plugin-3.0-SNAPSHOT-sources.jar
+outputs.2.length=18745
+outputs.2.checksums.sha512=d1e194d4d974a0901e0a16be800860590404ee9c73a87e82923f9de54e7ae866cbb633454b58f1056be002a87f2ca3df9b5e11fd471f62a97285d73da57ff6e2

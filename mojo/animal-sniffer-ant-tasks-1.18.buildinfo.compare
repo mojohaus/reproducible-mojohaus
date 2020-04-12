@@ -1,0 +1,5 @@
+version=1.18
+ok=0
+ko=13
+okFiles=""
+koFiles="animal-sniffer-annotations-1.18.jar animal-sniffer-ant-tasks-1.18-sources.jar animal-sniffer-enforcer-rule-1.18.jar java-boot-classpath-detector-1.18-sources.jar animal-sniffer-1.18-sources.jar java-boot-classpath-detector-1.18.jar animal-sniffer-maven-plugin-1.18.jar animal-sniffer-maven-plugin-1.18-sources.jar animal-sniffer-ant-tasks-1.18.jar animal-sniffer-enforcer-rule-1.18-sources.jar animal-sniffer-annotations-1.18-sources.jar animal-sniffer-1.18.jar animal-sniffer-parent-1.18-source-release.zip"

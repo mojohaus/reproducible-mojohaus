@@ -1,0 +1,5 @@
+version=1.0.2
+ok=0
+ko=3
+okFiles=""
+koFiles="xml-maven-plugin-1.0.2-sources.jar xml-maven-plugin-1.0.2.jar xml-maven-plugin-1.0.2-source-release.zip"

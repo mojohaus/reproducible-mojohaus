@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Service Documentation Generator Plugin
+group-id=org.codehaus.mojo
+artifact-id=servicedocgen-maven-plugin
+version=1.0.0-beta-3
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/servicedocgen-maven-plugin.git
+source.scm.tag=servicedocgen-maven-plugin-1.0.0-beta-3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=servicedocgen-maven-plugin-1.0.0-beta-3.jar
+outputs.0.length=78003
+outputs.0.checksums.sha512=d155617aff76cebd498b3b3c62eae092484140acf0e7bdf621cac6492c349bd3d7720cfecfcbe556935ec15ec49cdd3dcc72f77dae6820aaf827b05c1a7e59a8
+
+outputs.1.filename=servicedocgen-maven-plugin-1.0.0-beta-3-source-release.zip
+outputs.1.length=101805
+outputs.1.checksums.sha512=040b5c87e19110c81d69bbe30168df12ecb72ed1e3c87cd34083d8243b10b8727e41adfa2b10bf0d0421755ac631ba204e4e92b2c839dc1cebfa8b082468a34a
+
+outputs.2.filename=servicedocgen-maven-plugin-1.0.0-beta-3-sources.jar
+outputs.2.length=55664
+outputs.2.checksums.sha512=b8657d55c35ca912e7dd6a4e5b15a0bb2280109d202c800263b30bad38139c53b4f9ed1100689857346cc18f1f85b34b50dea4af5e040b9a41aab4dfc22817d0

@@ -1,0 +1,5 @@
+version=1.0.3-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="xml-maven-plugin-1.0.3-SNAPSHOT.jar xml-maven-plugin-1.0.3-SNAPSHOT-sources.jar xml-maven-plugin-1.0.3-SNAPSHOT-source-release.zip"

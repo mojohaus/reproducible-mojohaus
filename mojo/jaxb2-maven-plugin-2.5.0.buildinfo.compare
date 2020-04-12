@@ -1,0 +1,5 @@
+version=2.5.0
+ok=0
+ko=3
+okFiles=""
+koFiles="jaxb2-maven-plugin-2.5.0-sources.jar jaxb2-maven-plugin-2.5.0-source-release.zip jaxb2-maven-plugin-2.5.0.jar"

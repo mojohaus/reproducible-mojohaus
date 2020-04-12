@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Reusable IDE Preferences
+group-id=org.codehaus.mojo
+artifact-id=reusable-ide-preferences
+version=0.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/mojo-parent.git/reusable-ide-preferences
+source.scm.tag=mojo-parent-40
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo:eclipse-preferences-maven-plugin
+
+outputs.0.0.filename=eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT.jar
+outputs.0.0.length=20380
+outputs.0.0.checksums.sha512=573edecee8a1ce839748c650e185d571d1cb130d211b8a6f474c9ef5e8007ea7748a76c36d1ab01e0f5cdd354853c2e2ff49fe4d89aef64c1d641e6a0db6b05b
+
+outputs.0.1.filename=eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT-sources.jar
+outputs.0.1.length=13047
+outputs.0.1.checksums.sha512=06a147ada1e7d4ecb52b7a8780d5bfd63ce0926e721a982684ca8d10cc2997bf53589ae7b920a080446b3488bcc7962ec923d90d731afe416ab8403940874201
+
+outputs.1.coordinates=org.codehaus.mojo:reusable-ide-preferences
+
+outputs.1.0.filename=reusable-ide-preferences-0.0.1-SNAPSHOT-source-release.zip
+outputs.1.0.length=40567
+outputs.1.0.checksums.sha512=ca50614002b06ecc54cf7c561da1267ede634b15f41c5dfcbe51dc97615492f17c1d192cfbb5fae071ee4d514922063d06b61e273a65cfa3f3630b4e249a5a84

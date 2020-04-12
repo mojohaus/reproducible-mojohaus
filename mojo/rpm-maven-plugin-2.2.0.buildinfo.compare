@@ -1,0 +1,5 @@
+version=2.2.0
+ok=0
+ko=3
+okFiles=""
+koFiles="rpm-maven-plugin-2.2.0-sources.jar rpm-maven-plugin-2.2.0.jar rpm-maven-plugin-2.2.0-source-release.zip"

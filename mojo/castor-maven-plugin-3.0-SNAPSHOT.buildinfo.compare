@@ -1,0 +1,5 @@
+version=3.0-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="castor-maven-plugin-3.0-SNAPSHOT.jar castor-maven-plugin-3.0-SNAPSHOT-sources.jar castor-maven-plugin-3.0-SNAPSHOT-source-release.zip"

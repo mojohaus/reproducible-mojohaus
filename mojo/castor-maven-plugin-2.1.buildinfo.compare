@@ -1,0 +1,5 @@
+version=2.1
+ok=0
+ko=2
+okFiles=""
+koFiles="castor-maven-plugin-2.1-source-release.zip castor-maven-plugin-2.1.jar"

@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SQL Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=sql-maven-plugin
+version=1.4
+
+# source information
+source.scm.uri=scm:svn:http://svn.codehaus.org/mojo/tags/sql-maven-plugin-1.4
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0.6
+
+# output
+
+outputs.0.filename=sql-maven-plugin-1.4.jar
+outputs.0.length=24768
+outputs.0.checksums.sha512=d2d9992fa80184e5842d6d42fff790a2148f8c08dcc121e4f3feea7c89005c425c5397262f0c8747408164db2d8ca5feca911e1058405b3e7a28134dde075387
+
+outputs.1.filename=sql-maven-plugin-1.4-source-release.zip
+outputs.1.length=31794
+outputs.1.checksums.sha512=0cdf7635b5574a88f78d2c6fd28b255fbb07c886d6e6a5c083798ca02de2ab1546d4d41b5acd621892394cb75f9278ab624e6c2332d1af5159ee99f569be286f
+
+outputs.2.filename=sql-maven-plugin-1.4-sources.jar
+outputs.2.length=16885
+outputs.2.checksums.sha512=72b08906898df9d6e750da6db08bddc205861dd83b8891d71ce68656999176f4bda2bc27ccc1d7bb087d9259d0853009d47e421dcf6220ce02ef65ab956f5796

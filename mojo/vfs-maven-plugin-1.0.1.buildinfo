@@ -1,0 +1,51 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=VFS
+group-id=org.codehaus.mojo
+artifact-id=vfs
+version=1.0.1
+
+# source information
+source.scm.uri=scm:svn:https://svn.codehaus.org/mojo/tags/vfs-1.0.1
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo:vfs
+
+outputs.0.0.filename=vfs-1.0.1-source-release.zip
+outputs.0.0.length=80610
+outputs.0.0.checksums.sha512=98e5899c2b69eabce3cc71266807e6fec0dcffd29d07be3e38d30ee080524931da7f1eb5e06182685bc7a57a6b01688a3052d6bcb84bef5e69ba56bf58f1034d
+
+outputs.1.coordinates=org.codehaus.mojo:vfs-utils
+
+outputs.1.0.filename=vfs-utils-1.0.1.jar
+outputs.1.0.length=18752
+outputs.1.0.checksums.sha512=16b9c24530bdc93f47552af671c8f096212d1a70dcfd4ecb524160821cba98df9b19ffc7f902713a09306c6c7f8f596c13d1703001816a650c824dc6f56f7601
+
+outputs.1.1.filename=vfs-utils-1.0.1-sources.jar
+outputs.1.1.length=18219
+outputs.1.1.checksums.sha512=f828facfb278d8f92ca4a473dc2c7d567ca428e3ac4d3ebafb7cc7ffc120be3859f9bd79d32dd94f1dac424f0110940be4baed07cdafcdc94413bce3c39c23ba
+
+outputs.2.coordinates=org.codehaus.mojo:vfs-maven-plugin
+
+outputs.2.0.filename=vfs-maven-plugin-1.0.1.jar
+outputs.2.0.length=27502
+outputs.2.0.checksums.sha512=cc8dfd33a7bd86776e7c56f5befdb7966fc958ebaafeef5c9294026deb558140fd901b6116cd33e18664780b6a7390067e91002b0f7df34e993aa25b5d643cdc
+
+outputs.2.1.filename=vfs-maven-plugin-1.0.1-sources.jar
+outputs.2.1.length=18891
+outputs.2.1.checksums.sha512=db19f60001f4ece13d67017813ed3dd36196291ff8e62667b2f4e19b62ec2658a4a32a6f8fd6c00a7113f3a917d76888ec5d116aa3867e39ab09316f34d4ca21

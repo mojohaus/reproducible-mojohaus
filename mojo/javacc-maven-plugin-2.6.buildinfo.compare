@@ -1,0 +1,5 @@
+version=2.6
+ok=0
+ko=1
+okFiles=""
+koFiles="javacc-maven-plugin-2.6.jar"

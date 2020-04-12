@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Properties Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=properties-maven-plugin
+version=1.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/properties-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=properties-maven-plugin-1.0.1-SNAPSHOT.jar
+outputs.0.length=30961
+outputs.0.checksums.sha512=67ef9d433e1158dec8c8777e7c5192a144b61c1a423e80abcddffbf034a54ba782d541b13e821daa12dcf48212bf29d1f7315cd1dfb3fd106fdc880e9ddb6046
+
+outputs.1.filename=properties-maven-plugin-1.0.1-SNAPSHOT-source-release.zip
+outputs.1.length=79305
+outputs.1.checksums.sha512=c2b34c7ef8d11b199710ff66ab03ecb54c59ecc60023632b9b3e9458c71269bdd90873950ede5dd1a85173829701e47cf430aa4276d9d14c69266cc89b054573
+
+outputs.2.filename=properties-maven-plugin-1.0.1-SNAPSHOT-sources.jar
+outputs.2.length=19821
+outputs.2.checksums.sha512=8251aa25abd71602186a9c672f35310468661ceb8caf9aee705fe0175dc5d6503b44713c3d0bb0ce9e6bb4412ddaa40a7a8d73f22b743e24bd60ad85eb3cfea8

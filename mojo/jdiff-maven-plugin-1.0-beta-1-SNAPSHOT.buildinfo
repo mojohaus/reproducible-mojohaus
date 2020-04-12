@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JDiff Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=jdiff-maven-plugin
+version=1.0-beta-1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/jdiff-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=jdiff-maven-plugin-1.0-beta-1-SNAPSHOT.jar
+outputs.0.length=35148
+outputs.0.checksums.sha512=39141cc9c8f6a94ecc2553a5b89659c03176aed6dcc37123889a17780b0d8b9ca153d52c08a1c66d66f2c952ccd676967744d4e4ee56fdfbfdd0ccb013fef219
+
+outputs.1.filename=jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-source-release.zip
+outputs.1.length=123898
+outputs.1.checksums.sha512=5aa797974a2c1ba0ac4479754ca10ac1ffcaee9b94915258969216c8a143e02973668e5895dadbd76eba13b36043614642f5c31470d71ab8e777bcdcf302085e
+
+outputs.2.filename=jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-sources.jar
+outputs.2.length=23649
+outputs.2.checksums.sha512=a1f0019610e9915a4733e9c7ff38ac85698bc5d966478f2f0738039e7cff5d454e3e25ca2260616e4838455d851d693fe637fae9f650f2b102df9d0cff9c8ef9

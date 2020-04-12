@@ -1,0 +1,5 @@
+version=1.6.0
+ok=0
+ko=3
+okFiles=""
+koFiles="exec-maven-plugin-1.6.0.jar exec-maven-plugin-1.6.0-sources.jar exec-maven-plugin-1.6.0-source-release.zip"

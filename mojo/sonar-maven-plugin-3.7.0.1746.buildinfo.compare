@@ -1,0 +1,5 @@
+version=3.7.0.1746
+ok=0
+ko=1
+okFiles=""
+koFiles="sonar-maven-plugin-3.7.0.1746-source-release.zip"

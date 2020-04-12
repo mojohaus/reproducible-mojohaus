@@ -1,0 +1,5 @@
+version=1.1
+ok=0
+ko=5
+okFiles=""
+koFiles="truezip-utils-1.1.jar truezip-1.1-source-release.zip truezip-maven-plugin-1.1-sources.jar truezip-utils-1.1-sources.jar truezip-maven-plugin-1.1.jar"

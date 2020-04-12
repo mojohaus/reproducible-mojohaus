@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=FindBugs Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=findbugs-maven-plugin
+version=3.0.4-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/findbugs-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0.1
+
+# output
+
+outputs.0.filename=findbugs-maven-plugin-3.0.4-SNAPSHOT.jar
+outputs.0.length=145518
+outputs.0.checksums.sha512=9dbe679910a834b70cc8106988bbd9ee0b1787d37dd7d0964642488d0b576d590064d4620dd6057dafa44ad87fde42e604e56d5cd66361256f28898c870595af
+
+outputs.1.filename=findbugs-maven-plugin-3.0.4-SNAPSHOT-source-release.zip
+outputs.1.length=380066
+outputs.1.checksums.sha512=d0fb116a1a100feb2f1f0995c0e86ae2b986d651043235d35da1d9e241a9d44cb6ee3084a5cdf93f2ca9400b49f384200b2bfcd7a058c02fec7f11655542cac2
+
+outputs.2.filename=findbugs-maven-plugin-3.0.4-SNAPSHOT-sources.jar
+outputs.2.length=39275
+outputs.2.checksums.sha512=b9eef3c506e6c258257a5c936b118cc55209389ebe0bf8afc7b3837fba0aba92f61c1f530dda1709f8afad33b3f39cd39bd107de7695be6158361f6b626894c6

@@ -1,0 +1,5 @@
+version=1.0-beta-2-SNAPSHOT
+ok=0
+ko=5
+okFiles=""
+koFiles="enchanter-maven-plugin-1.0-beta-2-SNAPSHOT-sources.jar enchanter-1.0-beta-2-SNAPSHOT-source-release.zip enchanter-maven-plugin-1.0-beta-2-SNAPSHOT.jar enchanter-core-1.0-beta-2-SNAPSHOT.jar enchanter-core-1.0-beta-2-SNAPSHOT-sources.jar"

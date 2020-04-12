@@ -1,0 +1,71 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mock Repository Manager: Project
+group-id=org.codehaus.mojo
+artifact-id=mrm
+version=1.2.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/mrm.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo:mrm
+
+outputs.0.0.filename=mrm-1.2.1-SNAPSHOT-source-release.zip
+outputs.0.0.length=169234
+outputs.0.0.checksums.sha512=02eabca2038d8584394cba1d01f7f69415df48d40b6227058fa2b7e4035a55fe35a0c472c6786e489f4e89014142034ee1c4ee206a7a43a861468c9f5b964af2
+
+outputs.0.1.filename=mrm-1.2.1-SNAPSHOT-site.xml
+outputs.0.1.length=1146
+outputs.0.1.checksums.sha512=a9a25996a501dae2dac02edf9765440197a65cc23635f051f38948e2d96d3113c5b765df1eca2afb40d9a7417d4aa6cc8c3b185c6bae8eafdb0acc2248770c2e
+
+outputs.1.coordinates=org.codehaus.mojo:mrm-api
+
+outputs.1.0.filename=mrm-api-1.2.1-SNAPSHOT.jar
+outputs.1.0.length=17592
+outputs.1.0.checksums.sha512=a0a720dedb769d63c261f083132583cc767d55f16f48b6ca024cfc154311a370577c5428823b1ded1c93d68b0f981bb9fdff33f6e228367e354226dee6d23a75
+
+outputs.1.1.filename=mrm-api-1.2.1-SNAPSHOT-sources.jar
+outputs.1.1.length=24270
+outputs.1.1.checksums.sha512=4ce2bc2faaa2347a8f50166df1211a60d0cdde110f5e0a2b9c058188d57bf3fd585384926b36fb630b48e53e0ce857b2c2dc4a265395666ba908a9ee40ccbd2f
+
+outputs.2.coordinates=org.codehaus.mojo:mrm-servlet
+
+outputs.2.0.filename=mrm-servlet-1.2.1-SNAPSHOT.jar
+outputs.2.0.length=92426
+outputs.2.0.checksums.sha512=f1a80308f7c89a81d22f4495da1055921cf3f8f5c961032f7539b8159192b81ff5b481f0bfa846cffb4b9e66b8a05d8469f94966458a7656d5da134d4c6a8dd1
+
+outputs.2.1.filename=mrm-servlet-1.2.1-SNAPSHOT-sources.jar
+outputs.2.1.length=57177
+outputs.2.1.checksums.sha512=56e04ce14b811a46a0a699bf578d6a05e40ed439c3716cb956f9527c6497dc6e7fb139d054545ad2dd0977400a3bb8c93dd6d7ada87c9c90c515d3164b377da4
+
+outputs.3.coordinates=org.codehaus.mojo:mrm-webapp
+
+outputs.3.0.filename=mrm-webapp-1.2.1-SNAPSHOT.war
+outputs.3.0.length=4258763
+outputs.3.0.checksums.sha512=0edc2eea7230676f464490f12bab958172ecbc9991d937a3b77d39aca88c883bebdecfe157a684e28555c70de3a3e5ff6bf0534a40fe7e1e7b3424634fdbf886
+
+outputs.4.coordinates=org.codehaus.mojo:mrm-maven-plugin
+
+outputs.4.0.filename=mrm-maven-plugin-1.2.1-SNAPSHOT.jar
+outputs.4.0.length=37356
+outputs.4.0.checksums.sha512=76189238cd3309eddc6fd45fe44ad90f2aa67ff1e51d782b186762478daf6e5e26f03a7f1cf962c602e19a02e095732d0d28d37df63f9ee91ef70d202d217bde
+
+outputs.4.1.filename=mrm-maven-plugin-1.2.1-SNAPSHOT-sources.jar
+outputs.4.1.length=23299
+outputs.4.1.checksums.sha512=77b369cce479ef5642b0e356e69277025ee602b8a4e4d8906db408950c7b78b7a61e4610df6909bf3357145a744634c74fad9aa3a094356be904c2bd7cb6bfd6

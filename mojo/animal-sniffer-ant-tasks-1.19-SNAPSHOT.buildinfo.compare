@@ -1,0 +1,5 @@
+version=1.19-SNAPSHOT
+ok=0
+ko=13
+okFiles=""
+koFiles="animal-sniffer-annotations-1.19-SNAPSHOT-sources.jar animal-sniffer-maven-plugin-1.19-SNAPSHOT-sources.jar java-boot-classpath-detector-1.19-SNAPSHOT-sources.jar animal-sniffer-annotations-1.19-SNAPSHOT.jar animal-sniffer-enforcer-rule-1.19-SNAPSHOT-sources.jar animal-sniffer-parent-1.19-SNAPSHOT-source-release.zip animal-sniffer-ant-tasks-1.19-SNAPSHOT-sources.jar animal-sniffer-1.19-SNAPSHOT.jar animal-sniffer-ant-tasks-1.19-SNAPSHOT.jar animal-sniffer-enforcer-rule-1.19-SNAPSHOT.jar animal-sniffer-1.19-SNAPSHOT-sources.jar java-boot-classpath-detector-1.19-SNAPSHOT.jar animal-sniffer-maven-plugin-1.19-SNAPSHOT.jar"

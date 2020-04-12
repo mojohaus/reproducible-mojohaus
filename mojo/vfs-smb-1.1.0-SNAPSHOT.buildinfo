@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=VFS
+group-id=org.codehaus.mojo
+artifact-id=vfs
+version=1.1.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/vfs.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo:vfs
+
+outputs.0.0.filename=vfs-1.1.0-SNAPSHOT-source-release.zip
+outputs.0.0.length=83895
+outputs.0.0.checksums.sha512=7e59e15968596e7509c2295e212cd07b0ec54e597da296e460e18355f09c5fde135369946c482599f0f0cbca1cf93a657a60a204bfb42a77f8371054e4430219
+
+outputs.1.coordinates=org.codehaus.mojo:vfs-utils
+
+outputs.1.0.filename=vfs-utils-1.1.0-SNAPSHOT.jar
+outputs.1.0.length=19325
+outputs.1.0.checksums.sha512=fff1d19dfd8d2e6d525966a4ad1d0de955dc51b23778b6656f05512b8442355c9a5c78ce4861fc668dcc580680881ccee2b6e0971e25b6a4d49d4eaab614b94d
+
+outputs.1.1.filename=vfs-utils-1.1.0-SNAPSHOT-sources.jar
+outputs.1.1.length=20105
+outputs.1.1.checksums.sha512=8ef3ce91c6e5991a7da2832027cf964ead6e98438d915e06462fe564f7312f76d18f760dcbfe91e0d3fbdaf586c40f49cf688ed6f591af5fa6dc9d93c34c773e
+
+outputs.1.2.filename=vfs-utils-1.1.0-SNAPSHOT-sources.jar
+outputs.1.2.length=20105
+outputs.1.2.checksums.sha512=8ef3ce91c6e5991a7da2832027cf964ead6e98438d915e06462fe564f7312f76d18f760dcbfe91e0d3fbdaf586c40f49cf688ed6f591af5fa6dc9d93c34c773e
+
+outputs.2.coordinates=org.codehaus.mojo:vfs-maven-plugin
+
+outputs.2.0.filename=vfs-maven-plugin-1.1.0-SNAPSHOT.jar
+outputs.2.0.length=28618
+outputs.2.0.checksums.sha512=53daa02995101712c9b2a6abe0604adcf82abb58f747f064dc774dc790868cd62357b0511a0eada8fdec62522bd82523ff5950a437753cae390d1b9b24df6bf8
+
+outputs.2.1.filename=vfs-maven-plugin-1.1.0-SNAPSHOT-sources.jar
+outputs.2.1.length=21482
+outputs.2.1.checksums.sha512=fcffe61851207b8900fc1f6b22c69e9c1640911be69c11a2aa27a960e85fd1d300a5c3f9b0835110d20a81df04fa6fc070bbc1e41b9e273e3816b904655b3b3b
+
+outputs.3.coordinates=org.codehaus.mojo:vfs-smb
+
+outputs.3.0.filename=vfs-smb-1.1.0-SNAPSHOT.jar
+outputs.3.0.length=13674
+outputs.3.0.checksums.sha512=c816ea65cd190dec91621d6325481cd0e6ce113e26393d3c716008adf5008ec73fd1965aa49206bffc1e170e2f8cde456199092127f2b369722946e3b16728c4
+
+outputs.3.1.filename=vfs-smb-1.1.0-SNAPSHOT-sources.jar
+outputs.3.1.length=11657
+outputs.3.1.checksums.sha512=08c905706298d0b2a0614796c005d9d6db869c18a59ec0ff506b568d7a43ea5a8ec3735c534118998bffb32fa94b96d76acbada56f1c97347fb604bfaf88764e

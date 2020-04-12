@@ -1,0 +1,5 @@
+version=1.4-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="sqlj-maven-plugin-1.4-SNAPSHOT-source-release.zip sqlj-maven-plugin-1.4-SNAPSHOT.jar sqlj-maven-plugin-1.4-SNAPSHOT-sources.jar"

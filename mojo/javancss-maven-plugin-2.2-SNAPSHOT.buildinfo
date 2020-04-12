@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JavaNCSS Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=javancss-maven-plugin
+version=2.2-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/javancss-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0
+
+# output
+
+outputs.0.filename=javancss-maven-plugin-2.2-SNAPSHOT.jar
+outputs.0.length=35977
+outputs.0.checksums.sha512=15f6850bd532047da180de3a94960fdeb2491e76ce7e7af0d7dd399d7c70af4aa9df09eb8ce4c81dd48f8cbaf89906917e44d75112d4faab77fd5f15777dac7e
+
+outputs.1.filename=javancss-maven-plugin-2.2-SNAPSHOT-source-release.zip
+outputs.1.length=62505
+outputs.1.checksums.sha512=413e3db08520a1e0ada84689e4e05996c65b47cc00092c1702d2918dcc465315c9847eb41a20b6836b2d8357f59587b7bb82e284c9cd1920ec7e59393c01fb07
+
+outputs.2.filename=javancss-maven-plugin-2.2-SNAPSHOT-sources.jar
+outputs.2.length=23321
+outputs.2.checksums.sha512=89dab11105473c48b3b54b7093b943a82b3864c22aeab8d46f4d311219a27d92ec2e66a77fbba86299e94e284da3cc778320b3b28edf8067254f618876c65990

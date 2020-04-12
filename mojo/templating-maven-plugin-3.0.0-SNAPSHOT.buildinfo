@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Templating Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=templating-maven-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/templating-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=templating-maven-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=22646
+outputs.0.checksums.sha512=4aa331555720e1254605d8156a44006359708109e1e33f1d036de367a2630b9afbbf2b4a6a316cc27bbd03536b728c77fe4370f5b9a827efe63a1487374a7d86
+
+outputs.1.filename=templating-maven-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=67836
+outputs.1.checksums.sha512=a8567679a36f7df3a8da783dd3fd91aee8842086c9a081d78261acfc41e0add2fc6a65e9cd561c32ef9e4761f5ad41ffcdbf60a9bf843fd999d6d33ad03709a8
+
+outputs.2.filename=templating-maven-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=14705
+outputs.2.checksums.sha512=1b5069103b831b3b6d1d0691932a84dc12955bda00e03c29705bbe016c9fb09e8595278c73496b8642254b87ae3d72115ff2748e9905f0396352819783c176c9

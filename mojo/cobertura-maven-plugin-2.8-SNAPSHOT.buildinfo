@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's Maven plugin for Cobertura
+group-id=org.codehaus.mojo
+artifact-id=cobertura-maven-plugin
+version=2.8-SNAPSHOT
+
+# source information
+source.scm.uri=scm:svn:http://svn.codehaus.org/mojo/trunk/mojo/cobertura-maven-plugin/
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0.8
+
+# output
+
+outputs.0.filename=cobertura-maven-plugin-2.8-SNAPSHOT.jar
+outputs.0.length=57129
+outputs.0.checksums.sha512=f9424ec41219a8ee0d2bd2caa6e1614fc595a6411acd8436b4aac64834837244835a9d35d38b5299bef1be5be2dfdaf0b0ee5f71ae8444ede76eea1659f4861a
+
+outputs.1.filename=cobertura-maven-plugin-2.8-SNAPSHOT-source-release.zip
+outputs.1.length=2455941
+outputs.1.checksums.sha512=7af0aae06f12bea15eec0e921572d559a82a2370af343b27fa829f10bf0a17fbdbb9dee6bc613864acf5e21c57b1de67a89cb26ae90133899ba285293cfe8eda
+
+outputs.2.filename=cobertura-maven-plugin-2.8-SNAPSHOT-sources.jar
+outputs.2.length=41964
+outputs.2.checksums.sha512=3dd687c245434e35e926c7fc7557e555f590cdebab6f282cb33a2546acbba01fea1ed6eec347c9d64a4e5614106015f9a2ad1b64204eca45ec8b47033d1b4908

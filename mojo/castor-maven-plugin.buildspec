@@ -1,0 +1,10 @@
+groupId=org.codehaus.mojo
+artifactId=castor-maven-plugin
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+
+jdk=8
+newline=lf
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-*.buildinfo

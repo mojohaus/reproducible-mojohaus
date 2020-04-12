@@ -1,0 +1,5 @@
+version=1.0.1
+ok=0
+ko=5
+okFiles=""
+koFiles="vfs-utils-1.0.1-sources.jar vfs-maven-plugin-1.0.1.jar vfs-maven-plugin-1.0.1-sources.jar vfs-1.0.1-source-release.zip vfs-utils-1.0.1.jar"

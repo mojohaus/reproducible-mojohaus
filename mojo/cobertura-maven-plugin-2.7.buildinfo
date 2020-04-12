@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's Maven plugin for Cobertura
+group-id=org.codehaus.mojo
+artifact-id=cobertura-maven-plugin
+version=2.7
+
+# source information
+source.scm.uri=scm:svn:http://svn.codehaus.org/mojo/tags/cobertura-maven-plugin-2.7
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0.8
+
+# output
+
+outputs.0.filename=cobertura-maven-plugin-2.7.jar
+outputs.0.length=57095
+outputs.0.checksums.sha512=df5052373573ac8eaa0536b781fd6464dc354f7d307967282a33d1141a8a0b6b287097d0c6706894055fc88a2f1bb9f00d51e8d63e51d652f89570b4ed9df44e
+
+outputs.1.filename=cobertura-maven-plugin-2.7-source-release.zip
+outputs.1.length=2446810
+outputs.1.checksums.sha512=727d80e6062d6687bce87a29c2f1502a8e2f496342f3638df5d10f86873c6b42fc0de24da87f3a816c1565b3e381ed82a80b3cc5e8161007adde933db7807c9d
+
+outputs.2.filename=cobertura-maven-plugin-2.7-sources.jar
+outputs.2.length=41964
+outputs.2.checksums.sha512=5bacfcc366f5ab731e73aa11e4165c2d897f0c16960cc898d93dd9fed7123954b772a0bd721c9ffb42736193956fa27dff3a105d71880ca05ddc94d1b672c452

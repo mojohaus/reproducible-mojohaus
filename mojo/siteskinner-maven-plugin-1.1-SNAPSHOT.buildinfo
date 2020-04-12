@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SiteSkinner Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=siteskinner-maven-plugin
+version=1.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/siteskinner-maven-plugin.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0.6
+
+# output
+
+outputs.0.filename=siteskinner-maven-plugin-1.1-SNAPSHOT.jar
+outputs.0.length=29658
+outputs.0.checksums.sha512=8836670bde87d9b32eaa912b3159920283f91225555b0db84f6d31f17afda2addb77e80e96175733f7a43b86c5c66ce4ebecea2dbb3afcbbc539c84934993156
+
+outputs.1.filename=siteskinner-maven-plugin-1.1-SNAPSHOT-source-release.zip
+outputs.1.length=71158
+outputs.1.checksums.sha512=e53394ba52d82f3627cd8a7063c2a8013976bc7eb60928933d41b9d355911865e67544469e26fea62d5d9cd65a48b84b00d1383006788e4b72cf9391b00b710a
+
+outputs.2.filename=siteskinner-maven-plugin-1.1-SNAPSHOT-sources.jar
+outputs.2.length=18848
+outputs.2.checksums.sha512=e9442b97210b46b62c2834bfc0943b381b0f04a0ecebaa344adb39993c5bf3e28b1802619010f7f7682290b0ed337de801c60365a447dbcdff2515d687499056

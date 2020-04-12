@@ -1,0 +1,5 @@
+version=3.0.3
+ok=0
+ko=3
+okFiles=""
+koFiles="findbugs-maven-plugin-3.0.3.jar findbugs-maven-plugin-3.0.3-sources.jar findbugs-maven-plugin-3.0.3-source-release.zip"

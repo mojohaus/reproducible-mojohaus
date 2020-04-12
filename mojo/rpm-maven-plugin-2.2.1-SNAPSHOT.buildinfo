@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=RPM Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=rpm-maven-plugin
+version=2.2.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/rpm-maven-plugin.git
+source.scm.tag=epoch
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=rpm-maven-plugin-2.2.1-SNAPSHOT.jar
+outputs.0.length=84194
+outputs.0.checksums.sha512=59dddddea6605ea87e016d888ce841a80a4c097660771859e44e72a4533ce069c424168c0b5bd378354dd3654f160e3e18fe2a31229819e8b062d291ed8c3786
+
+outputs.1.filename=rpm-maven-plugin-2.2.1-SNAPSHOT-source-release.zip
+outputs.1.length=172952
+outputs.1.checksums.sha512=7206231ca8b7b7c7781c6d1bad6d38a31688d26d964891e32dfc8aed777d0b1a54aa261c7b05b44e28c19db5a452401d022e00b326e03c85ea242a078c185cbf
+
+outputs.2.filename=rpm-maven-plugin-2.2.1-SNAPSHOT-sources.jar
+outputs.2.length=60953
+outputs.2.checksums.sha512=ef0aebf78004c985081fd7ae14d846742f7dd15f46c0bd586aaf35f2a80b2ae131bc0bbdbab5ada07ac644ef4cea3c7bd495c3d8e9e8f9102401e219ec884bc4

@@ -1,0 +1,51 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=TrueZip
+group-id=org.codehaus.mojo
+artifact-id=truezip
+version=1.3-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/truezip.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo:truezip
+
+outputs.0.0.filename=truezip-1.3-SNAPSHOT-source-release.zip
+outputs.0.0.length=66860
+outputs.0.0.checksums.sha512=aae7d47e717b51d191153623a7a332deaff15852b1982c65808d8a1ac963cea89b569ae43757a841522a171d02ff178d1da9b21364515c960a424fdd0b9c1f30
+
+outputs.1.coordinates=org.codehaus.mojo:truezip-utils
+
+outputs.1.0.filename=truezip-utils-1.3-SNAPSHOT.jar
+outputs.1.0.length=20310
+outputs.1.0.checksums.sha512=42626d1232d63366a00c2e422caa6430e301a8efc7585ed352aabfae6e2280cf0b001f588cb5333a69bf812b8940b4f44b382144ee470fba20c024f88166d2a5
+
+outputs.1.1.filename=truezip-utils-1.3-SNAPSHOT-sources.jar
+outputs.1.1.length=20904
+outputs.1.1.checksums.sha512=d6cffb597abe6bff9f02c4a0fa18adc8ddf1676baf96a74e41bbf04e77bdf6c946b6fd880dfecdf5591547a914e118ffc2ee5c416d948a307bf665b70ec90c84
+
+outputs.2.coordinates=org.codehaus.mojo:truezip-maven-plugin
+
+outputs.2.0.filename=truezip-maven-plugin-1.3-SNAPSHOT.jar
+outputs.2.0.length=27848
+outputs.2.0.checksums.sha512=5a2be9f492a9144090a7afd811b890b5a243d00aecc9e45d48e6a398a8c0b9ddffd49ff1727cb5ba7c2972d5b709c14df5ca661cb7a512ce17ded6945a4428c0
+
+outputs.2.1.filename=truezip-maven-plugin-1.3-SNAPSHOT-sources.jar
+outputs.2.1.length=18926
+outputs.2.1.checksums.sha512=8843e38f50c12f9b715240dc02f185d0616fe3c448dc2fc2aa0a9aa647ec7a116816268f474110f01385632bf829ad5ab291beabf99193b5df2367d7f68735b1

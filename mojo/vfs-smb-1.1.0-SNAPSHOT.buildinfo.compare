@@ -1,0 +1,5 @@
+version=1.1.0-SNAPSHOT
+ok=0
+ko=7
+okFiles=""
+koFiles="vfs-utils-1.1.0-SNAPSHOT.jar vfs-smb-1.1.0-SNAPSHOT.jar vfs-1.1.0-SNAPSHOT-source-release.zip vfs-maven-plugin-1.1.0-SNAPSHOT.jar vfs-maven-plugin-1.1.0-SNAPSHOT-sources.jar vfs-utils-1.1.0-SNAPSHOT-sources.jar vfs-smb-1.1.0-SNAPSHOT-sources.jar"

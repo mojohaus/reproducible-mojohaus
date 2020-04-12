@@ -1,0 +1,5 @@
+version=1.0.0-SNAPSHOT
+ok=0
+ko=5
+okFiles=""
+koFiles="webstart-maven-plugin-1.0.0-SNAPSHOT.jar webstart-maven-plugin-1.0.0-SNAPSHOT-sources.jar webstart-1.0.0-SNAPSHOT-source-release.zip webstart-jnlp-servlet-1.0.0-SNAPSHOT-sources.jar webstart-jnlp-servlet-1.0.0-SNAPSHOT.jar"

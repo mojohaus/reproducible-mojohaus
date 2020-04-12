@@ -1,0 +1,5 @@
+version=3.0.0-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="buildnumber-maven-plugin-3.0.0-SNAPSHOT-source-release.zip buildnumber-maven-plugin-3.0.0-SNAPSHOT.jar buildnumber-maven-plugin-3.0.0-SNAPSHOT-sources.jar"

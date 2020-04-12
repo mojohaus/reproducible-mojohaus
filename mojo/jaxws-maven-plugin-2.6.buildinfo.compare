@@ -1,0 +1,5 @@
+version=2.6
+ok=0
+ko=3
+okFiles=""
+koFiles="jaxws-maven-plugin-2.6-source-release.zip jaxws-maven-plugin-2.6-sources.jar jaxws-maven-plugin-2.6.jar"

@@ -1,0 +1,5 @@
+version=2.1
+ok=0
+ko=3
+okFiles=""
+koFiles="javancss-maven-plugin-2.1.jar javancss-maven-plugin-2.1-sources.jar javancss-maven-plugin-2.1-source-release.zip"

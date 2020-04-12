@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's Cassandra Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=cassandra-maven-plugin
+version=3.7-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/cassandra-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=cassandra-maven-plugin-3.7-SNAPSHOT.jar
+outputs.0.length=84749
+outputs.0.checksums.sha512=f28965af47d2eeb70e853abfd14e5da925af252f712529f556335eb6c6bb9f4ef82fbdf051da7f456ac5fa1478eed1b30611d6b7deb2b3015ae27a7004083da0
+
+outputs.1.filename=cassandra-maven-plugin-3.7-SNAPSHOT-source-release.zip
+outputs.1.length=93456
+outputs.1.checksums.sha512=2ba820287b2109b411a2b5b08607faf4546a5508069ab9aa3f1d7b5a669b154c8f2a7d15ee6405c15b8485a3b5e897811bf1df77ca7daf07167f74963e8dc9bc
+
+outputs.2.filename=cassandra-maven-plugin-3.7-SNAPSHOT-sources.jar
+outputs.2.length=59649
+outputs.2.checksums.sha512=c5c8f55adf16d1b0dff7df37414829cdcf2730be537a28f8e4232ac4a6743f6878270a6ffe4982483634c16b6dd218f8aaea9f3420233aea1b6ec85437e8c494

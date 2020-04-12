@@ -1,0 +1,5 @@
+version=2.0.1-SNAPSHOT
+ok=2
+ko=3
+okFiles="test.license.properties THIRD-PARTY.properties"
+koFiles="license-maven-plugin-2.0.1-SNAPSHOT-source-release.zip license-maven-plugin-2.0.1-SNAPSHOT-sources.jar license-maven-plugin-2.0.1-SNAPSHOT.jar"

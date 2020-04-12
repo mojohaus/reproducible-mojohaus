@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Enchanter
+group-id=org.codehaus.mojo.enchanter
+artifact-id=enchanter
+version=1.0-beta-2-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/enchanter.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo.enchanter:enchanter
+
+outputs.0.0.filename=enchanter-1.0-beta-2-SNAPSHOT-source-release.zip
+outputs.0.0.length=1464520
+outputs.0.0.checksums.sha512=a389ad54a1bca71ca87d4a31d8a055d6342148c177ab44ccbc4af9b2ec7f21f3bc64ff88cb8749d65535f248ecfccc017ad31cfc96dbed12fa852d63d828ba4d
+
+outputs.1.coordinates=org.codehaus.mojo.enchanter:enchanter-core
+
+outputs.1.0.filename=enchanter-core-1.0-beta-2-SNAPSHOT.jar
+outputs.1.0.length=28219
+outputs.1.0.checksums.sha512=ebab1d7a3eaaf5c929e6b9df1cd6da10b58e37a24bcb278535692e7646954ddcd7911252efdc60c41b5f5bf1ac321d0065e033b0706cd3f87a3e43fef455745b
+
+outputs.1.1.filename=enchanter-core-1.0-beta-2-SNAPSHOT-sources.jar
+outputs.1.1.length=22417
+outputs.1.1.checksums.sha512=9e76ec7fb499f0e6fb6189a6af1760ac3a3fcca4e33e39d58efe13b45021bde03d74630c5a51b0b05f557a2e59048b0dce67f2f9efd3cf3ad2ca4659c2cb09c6
+
+outputs.2.coordinates=org.codehaus.mojo:enchanter-maven-plugin
+
+outputs.2.0.filename=enchanter-maven-plugin-1.0-beta-2-SNAPSHOT.jar
+outputs.2.0.length=57427
+outputs.2.0.checksums.sha512=943d43754915ae4d8b12b3def2148043445f6e9ed593b3e30d96b44c441308e3a54fc8565f01d654df365b7fb697808f001594efd7f8df26a4eae2da8e0f82a3
+
+outputs.2.1.filename=enchanter-maven-plugin-1.0-beta-2-SNAPSHOT-sources.jar
+outputs.2.1.length=8527
+outputs.2.1.checksums.sha512=30d77a0f7578e33b5e9c070795596930c0ad3b49141d46cb5ebf3429a6ad2450b309241c351b7534dc274e97abe4a883738bcc7e2cdeb0cc3f21dc21bd7a0cca

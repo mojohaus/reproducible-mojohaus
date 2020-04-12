@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JAX-WS Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=jaxws-maven-plugin
+version=2.6.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/jaxws-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=jaxws-maven-plugin-2.6.1-SNAPSHOT.jar
+outputs.0.length=56142
+outputs.0.checksums.sha512=b7e707547ea7582e9dd8fed275bd8ef9d197d631f1cb7f539c87bb8a7a1dbc37841624dfc306bb98631ca67979ced52657aa784d4e29c665157e8cdce265a93e
+
+outputs.1.filename=jaxws-maven-plugin-2.6.1-SNAPSHOT-source-release.zip
+outputs.1.length=229295
+outputs.1.checksums.sha512=443836c47121073fb9ecc64b4c6259179c4996f043c2a337e0e382979299867aaef3719b6faa58c39ee8a5a113d6bc6554329681ac80798a452dd4847243b937
+
+outputs.2.filename=jaxws-maven-plugin-2.6.1-SNAPSHOT-sources.jar
+outputs.2.length=33551
+outputs.2.checksums.sha512=589c27ded22ddf99b0543207b12ccd337bbda4f785953ed0e72ce9e24d09e52049f1d893826a64babf4b6b9087dd803ef87b737e6b3d54b4a32ecb1d50609084

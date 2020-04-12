@@ -1,0 +1,5 @@
+version=1.0-beta-7
+ok=0
+ko=5
+okFiles=""
+koFiles="webstart-jnlp-servlet-1.0-beta-7.jar webstart-maven-plugin-1.0-beta-7-sources.jar webstart-maven-plugin-1.0-beta-7.jar webstart-1.0-beta-7-source-release.zip webstart-jnlp-servlet-1.0-beta-7-sources.jar"

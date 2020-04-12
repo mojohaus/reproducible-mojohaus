@@ -1,0 +1,5 @@
+version=1.2
+ok=0
+ko=3
+okFiles=""
+koFiles="extra-enforcer-rules-1.2-source-release.zip extra-enforcer-rules-1.2.jar extra-enforcer-rules-1.2-sources.jar"

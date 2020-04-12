@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's SQLJ Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=sqlj-maven-plugin
+version=1.4-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/sqlj-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0
+
+# output
+
+outputs.0.filename=sqlj-maven-plugin-1.4-SNAPSHOT.jar
+outputs.0.length=21013
+outputs.0.checksums.sha512=62c01f5d1e126eb42965ddf75bf06d32fd9780262d437c51461aacd2495d752f235cf527c942c1402371a1866b46345b1c74a3b50343c047ecaafd87f5a9eb72
+
+outputs.1.filename=sqlj-maven-plugin-1.4-SNAPSHOT-source-release.zip
+outputs.1.length=39626
+outputs.1.checksums.sha512=3ff2c8327000584b3e5e549f5430acb55f5594d883ebc6d55fdf2ab89598865897b9ca5cc71ad70eb64a21064acfdf55fef5723f6fba2aa2bec95daf9baa651d
+
+outputs.2.filename=sqlj-maven-plugin-1.4-SNAPSHOT-sources.jar
+outputs.2.length=12322
+outputs.2.checksums.sha512=fbeca907a78b4e03a982db4ebfc1d8e86acb71ceb7a2f22b4d91835c7246462a69c70c91b25fab84f99198c76a799cb1766709898f44d650ec71ff865c0311f4

@@ -1,0 +1,5 @@
+version=2.7-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="javacc-maven-plugin-2.7-SNAPSHOT-sources.jar javacc-maven-plugin-2.7-SNAPSHOT.jar javacc-maven-plugin-2.7-SNAPSHOT-source-release.zip"

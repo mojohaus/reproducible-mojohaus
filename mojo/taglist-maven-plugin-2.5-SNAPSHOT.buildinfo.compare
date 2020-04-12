@@ -1,0 +1,5 @@
+version=2.5-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="taglist-maven-plugin-2.5-SNAPSHOT-source-release.zip taglist-maven-plugin-2.5-SNAPSHOT-sources.jar taglist-maven-plugin-2.5-SNAPSHOT.jar"

@@ -1,0 +1,5 @@
+version=2.9-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="clirr-maven-plugin-2.9-SNAPSHOT-source-release.zip clirr-maven-plugin-2.9-SNAPSHOT.jar clirr-maven-plugin-2.9-SNAPSHOT-sources.jar"

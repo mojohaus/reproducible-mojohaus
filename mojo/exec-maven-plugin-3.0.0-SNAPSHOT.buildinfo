@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Exec Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=exec-maven-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/exec-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=exec-maven-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=60098
+outputs.0.checksums.sha512=11a210c9f2ad609f0b35ae890c786e3d81e636c3f463f9c5362076adcf1a83cc839066f1c0ec2e364b9c6c61905dccd96e707b7434b67f05b99388a86d156f60
+
+outputs.1.filename=exec-maven-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=325797
+outputs.1.checksums.sha512=df1f158ac8ee0d022711aa4aa73915adc8208b121c26615b5f1504fa775b9cc569f3590c7921ad4d9a1b390a60a139b00069ab1d5b9df41acfc0a4c5b68fa42e
+
+outputs.2.filename=exec-maven-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=37887
+outputs.2.checksums.sha512=48d8fbe50e16a6c6f142efe87742adb44c3508ad0e81662fad212e90f9fd021c4d2977dbf651fbc282d0e3160a38db816686d88c969b3031c7d72454a2f41a87

@@ -1,0 +1,29 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JavaCC Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=javacc-maven-plugin
+version=2.6
+
+# source information
+source.scm.uri=scm:svn:http://svn.codehaus.org/mojo/tags/javacc-maven-plugin-2.6
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0.6
+
+# output
+
+outputs.0.filename=javacc-maven-plugin-2.6.jar
+outputs.0.length=74862
+outputs.0.checksums.sha512=a0cc9796ba953d28859feb311838e04122017f1bea25ae8722d85e8c1f70b2de0186fd93f3cab2d33b57a9da93c1a94c944d7abfe43357c346cc1c3623cc488d

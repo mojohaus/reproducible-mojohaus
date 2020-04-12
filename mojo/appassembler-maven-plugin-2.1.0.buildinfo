@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Appassembler
+group-id=org.codehaus.mojo.appassembler
+artifact-id=appassembler
+version=2.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/appassembler.git
+source.scm.tag=appassembler-2.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo.appassembler:appassembler
+
+outputs.0.0.filename=appassembler-2.1.0-source-release.zip
+outputs.0.0.length=854471
+outputs.0.0.checksums.sha512=80a8367ae5e4a45c450a73796ee3685f580ec65ef6addf84b657ea8e4205cafdc484a774e44aff6584075989e290f32f641860a4876cbb844af27e3c3b36bbd9
+
+outputs.1.coordinates=org.codehaus.mojo.appassembler:appassembler-model
+
+outputs.1.0.filename=appassembler-model-2.1.0.jar
+outputs.1.0.length=26592
+outputs.1.0.checksums.sha512=5b2095efc078d6f0e4ccc77f4acbabc5c15e9c8a80ef69972f0d9369d9db86fc4e2f9d675cfdf261731275dfd0f4e3c8e46baea59f8b0c6a11fac9486fedd816
+
+outputs.1.1.filename=appassembler-model-2.1.0-sources.jar
+outputs.1.1.length=18049
+outputs.1.1.checksums.sha512=fbed39352236907b91ec7b7d464dd1a6dcd74796b12c7e94808b2fa33845daeff63d58128254c4b2a7fb2966bf7087e71cc967dbe257a3cb1a7f95747f2cf1d1
+
+outputs.2.coordinates=org.codehaus.mojo.appassembler:appassembler-booter
+
+outputs.2.0.filename=appassembler-booter-2.1.0.jar
+outputs.2.0.length=7305
+outputs.2.0.checksums.sha512=337ed4455a004a676edd4293f45e820dcaf65c686c3b86af8935996cc51eff63522a3df0d14a254a5e9277bed9821b549381812e7a6d22f34743ed9bab3266f0
+
+outputs.2.1.filename=appassembler-booter-2.1.0-sources.jar
+outputs.2.1.length=4080
+outputs.2.1.checksums.sha512=c3a4415f74ffde6827a912cb184aaf19d64e24088dd93216de931b2be68f36c9f8e9d423fa568c662791bb00b705207fd520695d1c5f466608c4262e95c510f0
+
+outputs.3.coordinates=org.codehaus.mojo:appassembler-maven-plugin
+
+outputs.3.0.filename=appassembler-maven-plugin-2.1.0.jar
+outputs.3.0.length=1351093
+outputs.3.0.checksums.sha512=b2f6792860473480d52bb2700cf9fc0f2146b2f9c2f2429a35204a836378f1f28a1163d40802cbdfc8695b62cbee2b47a5b304be9da7a9407a74ffdf20aefd18
+
+outputs.3.1.filename=appassembler-maven-plugin-2.1.0-sources.jar
+outputs.3.1.length=1333403
+outputs.3.1.checksums.sha512=6ad54480aec1cb2726a86acfe1f64b657c8e78f155cdaf603537e0225a6d6240165c9d456caf1448ab3710bd4fbaf10913d4ec90acd45cf02b95eced247635f6

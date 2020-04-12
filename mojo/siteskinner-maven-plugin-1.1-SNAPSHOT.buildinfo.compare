@@ -1,0 +1,5 @@
+version=1.1-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="siteskinner-maven-plugin-1.1-SNAPSHOT.jar siteskinner-maven-plugin-1.1-SNAPSHOT-sources.jar siteskinner-maven-plugin-1.1-SNAPSHOT-source-release.zip"

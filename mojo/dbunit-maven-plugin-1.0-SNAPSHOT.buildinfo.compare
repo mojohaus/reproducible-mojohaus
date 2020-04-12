@@ -1,0 +1,5 @@
+version=1.0-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="dbunit-maven-plugin-1.0-SNAPSHOT.jar dbunit-maven-plugin-1.0-SNAPSHOT-source-release.zip dbunit-maven-plugin-1.0-SNAPSHOT-sources.jar"

@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=RMI Compiler Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=rmic-maven-plugin
+version=1.3.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/rmic-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=rmic-maven-plugin-1.3.1-SNAPSHOT.jar
+outputs.0.length=39147
+outputs.0.checksums.sha512=0079d9a4b9c41964143486ce63e2ceb88ec955cc1c2854a6ec3c20355d383ac3f7429df7608b8b53e1bb592efcdd99b298e73da3f1f8ea977c76ad9dfb9d41e9
+
+outputs.1.filename=rmic-maven-plugin-1.3.1-SNAPSHOT-source-release.zip
+outputs.1.length=58958
+outputs.1.checksums.sha512=de78dc65e5bab900c094fadbee2cd30d331e5a9fe1f3d26237c5e46b89f69ea9a0d41ac8a3dc7db18e39533f691783f59293d767d5a9cceef0cfcd1a686f0d1a
+
+outputs.2.filename=rmic-maven-plugin-1.3.1-SNAPSHOT-sources.jar
+outputs.2.length=29641
+outputs.2.checksums.sha512=f8ab126acb94173dc1879d1f85b1b11fd335ab5acdd11e05b16cc0502b90627f651eca7e225a636855823af6ac67236e30a55bf1c08ae59ad1fd153332c327fa

@@ -1,0 +1,5 @@
+version=1.0-alpha-12-SNAPSHOT
+ok=0
+ko=17
+okFiles=""
+koFiles="maven-native-manager-1.0-alpha-12-SNAPSHOT.jar maven-native-1.0-alpha-12-SNAPSHOT-source-release.zip maven-native-generic-c-1.0-alpha-12-SNAPSHOT.jar maven-native-bcc-1.0-alpha-12-SNAPSHOT.jar maven-native-api-1.0-alpha-12-SNAPSHOT.jar maven-native-javah-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-mingw-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-msvc-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-api-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-generic-c-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-mingw-1.0-alpha-12-SNAPSHOT.jar maven-native-manager-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-bcc-1.0-alpha-12-SNAPSHOT-sources.jar native-maven-plugin-1.0-alpha-12-SNAPSHOT.jar maven-native-javah-1.0-alpha-12-SNAPSHOT.jar maven-native-msvc-1.0-alpha-12-SNAPSHOT.jar native-maven-plugin-1.0-alpha-12-SNAPSHOT-sources.jar"

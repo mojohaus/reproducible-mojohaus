@@ -24,8 +24,8 @@ mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 # output
 
 outputs.0.filename=mojo-parent-50-source-release.zip
-outputs.0.length=10627
-outputs.0.checksums.sha512=f893fcb314154759ad01e0207957dadc2b27868d99a172f92c9b6a77ec9bc71cb1afa746583b5bb98a7a1872a9ca4243286dd78542d24fbb99c8cc1d17136a14
+outputs.0.length=10745
+outputs.0.checksums.sha512=b115e14dce3b294850fc44958693ea5ff16f909ce0369e539bccc9dd60970cdbfa7b731d0a7c9579d26d7f1ae840023fbb965e34a4c8be9d0a0eca0028bd1ef3
 
 outputs.1.filename=mojo-parent-50-site.xml
 outputs.1.length=2249

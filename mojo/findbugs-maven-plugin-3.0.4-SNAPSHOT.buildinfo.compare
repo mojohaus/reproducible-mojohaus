@@ -1,0 +1,5 @@
+version=3.0.4-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="findbugs-maven-plugin-3.0.4-SNAPSHOT-sources.jar findbugs-maven-plugin-3.0.4-SNAPSHOT.jar findbugs-maven-plugin-3.0.4-SNAPSHOT-source-release.zip"

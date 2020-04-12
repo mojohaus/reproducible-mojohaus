@@ -1,0 +1,5 @@
+version=2.8-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="versions-maven-plugin-2.8-SNAPSHOT.jar versions-maven-plugin-2.8-SNAPSHOT-sources.jar versions-maven-plugin-2.8-SNAPSHOT-source-release.zip"

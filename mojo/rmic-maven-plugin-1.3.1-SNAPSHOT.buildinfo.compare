@@ -1,0 +1,5 @@
+version=1.3.1-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="rmic-maven-plugin-1.3.1-SNAPSHOT-source-release.zip rmic-maven-plugin-1.3.1-SNAPSHOT-sources.jar rmic-maven-plugin-1.3.1-SNAPSHOT.jar"

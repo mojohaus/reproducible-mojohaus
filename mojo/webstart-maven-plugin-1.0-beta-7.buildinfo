@@ -1,0 +1,51 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MWEBSTART :: Project
+group-id=org.codehaus.mojo
+artifact-id=webstart
+version=1.0-beta-7
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/webstart.git
+source.scm.tag=webstart-1.0-beta-7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.0.11
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo:webstart
+
+outputs.0.0.filename=webstart-1.0-beta-7-source-release.zip
+outputs.0.0.length=437658
+outputs.0.0.checksums.sha512=a6efc014df3d389fd9c6b56944f97b2e3be36e0364531956970c010252006771216b9be3aa134d94289935a8357be498b1618be64404383fb28891463e3a4e6f
+
+outputs.1.coordinates=org.codehaus.mojo:webstart-jnlp-servlet
+
+outputs.1.0.filename=webstart-jnlp-servlet-1.0-beta-7.jar
+outputs.1.0.length=78423
+outputs.1.0.checksums.sha512=59286260f674025b8acfc425f6c469d7c87773bf175ae3d4f4cddbc9935624bdd8292c764386df0a9472013a25a07a45342b3e118e8e7672e87671e902696062
+
+outputs.1.1.filename=webstart-jnlp-servlet-1.0-beta-7-sources.jar
+outputs.1.1.length=60568
+outputs.1.1.checksums.sha512=3d318f852aa71e7ebc221332dc6302dfcc026fbd2116a484792ca109bd6117ff00231ed4b4ba4bcf466b26347986527794df0c0a30124e5d50af5381dff1f663
+
+outputs.2.coordinates=org.codehaus.mojo:webstart-maven-plugin
+
+outputs.2.0.filename=webstart-maven-plugin-1.0-beta-7.jar
+outputs.2.0.length=151341
+outputs.2.0.checksums.sha512=17572d0456c9d2d87e68a1785bea27c44747139f5120a57ad772c3bcfd6ba7074fe7a109a494a83b5121b5c4bd4609a7cd9e20632e700380ef8c7b62bc93a16a
+
+outputs.2.1.filename=webstart-maven-plugin-1.0-beta-7-sources.jar
+outputs.2.1.length=124841
+outputs.2.1.checksums.sha512=958b290bd153e41ba87262d2b5516e4508d75a5bcb2c8dc93934fbdac8c019eb31c00dca56c4f731729ad285e9f1ece7ee96f79436acc5a6f931577c264ed3c0

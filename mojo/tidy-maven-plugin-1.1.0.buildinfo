@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Tidy Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=tidy-maven-plugin
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/tidy-maven-plugin.git
+source.scm.tag=tidy-maven-plugin-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=tidy-maven-plugin-1.1.0.jar
+outputs.0.length=30113
+outputs.0.checksums.sha512=ad52c55d3ebfc2f7ccf1f25f9e98e0ddd0f8cf658986a12fd89339efa4854f70d10d6a3a3eb07ad2f633463d9757a23a1ae5b427a214d430b482d1eeb65ad20d
+
+outputs.1.filename=tidy-maven-plugin-1.1.0-source-release.zip
+outputs.1.length=64133
+outputs.1.checksums.sha512=bbc81ec6cf48f2cd23ac1997b957401875e7d73cc79f6fadaadc7cde7a1943505dec17a6c79b097d6db07fe1949490c56cc7bbed46f24d8c95c3eff4f2d0e37c
+
+outputs.2.filename=tidy-maven-plugin-1.1.0-sources.jar
+outputs.2.length=22374
+outputs.2.checksums.sha512=8b8ce68c8e06c2bdb57ef6f46f2eab746a0f79f2c1fc3348f97050e765a16564cfde756c1aee16880743939cd4025199f102e7883c7196a61725c07f5db92d33

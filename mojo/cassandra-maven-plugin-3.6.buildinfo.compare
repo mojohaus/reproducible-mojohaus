@@ -1,0 +1,5 @@
+version=3.6
+ok=0
+ko=3
+okFiles=""
+koFiles="cassandra-maven-plugin-3.6-sources.jar cassandra-maven-plugin-3.6.jar cassandra-maven-plugin-3.6-source-release.zip"
