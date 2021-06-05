@@ -1,0 +1,7 @@
+version=1.21-SNAPSHOT
+ok=13
+ko=0
+okFiles="animal-sniffer-parent-1.21-SNAPSHOT-source-release.zip java-boot-classpath-detector-1.21-SNAPSHOT.jar java-boot-classpath-detector-1.21-SNAPSHOT-sources.jar animal-sniffer-annotations-1.21-SNAPSHOT.jar animal-sniffer-annotations-1.21-SNAPSHOT-sources.jar animal-sniffer-1.21-SNAPSHOT.jar animal-sniffer-1.21-SNAPSHOT-sources.jar animal-sniffer-maven-plugin-1.21-SNAPSHOT.jar animal-sniffer-maven-plugin-1.21-SNAPSHOT-sources.jar animal-sniffer-enforcer-rule-1.21-SNAPSHOT.jar animal-sniffer-enforcer-rule-1.21-SNAPSHOT-sources.jar animal-sniffer-ant-tasks-1.21-SNAPSHOT.jar animal-sniffer-ant-tasks-1.21-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

@@ -3,3 +3,8 @@ ok=0
 ko=3
 okFiles=""
 koFiles="dbunit-maven-plugin-1.0-SNAPSHOT.jar dbunit-maven-plugin-1.0-SNAPSHOT-source-release.zip dbunit-maven-plugin-1.0-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/dbunit-maven-plugin-1.0-SNAPSHOT.jar target/dbunit-maven-plugin-1.0-SNAPSHOT.jar
+# diffoscope target/reference/dbunit-maven-plugin-1.0-SNAPSHOT-source-release.zip target/dbunit-maven-plugin-1.0-SNAPSHOT-source-release.zip
+# diffoscope target/reference/dbunit-maven-plugin-1.0-SNAPSHOT-sources.jar target/dbunit-maven-plugin-1.0-SNAPSHOT-sources.jar

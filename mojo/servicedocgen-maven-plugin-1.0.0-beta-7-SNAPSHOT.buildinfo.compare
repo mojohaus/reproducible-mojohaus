@@ -1,0 +1,7 @@
+version=1.0.0-beta-7-SNAPSHOT
+ok=3
+ko=0
+okFiles="servicedocgen-maven-plugin-1.0.0-beta-7-SNAPSHOT.jar servicedocgen-maven-plugin-1.0.0-beta-7-SNAPSHOT-source-release.zip servicedocgen-maven-plugin-1.0.0-beta-7-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

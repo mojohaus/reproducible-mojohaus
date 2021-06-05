@@ -3,3 +3,8 @@ ok=0
 ko=3
 okFiles=""
 koFiles="siteskinner-maven-plugin-1.0.jar siteskinner-maven-plugin-1.0-source-release.zip siteskinner-maven-plugin-1.0-sources.jar"
+reference_java_version="1.6.0_25 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/siteskinner-maven-plugin-1.0.jar target/siteskinner-maven-plugin-1.0.jar
+# diffoscope target/reference/siteskinner-maven-plugin-1.0-source-release.zip target/siteskinner-maven-plugin-1.0-source-release.zip
+# diffoscope target/reference/siteskinner-maven-plugin-1.0-sources.jar target/siteskinner-maven-plugin-1.0-sources.jar

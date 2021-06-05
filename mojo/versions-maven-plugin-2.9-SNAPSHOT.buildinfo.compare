@@ -1,0 +1,7 @@
+version=2.9-SNAPSHOT
+ok=3
+ko=0
+okFiles="versions-maven-plugin-2.9-SNAPSHOT.jar versions-maven-plugin-2.9-SNAPSHOT-source-release.zip versions-maven-plugin-2.9-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

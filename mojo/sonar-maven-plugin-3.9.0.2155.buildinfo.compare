@@ -1,0 +1,6 @@
+version=3.9.0.2155
+ok=0
+ko=1
+okFiles=""
+koFiles="sonar-maven-plugin-3.9.0.2155-source-release.zip"
+# diffoscope target/reference/sonar-maven-plugin-3.9.0.2155-source-release.zip target/sonar-maven-plugin-3.9.0.2155-source-release.zip

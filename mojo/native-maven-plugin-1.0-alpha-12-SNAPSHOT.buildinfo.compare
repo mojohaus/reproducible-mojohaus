@@ -2,4 +2,23 @@ version=1.0-alpha-12-SNAPSHOT
 ok=0
 ko=17
 okFiles=""
-koFiles="maven-native-manager-1.0-alpha-12-SNAPSHOT.jar maven-native-1.0-alpha-12-SNAPSHOT-source-release.zip maven-native-generic-c-1.0-alpha-12-SNAPSHOT.jar maven-native-bcc-1.0-alpha-12-SNAPSHOT.jar maven-native-api-1.0-alpha-12-SNAPSHOT.jar maven-native-javah-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-mingw-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-msvc-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-api-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-generic-c-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-mingw-1.0-alpha-12-SNAPSHOT.jar maven-native-manager-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-bcc-1.0-alpha-12-SNAPSHOT-sources.jar native-maven-plugin-1.0-alpha-12-SNAPSHOT.jar maven-native-javah-1.0-alpha-12-SNAPSHOT.jar maven-native-msvc-1.0-alpha-12-SNAPSHOT.jar native-maven-plugin-1.0-alpha-12-SNAPSHOT-sources.jar"
+koFiles="maven-native-1.0-alpha-12-SNAPSHOT-source-release.zip maven-native-api-1.0-alpha-12-SNAPSHOT.jar maven-native-api-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-manager-1.0-alpha-12-SNAPSHOT.jar maven-native-manager-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-javah-1.0-alpha-12-SNAPSHOT.jar maven-native-javah-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-generic-c-1.0-alpha-12-SNAPSHOT.jar maven-native-generic-c-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-bcc-1.0-alpha-12-SNAPSHOT.jar maven-native-bcc-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-msvc-1.0-alpha-12-SNAPSHOT.jar maven-native-msvc-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-mingw-1.0-alpha-12-SNAPSHOT.jar maven-native-mingw-1.0-alpha-12-SNAPSHOT-sources.jar native-maven-plugin-1.0-alpha-12-SNAPSHOT.jar native-maven-plugin-1.0-alpha-12-SNAPSHOT-sources.jar"
+reference_java_version="1.7.0_211 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/maven-native-1.0-alpha-12-SNAPSHOT-source-release.zip target/maven-native-1.0-alpha-12-SNAPSHOT-source-release.zip
+# diffoscope target/reference/maven-native-api-1.0-alpha-12-SNAPSHOT.jar maven-native-api/target/maven-native-api-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/maven-native-api-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-api/target/maven-native-api-1.0-alpha-12-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-native-manager-1.0-alpha-12-SNAPSHOT.jar maven-native-components/maven-native-manager/target/maven-native-manager-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/maven-native-manager-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-components/maven-native-manager/target/maven-native-manager-1.0-alpha-12-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-native-javah-1.0-alpha-12-SNAPSHOT.jar maven-native-components/maven-native-javah/target/maven-native-javah-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/maven-native-javah-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-components/maven-native-javah/target/maven-native-javah-1.0-alpha-12-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-native-generic-c-1.0-alpha-12-SNAPSHOT.jar maven-native-components/maven-native-generic-c/target/maven-native-generic-c-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/maven-native-generic-c-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-components/maven-native-generic-c/target/maven-native-generic-c-1.0-alpha-12-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-native-bcc-1.0-alpha-12-SNAPSHOT.jar maven-native-components/maven-native-bcc/target/maven-native-bcc-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/maven-native-bcc-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-components/maven-native-bcc/target/maven-native-bcc-1.0-alpha-12-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-native-msvc-1.0-alpha-12-SNAPSHOT.jar maven-native-components/maven-native-msvc/target/maven-native-msvc-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/maven-native-msvc-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-components/maven-native-msvc/target/maven-native-msvc-1.0-alpha-12-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-native-mingw-1.0-alpha-12-SNAPSHOT.jar maven-native-components/maven-native-mingw/target/maven-native-mingw-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/maven-native-mingw-1.0-alpha-12-SNAPSHOT-sources.jar maven-native-components/maven-native-mingw/target/maven-native-mingw-1.0-alpha-12-SNAPSHOT-sources.jar
+# diffoscope target/reference/native-maven-plugin-1.0-alpha-12-SNAPSHOT.jar native-maven-plugin/target/native-maven-plugin-1.0-alpha-12-SNAPSHOT.jar
+# diffoscope target/reference/native-maven-plugin-1.0-alpha-12-SNAPSHOT-sources.jar native-maven-plugin/target/native-maven-plugin-1.0-alpha-12-SNAPSHOT-sources.jar

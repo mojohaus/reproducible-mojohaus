@@ -13,21 +13,19 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0
 
 # output
 
 outputs.0.filename=castor-maven-plugin-2.1.jar
-outputs.0.length=23978
-outputs.0.checksums.sha512=d4e4b4bf9741f164a0450980bfbd69c931f8a3ea60fa335ad891756dff00b164c688e49d862c3dd1a64e504868f9ff54676dd00907cf57a12bd457c571a1f6ef
+outputs.0.length=23946
+outputs.0.checksums.sha512=62841b931b82cab382cf8d0c1f0df53fe46e3795e22a50d96dab0059f548c928ac87efc3965a3ac6f099c00d6f538b8558cdbcda5b03be0fc5929dba30e50aee
 
 outputs.1.filename=castor-maven-plugin-2.1-source-release.zip
 outputs.1.length=230812
-outputs.1.checksums.sha512=99bb0cc25644404cb266890199b26a4df3ae3fcc217c3f508812292507b07f29d2668ae598e575d3df11c5fe3f0ffab09648b62996673fcd65b443587217efab
+outputs.1.checksums.sha512=c39a71ed6da243760d5b8f102124cdc874b947106b7024f58a970c69776a1ac96b91131dabb0a1081ad4639ba1a0c883a7f2dec906630cde05434c01f4cf7dce

@@ -3,3 +3,6 @@ ok=0
 ko=1
 okFiles=""
 koFiles="dbunit-maven-plugin-1.0-beta-3.jar"
+reference_java_version="1.6.0_14 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/dbunit-maven-plugin-1.0-beta-3.jar target/dbunit-maven-plugin-1.0-beta-3.jar

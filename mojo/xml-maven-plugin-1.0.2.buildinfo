@@ -13,25 +13,23 @@ source.scm.tag=xml-maven-plugin-1.0.2
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0
 
 # output
 
 outputs.0.filename=xml-maven-plugin-1.0.2.jar
-outputs.0.length=64382
-outputs.0.checksums.sha512=5137e47a814d3cea6f489e3a11bc1aa61edfc807df472181586b99446e62371185a5cc1375f38d6e8b49ad758d641dc013300f8a265a2ed5244c81860a1ab7ee
+outputs.0.length=64383
+outputs.0.checksums.sha512=6c8aafa15c998330743a30ebeb72c9e30cddfa4f5e4a226413eca053b484c1f640695de9d20c43f464cdafb40ab4a6851f1b8ca82050df26747b9b998f4995f8
 
 outputs.1.filename=xml-maven-plugin-1.0.2-source-release.zip
 outputs.1.length=227924
-outputs.1.checksums.sha512=e695e97eba92cb447a61f413f4083b5494813c388eb6bbcb21771be57af247eb7d8b1e635aa6bf1656ee1926ccfa50b73eeff973ee97d3560edd1410b0ae36f4
+outputs.1.checksums.sha512=32d05485ccf4495d506f496aac97b8fafbb7d92822763466b7c2ab492c294861f91771c63ab337255437420d72f1b2bc9183a363a7c1f90612584ffc7683195c
 
 outputs.2.filename=xml-maven-plugin-1.0.2-sources.jar
 outputs.2.length=39735
-outputs.2.checksums.sha512=24f82c7d6078643b92d862e8bb840674fbc386a548ee20f2696c665e69d082ed7467dd2efe49680f7f312df952d33127839c39e95fbe79b3c9bcab50a734112d
+outputs.2.checksums.sha512=712b2ca3dd052bf476da52c2ea67389fbd7eea51d9b5e1c5cfa467974c0d0f2dc158fdc67ce5a82824eb16075ae95c8630ff36e527ff371b83c38feaf459c322

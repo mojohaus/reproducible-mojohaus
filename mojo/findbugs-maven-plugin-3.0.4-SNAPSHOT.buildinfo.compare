@@ -2,4 +2,9 @@ version=3.0.4-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="findbugs-maven-plugin-3.0.4-SNAPSHOT-sources.jar findbugs-maven-plugin-3.0.4-SNAPSHOT.jar findbugs-maven-plugin-3.0.4-SNAPSHOT-source-release.zip"
+koFiles="findbugs-maven-plugin-3.0.4-SNAPSHOT.jar findbugs-maven-plugin-3.0.4-SNAPSHOT-source-release.zip findbugs-maven-plugin-3.0.4-SNAPSHOT-sources.jar"
+reference_java_version="1.7.0_211 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/findbugs-maven-plugin-3.0.4-SNAPSHOT.jar target/findbugs-maven-plugin-3.0.4-SNAPSHOT.jar
+# diffoscope target/reference/findbugs-maven-plugin-3.0.4-SNAPSHOT-source-release.zip target/findbugs-maven-plugin-3.0.4-SNAPSHOT-source-release.zip
+# diffoscope target/reference/findbugs-maven-plugin-3.0.4-SNAPSHOT-sources.jar target/findbugs-maven-plugin-3.0.4-SNAPSHOT-sources.jar

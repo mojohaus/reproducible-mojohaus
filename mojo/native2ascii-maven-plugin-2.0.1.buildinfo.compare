@@ -2,4 +2,9 @@ version=2.0.1
 ok=0
 ko=3
 okFiles=""
-koFiles="native2ascii-maven-plugin-2.0.1-sources.jar native2ascii-maven-plugin-2.0.1.jar native2ascii-maven-plugin-2.0.1-source-release.zip"
+koFiles="native2ascii-maven-plugin-2.0.1.jar native2ascii-maven-plugin-2.0.1-source-release.zip native2ascii-maven-plugin-2.0.1-sources.jar"
+reference_java_version="1.8.0_162 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/native2ascii-maven-plugin-2.0.1.jar target/native2ascii-maven-plugin-2.0.1.jar
+# diffoscope target/reference/native2ascii-maven-plugin-2.0.1-source-release.zip target/native2ascii-maven-plugin-2.0.1-source-release.zip
+# diffoscope target/reference/native2ascii-maven-plugin-2.0.1-sources.jar target/native2ascii-maven-plugin-2.0.1-sources.jar

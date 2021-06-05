@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.2.1
 
 # output
 
 outputs.0.filename=jdiff-maven-plugin-1.0-beta-1-SNAPSHOT.jar
-outputs.0.length=35148
-outputs.0.checksums.sha512=39141cc9c8f6a94ecc2553a5b89659c03176aed6dcc37123889a17780b0d8b9ca153d52c08a1c66d66f2c952ccd676967744d4e4ee56fdfbfdd0ccb013fef219
+outputs.0.length=35149
+outputs.0.checksums.sha512=cb65ee58c0217ee64aaf00825cc3efcb0b7572ab75ed6475a8d536fdc77dd766de9767f7e8fd53c92a5264033b07eccd2f9df7f4cbd4e57f40885d91b7b854e6
 
 outputs.1.filename=jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-source-release.zip
 outputs.1.length=123898
-outputs.1.checksums.sha512=5aa797974a2c1ba0ac4479754ca10ac1ffcaee9b94915258969216c8a143e02973668e5895dadbd76eba13b36043614642f5c31470d71ab8e777bcdcf302085e
+outputs.1.checksums.sha512=aa08cf8059e66214587e757c9c75053640ee0c1d1ee59f445c58b3c582665b7e3b7f4c7bd1e10d80758429a5f2e952ed264fa24dcc35d163de7323223c0ca872
 
 outputs.2.filename=jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-sources.jar
 outputs.2.length=23649
-outputs.2.checksums.sha512=a1f0019610e9915a4733e9c7ff38ac85698bc5d966478f2f0738039e7cff5d454e3e25ca2260616e4838455d851d693fe637fae9f650f2b102df9d0cff9c8ef9
+outputs.2.checksums.sha512=3c4d3b204d724e346980f8ca6bcad0fcbec3f3940a5fae30b9f65ee08dbbe67356d7f40d1def13251db9a5208e9814716a43ab4db91f6c1bfbde0d5303841c4b

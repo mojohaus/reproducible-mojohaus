@@ -2,4 +2,9 @@ version=3.6
 ok=0
 ko=3
 okFiles=""
-koFiles="cassandra-maven-plugin-3.6-sources.jar cassandra-maven-plugin-3.6.jar cassandra-maven-plugin-3.6-source-release.zip"
+koFiles="cassandra-maven-plugin-3.6.jar cassandra-maven-plugin-3.6-source-release.zip cassandra-maven-plugin-3.6-sources.jar"
+reference_java_version="1.8.0_121 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/cassandra-maven-plugin-3.6.jar target/cassandra-maven-plugin-3.6.jar
+# diffoscope target/reference/cassandra-maven-plugin-3.6-source-release.zip target/cassandra-maven-plugin-3.6-source-release.zip
+# diffoscope target/reference/cassandra-maven-plugin-3.6-sources.jar target/cassandra-maven-plugin-3.6-sources.jar

@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.2.1
 
 # output
 
 outputs.0.filename=rmic-maven-plugin-1.3.1-SNAPSHOT.jar
-outputs.0.length=39147
-outputs.0.checksums.sha512=0079d9a4b9c41964143486ce63e2ceb88ec955cc1c2854a6ec3c20355d383ac3f7429df7608b8b53e1bb592efcdd99b298e73da3f1f8ea977c76ad9dfb9d41e9
+outputs.0.length=39317
+outputs.0.checksums.sha512=77a52424900960fb9d4f3016e1318ea9e92c61260834c10c9d4a766c9642f63d4b4a38ff3aee6287cb428416967f8bf1dbf2e57eb98f799cb8e40428aa4059d4
 
 outputs.1.filename=rmic-maven-plugin-1.3.1-SNAPSHOT-source-release.zip
 outputs.1.length=58958
-outputs.1.checksums.sha512=de78dc65e5bab900c094fadbee2cd30d331e5a9fe1f3d26237c5e46b89f69ea9a0d41ac8a3dc7db18e39533f691783f59293d767d5a9cceef0cfcd1a686f0d1a
+outputs.1.checksums.sha512=0fd02ab18f2067528412f4823d98f13a5b065fb3229cfaa7e56711f6a1e5ba58df1a7907b010154771df96ead9bcf81e8453a12eec6cdc80aa5c5a6f084bfa44
 
 outputs.2.filename=rmic-maven-plugin-1.3.1-SNAPSHOT-sources.jar
-outputs.2.length=29641
-outputs.2.checksums.sha512=f8ab126acb94173dc1879d1f85b1b11fd335ab5acdd11e05b16cc0502b90627f651eca7e225a636855823af6ac67236e30a55bf1c08ae59ad1fd153332c327fa
+outputs.2.length=29640
+outputs.2.checksums.sha512=7cc861128b14f3f0435273b8b87060ec5e0bbe1a66e8dee8dcd05f3ed3e284b216bb7929c4e6f98e5c17c0068ea03732c7734d7e3004015b23e6163d278fab2a

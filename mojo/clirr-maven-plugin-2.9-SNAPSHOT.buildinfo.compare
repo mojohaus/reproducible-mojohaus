@@ -2,4 +2,9 @@ version=2.9-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="clirr-maven-plugin-2.9-SNAPSHOT-source-release.zip clirr-maven-plugin-2.9-SNAPSHOT.jar clirr-maven-plugin-2.9-SNAPSHOT-sources.jar"
+koFiles="clirr-maven-plugin-2.9-SNAPSHOT.jar clirr-maven-plugin-2.9-SNAPSHOT-source-release.zip clirr-maven-plugin-2.9-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/clirr-maven-plugin-2.9-SNAPSHOT.jar target/clirr-maven-plugin-2.9-SNAPSHOT.jar
+# diffoscope target/reference/clirr-maven-plugin-2.9-SNAPSHOT-source-release.zip target/clirr-maven-plugin-2.9-SNAPSHOT-source-release.zip
+# diffoscope target/reference/clirr-maven-plugin-2.9-SNAPSHOT-sources.jar target/clirr-maven-plugin-2.9-SNAPSHOT-sources.jar

@@ -4,7 +4,7 @@ artifactId=mrm
 gitRepo=https://github.com/mojohaus/${artifactId}.git
 
 jdk=8
-newline=lf
+newline=crlf
 
 command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=mrm-maven-plugin/target/mrm-maven-plugin-*.buildinfo

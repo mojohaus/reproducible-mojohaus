@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JAXB-2 Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=jaxb2-maven-plugin
+version=3.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/jaxb2-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.5
+
+# output
+
+outputs.0.filename=jaxb2-maven-plugin-3.0.1-SNAPSHOT.jar
+outputs.0.length=174924
+outputs.0.checksums.sha512=f5afcf532802fa6687241be7b22f8551f7b709035cba9a7bcb5d9da3c593d05f37cd23a65ac8ed4512eb47dbc4237128e907516297420a811dca577f7a825026
+
+outputs.1.filename=jaxb2-maven-plugin-3.0.1-SNAPSHOT-source-release.zip
+outputs.1.length=924523
+outputs.1.checksums.sha512=74dcc67134f1f0a6718d7e910608390339c7b3831fb09535e4a46ba895c70b3d272940ede9b769aaabb5082f20f7ce4e54596586694c8e7825aaeef31d5f5f96
+
+outputs.2.filename=jaxb2-maven-plugin-3.0.1-SNAPSHOT-sources.jar
+outputs.2.length=164808
+outputs.2.checksums.sha512=08924976631ad69848097fb9585ba257fbd4fd98d4c9d72a9354fbf835793e12ec5bc0cac9b276aca8216c9dab4b9df224f5d9f1b3dcda66e9960b85628b104f

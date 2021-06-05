@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0.6
 
 # output
 
 outputs.0.filename=javacc-maven-plugin-2.7-SNAPSHOT.jar
-outputs.0.length=83111
-outputs.0.checksums.sha512=97fddfd6af17619c0fc5b6016adc45dd57ee79f55e78c9be569eb6641e0c76da5ac0d720e7da005b4717eeae47988f9a251ac9c640d845d31f78fa70a43b18cb
+outputs.0.length=83139
+outputs.0.checksums.sha512=0ad896a5e37541339c17251ca3e03b1cfc639e12fc51f7f924d4b559c7cbeec57e5c3035e908d38782299877f1997c4cd4bccd983b7605e3ff1eeba1cf3c51e1
 
 outputs.1.filename=javacc-maven-plugin-2.7-SNAPSHOT-source-release.zip
 outputs.1.length=213881
-outputs.1.checksums.sha512=dd922ab93d34d6ef27a573f969833121370e0c8ac885f8f50c9d5ff41baf9793a650b256398a2c391ae8bdcbc345fcb6972f76238f68c8971c72ee990c7e06b5
+outputs.1.checksums.sha512=8d9199803a6b8ce3cb005f42b64a434160dc944dbc5d4aca0ad84b3d658cdaced6e9253d87630f6f54100214620e9231c926e7d6a041c0c8097964f04e80600e
 
 outputs.2.filename=javacc-maven-plugin-2.7-SNAPSHOT-sources.jar
-outputs.2.length=64292
-outputs.2.checksums.sha512=ce9db2fcd643d121650623d88777d6b78cc1324f2a0a131a34af243f8dbddadceae47e269f0a0a60a50c8ac7ed30d17b2e0666dfbc2f398929f9442180402c7b
+outputs.2.length=64291
+outputs.2.checksums.sha512=5db49522d8d2ac0ee5e34491421c6fcfee5e825bd023fca0ac9495930d084a9005c6a2a1ce8f6791203586c33eeaae60ecccf16147ce90b849b4d38c860592c4

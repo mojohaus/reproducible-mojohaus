@@ -13,13 +13,12 @@ source.scm.tag=maven-native-1.0-alpha-11
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=native-maven-plugin
 
 # aggregated output
 
@@ -27,86 +26,86 @@ outputs.0.coordinates=org.codehaus.mojo.natives:maven-native
 
 outputs.0.0.filename=maven-native-1.0-alpha-11-source-release.zip
 outputs.0.0.length=310305
-outputs.0.0.checksums.sha512=84a30ac6f0d81fd57602595ff093d0bb2ff46d1a2e0a9d75fb14df6c3e105e43d4807d1ea3f0020f9274ce8a13af24f8bbef230148404d283f7b7b079865971c
+outputs.0.0.checksums.sha512=38685b813324e84930b16630ec00cac7c5e5518d85c9c0b802a3feaee32e055ef24299fc1c962a27af9e953adbabcfbc4900fc6b9939c82657b3c606297f261b
 
 outputs.1.coordinates=org.codehaus.mojo.natives:maven-native-api
 
 outputs.1.0.filename=maven-native-api-1.0-alpha-11.jar
-outputs.1.0.length=49653
-outputs.1.0.checksums.sha512=f38b4da97fc7e8a46b7eb7bdf4603be52caa4c114557167c2bd8f95353ff9246ad582172dce6535acc1595e83d20df9f5bd15748e9d1674821f40923a00d5f4f
+outputs.1.0.length=49636
+outputs.1.0.checksums.sha512=5fcea012bcd2558ee0b3ef0cd6e9e87b018f6e2eaaa23e0651c1b23f3001b490eed5b1b3644816ddef192cfd6de13a5ef45c48df6dd6a3588ee5811fdfd92b38
 
 outputs.1.1.filename=maven-native-api-1.0-alpha-11-sources.jar
-outputs.1.1.length=54432
-outputs.1.1.checksums.sha512=2199f912e685c212e9c8ab873fc46be0ea9785501ca4e0151b782a73fe2d2d29066fe7d0102e053c10085bed693c3bff198e57375a6e71ee0f460d3d07fbd4cc
+outputs.1.1.length=54431
+outputs.1.1.checksums.sha512=eb64d04fe51743ed325b26baca071a31b2f131025a13c57c76851b1cd6c0e2e08eeb1105cd4a2891786bd91a4629b8fd83f9606c1f1079f019027942e3de99b5
 
 outputs.2.coordinates=org.codehaus.mojo.natives:maven-native-components
 
 outputs.3.coordinates=org.codehaus.mojo.natives:maven-native-manager
 
 outputs.3.0.filename=maven-native-manager-1.0-alpha-11.jar
-outputs.3.0.length=16540
-outputs.3.0.checksums.sha512=6d537869c03516f514ecc63bbc3da2affb8f6fff218b5e8738debe969989b78ce42c8bfb1d6c9541057cb757ca7e1995c0a81ecdff526f094b90415f838098da
+outputs.3.0.length=16539
+outputs.3.0.checksums.sha512=a011a3c1e84cb7d8cefd3d78c0bf472276130887ee8a54051647b45229d341abe9d5bcc6849feb16dcfdb4f5b52bc18741159adbe1e9ece0d459d98e2fc8552a
 
 outputs.3.1.filename=maven-native-manager-1.0-alpha-11-sources.jar
-outputs.3.1.length=20947
-outputs.3.1.checksums.sha512=585b7f3f029833bda61a9cbd0e3ed36c445790ecec50590438717ab7a798227727d780b72e2f585a13b38a7e1ae7434f0dbe00871876d8a7fa448b408226c657
+outputs.3.1.length=20946
+outputs.3.1.checksums.sha512=b550d08fd788524c49701c4dc0011c622b5ebb2f1be9685d7e2827f778b5accd80b3c2c4d84b9b6cd9e1b526e6fc6821c553646306103a8409e27ec840eda263
 
 outputs.4.coordinates=org.codehaus.mojo.natives:maven-native-javah
 
 outputs.4.0.filename=maven-native-javah-1.0-alpha-11.jar
-outputs.4.0.length=5315
-outputs.4.0.checksums.sha512=8406dfb9dbe6076aaf2231d66bd47043aee145588e662b8ffa2f5b9da60cde5cab9f095f5abd4413ca233cb14291721b5d14b9914a10e4e704a200778b2d3938
+outputs.4.0.length=5314
+outputs.4.0.checksums.sha512=d7c4f1797671552a33184c3a44c771b3d2fa4ff2c34e39050daaf258b2f7035ca313187f09a96594aa06ee96800f60325bc70887d2df8840145d18f2692780ea
 
 outputs.4.1.filename=maven-native-javah-1.0-alpha-11-sources.jar
-outputs.4.1.length=4894
-outputs.4.1.checksums.sha512=0597443aa8df0fedca7c7d04ea2f2c7bddef880315315a73f17590789bc8f0b6dae53de67dae632c6598fbe88d1596ea146a42fbce9717f85ff120f548178405
+outputs.4.1.length=4893
+outputs.4.1.checksums.sha512=c4032ae0b4084ce7d8fc54034d682869bec876a94c0e90e6f10214ee80be107ddc5ab425a9408bc75cb39f9d885cc72d3ac390f9c515adfaf3262ba2ec968304
 
 outputs.5.coordinates=org.codehaus.mojo.natives:maven-native-generic-c
 
 outputs.5.0.filename=maven-native-generic-c-1.0-alpha-11.jar
-outputs.5.0.length=9097
-outputs.5.0.checksums.sha512=344498c13e771ba5280b9b8b4efdabb9ac3b76f609eff8571be20c006f4aab5ed8f3bd2f9eedf790bc6b5fdcbc879f0525face4bd192082f30a7acc7b6c8b120
+outputs.5.0.length=9093
+outputs.5.0.checksums.sha512=0ab303b0cac11a958eea785e7e046833a5e4cea818d9b649157d39a391a6e6f75a884ed2078d552ed482806f654d2be555c30a3a53ae6f4083616b8f3f4bbe82
 
 outputs.5.1.filename=maven-native-generic-c-1.0-alpha-11-sources.jar
-outputs.5.1.length=9443
-outputs.5.1.checksums.sha512=ad11830037066987f3779fd48893bbe29ed7861016ce092114a4e4c4afa6e065b12a65f230674d36a6e65c9c8694baddbd762293cb1414bc5804c54a7ffdff13
+outputs.5.1.length=9442
+outputs.5.1.checksums.sha512=ce7abe7000719481896a799b17eb0df1d3db2f27c9e3e95968291f18c2040084319fbde9dea4240bfc4bb8b62d09074f87c8078243da6c7a019bf1f8e84229eb
 
 outputs.6.coordinates=org.codehaus.mojo.natives:maven-native-bcc
 
 outputs.6.0.filename=maven-native-bcc-1.0-alpha-11.jar
 outputs.6.0.length=9445
-outputs.6.0.checksums.sha512=7bb208b1fa91f59457c3e1baecb06c8229d49248853e5fea78cd4a8352739e46adc5f3cd42d0cb0a8c0b80ecdce0e01f79e0600739e21578ee237605d07cc583
+outputs.6.0.checksums.sha512=bf6360151ed3eb4a96ce816fe4f3e254d18669a48e6e9a35ef415241f158d07f5cd9fb7f839864dc26e836e6a996aa7233dbf3a624e0d707cacd6f9ead0c5808
 
 outputs.6.1.filename=maven-native-bcc-1.0-alpha-11-sources.jar
-outputs.6.1.length=9402
-outputs.6.1.checksums.sha512=88e2fe05bbfbaadf4d324ea5ab94707d9a305b8a9d54b325f1bd7ddc553290cd68e8cc0079c3de369e9eb2b47c536e9b85a369824e68ca60e0d1ed17ddbfd1ff
+outputs.6.1.length=9401
+outputs.6.1.checksums.sha512=b805958e892d464e46e2eee7a11ecf8a680524249bc00792fc817d1a78b1d4c8e410c00b68c661c78a65af0f830702c3216ac6f63e371535781e8bc4f0fa50ae
 
 outputs.7.coordinates=org.codehaus.mojo.natives:maven-native-msvc
 
 outputs.7.0.filename=maven-native-msvc-1.0-alpha-11.jar
-outputs.7.0.length=37357
-outputs.7.0.checksums.sha512=264377eb33b008dba96924d20c5fadee12bc75057a21dcd4d041142dcdfc6430ee8440b0d2be7f95e83cddea72f5df34d7b0df61445ca1775c1ab66d53bea469
+outputs.7.0.length=37187
+outputs.7.0.checksums.sha512=1d5bf584a90c9dfc2726c4bc50533818b8dc6aa6f130258f5b4c24509cec53dd4df5624d9a685b0b5888fe546292937079ff10726745edbd5bba6384ae4de639
 
 outputs.7.1.filename=maven-native-msvc-1.0-alpha-11-sources.jar
-outputs.7.1.length=32581
-outputs.7.1.checksums.sha512=6703bb3b4817eb7b712b6c8f3b86b14ce75602178be89cb79a7db2a0092dbf7f25643f9d67b7241b9223aebb76cacff978f2dc1cea089963293a9b5952c3cb3d
+outputs.7.1.length=32580
+outputs.7.1.checksums.sha512=100eb89a41557a590652b5df92b2431220dddf33262e18e0959995fb567dd548425c8fb0be513009bca44469bdaf0ee8c068f94aae1e7a57fc8264ce93e71cee
 
 outputs.8.coordinates=org.codehaus.mojo.natives:maven-native-mingw
 
 outputs.8.0.filename=maven-native-mingw-1.0-alpha-11.jar
-outputs.8.0.length=9356
-outputs.8.0.checksums.sha512=405035134b018a7172db40796107bb4b1df0aab63e5b04c9b846e1c4c1ad6415d86b9ba8c8bf80ee5ce48eb4d1bbdb8eee9e2ddf991b8d267d9ac12af34a951c
+outputs.8.0.length=9353
+outputs.8.0.checksums.sha512=e839415bdaee17360ad7d5765f45b47b997b20f64f83dc229401bc597a11757f404e3fb935c5e64b01036f3e0fdd9c8c6839a837bb234190530f9ac7e02d6395
 
 outputs.8.1.filename=maven-native-mingw-1.0-alpha-11-sources.jar
-outputs.8.1.length=8788
-outputs.8.1.checksums.sha512=22022e20b4b60406339a700e8cfad24c00fa9ee260e9f27dae1fe843a1ba5b4ccf3df083ebd6ed32243e31372c5453e2be9fc240eb27ec256f76265f1412325f
+outputs.8.1.length=8787
+outputs.8.1.checksums.sha512=f131961c89ba58204dc411099526800f8a3d88ee11c983366a6c054177ccaf8c464f93af1a72c385744ee6e017685d847c0475b1c77b355ca64397546b375b9b
 
 outputs.9.coordinates=org.codehaus.mojo:native-maven-plugin
 
 outputs.9.0.filename=native-maven-plugin-1.0-alpha-11.jar
-outputs.9.0.length=48488
-outputs.9.0.checksums.sha512=283eee9d3cccad609fb8263b0990b11d9466d6d705cdb3a15cc6b20bb75408b4ea903385ffd6975516da4a68f83856c949e8fe0763a2def7fec41aa5a1b9dc1b
+outputs.9.0.length=48478
+outputs.9.0.checksums.sha512=a58e65ac1ecdf1fb9704229855f21a6ce9feff86a0460a3a65ca5cc54cb2018cd7918c23df4aa715a25ea7aeaa6fc50aaf9e758d4e422db071468f0161a085d7
 
 outputs.9.1.filename=native-maven-plugin-1.0-alpha-11-sources.jar
-outputs.9.1.length=35715
-outputs.9.1.checksums.sha512=77731a68d27cea24a014addff74a8d9283f9cca0ebd50779f93a20f80150ba0a717c2db25e7b54fe7d0630fbf7bb10edfde5fc977f403a55f6b92da9e6defa26
+outputs.9.1.length=35714
+outputs.9.1.checksums.sha512=446a0601c45fe7472e2cf816e926a968ff46745434583fedeea7995cf7458d64530ceb0cf8feb87d99149eccbc3151faaba396d8e261f3f8be87160af1dc558a

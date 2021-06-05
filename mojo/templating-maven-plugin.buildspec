@@ -3,7 +3,7 @@ artifactId=templating-maven-plugin
 
 gitRepo=https://github.com/mojohaus/${artifactId}.git
 
-jdk=8
+jdk=7
 newline=lf
 
 command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"

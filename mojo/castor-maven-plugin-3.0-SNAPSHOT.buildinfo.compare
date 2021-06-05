@@ -2,4 +2,9 @@ version=3.0-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="castor-maven-plugin-3.0-SNAPSHOT.jar castor-maven-plugin-3.0-SNAPSHOT-sources.jar castor-maven-plugin-3.0-SNAPSHOT-source-release.zip"
+koFiles="castor-maven-plugin-3.0-SNAPSHOT.jar castor-maven-plugin-3.0-SNAPSHOT-source-release.zip castor-maven-plugin-3.0-SNAPSHOT-sources.jar"
+reference_java_version="1.7.0_211 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/castor-maven-plugin-3.0-SNAPSHOT.jar target/castor-maven-plugin-3.0-SNAPSHOT.jar
+# diffoscope target/reference/castor-maven-plugin-3.0-SNAPSHOT-source-release.zip target/castor-maven-plugin-3.0-SNAPSHOT-source-release.zip
+# diffoscope target/reference/castor-maven-plugin-3.0-SNAPSHOT-sources.jar target/castor-maven-plugin-3.0-SNAPSHOT-sources.jar

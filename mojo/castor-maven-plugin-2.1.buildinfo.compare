@@ -2,4 +2,8 @@ version=2.1
 ok=0
 ko=2
 okFiles=""
-koFiles="castor-maven-plugin-2.1-source-release.zip castor-maven-plugin-2.1.jar"
+koFiles="castor-maven-plugin-2.1.jar castor-maven-plugin-2.1-source-release.zip"
+reference_java_version="1.6.0_24 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/castor-maven-plugin-2.1.jar target/castor-maven-plugin-2.1.jar
+# diffoscope target/reference/castor-maven-plugin-2.1-source-release.zip target/castor-maven-plugin-2.1-source-release.zip

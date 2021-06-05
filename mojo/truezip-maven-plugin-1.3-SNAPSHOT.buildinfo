@@ -13,14 +13,13 @@ source.scm.tag=master
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.2.1
+mvn.aggregate.artifact-id=truezip-maven-plugin
 
 # aggregated output
 
@@ -28,24 +27,24 @@ outputs.0.coordinates=org.codehaus.mojo:truezip
 
 outputs.0.0.filename=truezip-1.3-SNAPSHOT-source-release.zip
 outputs.0.0.length=66860
-outputs.0.0.checksums.sha512=aae7d47e717b51d191153623a7a332deaff15852b1982c65808d8a1ac963cea89b569ae43757a841522a171d02ff178d1da9b21364515c960a424fdd0b9c1f30
+outputs.0.0.checksums.sha512=e8fb73c36337aa7ba2c1abc23fbbdc2e850d9c3e413c42e173f939324745684b6f9e708f936714adbf0a6fd32f6fb96e69c083530b497631dd7067ef525cede3
 
 outputs.1.coordinates=org.codehaus.mojo:truezip-utils
 
 outputs.1.0.filename=truezip-utils-1.3-SNAPSHOT.jar
-outputs.1.0.length=20310
-outputs.1.0.checksums.sha512=42626d1232d63366a00c2e422caa6430e301a8efc7585ed352aabfae6e2280cf0b001f588cb5333a69bf812b8940b4f44b382144ee470fba20c024f88166d2a5
+outputs.1.0.length=20308
+outputs.1.0.checksums.sha512=d53d75baa26e4fb99a50e7e008afde37fe29ba91e326028d6d86e690369ffa567d7fba354e8aca16a541f3cc6c345504bdd697116a17d73f16dbbe625970c09f
 
 outputs.1.1.filename=truezip-utils-1.3-SNAPSHOT-sources.jar
-outputs.1.1.length=20904
-outputs.1.1.checksums.sha512=d6cffb597abe6bff9f02c4a0fa18adc8ddf1676baf96a74e41bbf04e77bdf6c946b6fd880dfecdf5591547a914e118ffc2ee5c416d948a307bf665b70ec90c84
+outputs.1.1.length=20903
+outputs.1.1.checksums.sha512=8659bfeda71689b32bc9c76afae0a183ad7621fca24efb9550da44f38927f81a7bf0e63ad5e43454e7ee08fc58742f1cec33f35cd646aa7eeb2b49f78b9c00d8
 
 outputs.2.coordinates=org.codehaus.mojo:truezip-maven-plugin
 
 outputs.2.0.filename=truezip-maven-plugin-1.3-SNAPSHOT.jar
-outputs.2.0.length=27848
-outputs.2.0.checksums.sha512=5a2be9f492a9144090a7afd811b890b5a243d00aecc9e45d48e6a398a8c0b9ddffd49ff1727cb5ba7c2972d5b709c14df5ca661cb7a512ce17ded6945a4428c0
+outputs.2.0.length=27917
+outputs.2.0.checksums.sha512=f6405138020c1be678086f2dfe4a97deb36ff99dcd30de9683f0d08e5eacb9b8a71adc7d84731d8190df7f7768fcfe133b06d8362304d83443126b65b5d3a79f
 
 outputs.2.1.filename=truezip-maven-plugin-1.3-SNAPSHOT-sources.jar
-outputs.2.1.length=18926
-outputs.2.1.checksums.sha512=8843e38f50c12f9b715240dc02f185d0616fe3c448dc2fc2aa0a9aa647ec7a116816268f474110f01385632bf829ad5ab291beabf99193b5df2367d7f68735b1
+outputs.2.1.length=18925
+outputs.2.1.checksums.sha512=8697ba5b210aec7086a7ec0648a83a77f7c6cb7c71f0beb73d6e00853f95a02fad8788b8dd58911d7d5f2d6307c57b4eec487f52a4b397b74cdd0f806f27d33d

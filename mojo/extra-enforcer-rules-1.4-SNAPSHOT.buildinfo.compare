@@ -1,0 +1,7 @@
+version=1.4-SNAPSHOT
+ok=3
+ko=0
+okFiles="extra-enforcer-rules-1.4-SNAPSHOT.jar extra-enforcer-rules-1.4-SNAPSHOT-source-release.zip extra-enforcer-rules-1.4-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

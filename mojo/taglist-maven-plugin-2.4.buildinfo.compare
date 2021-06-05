@@ -3,3 +3,6 @@ ok=0
 ko=1
 okFiles=""
 koFiles="taglist-maven-plugin-2.4.jar"
+reference_java_version="1.6.0_16 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/taglist-maven-plugin-2.4.jar target/taglist-maven-plugin-2.4.jar

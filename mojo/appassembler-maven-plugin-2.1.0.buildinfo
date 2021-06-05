@@ -13,13 +13,12 @@ source.scm.tag=appassembler-2.1.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=appassembler-maven-plugin
 
 # aggregated output
 
@@ -27,34 +26,34 @@ outputs.0.coordinates=org.codehaus.mojo.appassembler:appassembler
 
 outputs.0.0.filename=appassembler-2.1.0-source-release.zip
 outputs.0.0.length=854471
-outputs.0.0.checksums.sha512=80a8367ae5e4a45c450a73796ee3685f580ec65ef6addf84b657ea8e4205cafdc484a774e44aff6584075989e290f32f641860a4876cbb844af27e3c3b36bbd9
+outputs.0.0.checksums.sha512=efefa295c59bfd98710a5121a58da28ff63042058124b10b07e35b1adf129bf877be375e15f00efe0e24a1005d236447bacfd1a5ec32c0088526efec67bd1421
 
 outputs.1.coordinates=org.codehaus.mojo.appassembler:appassembler-model
 
 outputs.1.0.filename=appassembler-model-2.1.0.jar
-outputs.1.0.length=26592
-outputs.1.0.checksums.sha512=5b2095efc078d6f0e4ccc77f4acbabc5c15e9c8a80ef69972f0d9369d9db86fc4e2f9d675cfdf261731275dfd0f4e3c8e46baea59f8b0c6a11fac9486fedd816
+outputs.1.0.length=26593
+outputs.1.0.checksums.sha512=1369ce0edf7e6a2b7721208b17836012c3801196fb992f0bbb5d3edd1f70144c8e7b28dd815fcafed8e4fcca7b64d661694155c6418a58170422104f63275167
 
 outputs.1.1.filename=appassembler-model-2.1.0-sources.jar
 outputs.1.1.length=18049
-outputs.1.1.checksums.sha512=fbed39352236907b91ec7b7d464dd1a6dcd74796b12c7e94808b2fa33845daeff63d58128254c4b2a7fb2966bf7087e71cc967dbe257a3cb1a7f95747f2cf1d1
+outputs.1.1.checksums.sha512=ed608854cf8c76d4e7933c43de1b02de2fed6cdca7d3df2bbf8f7bdbfed1b61a633897f4f101e6185e3912910f76ead59db5656f38a98f9d1ddbb2d11d50fc75
 
 outputs.2.coordinates=org.codehaus.mojo.appassembler:appassembler-booter
 
 outputs.2.0.filename=appassembler-booter-2.1.0.jar
 outputs.2.0.length=7305
-outputs.2.0.checksums.sha512=337ed4455a004a676edd4293f45e820dcaf65c686c3b86af8935996cc51eff63522a3df0d14a254a5e9277bed9821b549381812e7a6d22f34743ed9bab3266f0
+outputs.2.0.checksums.sha512=6ff38cd62bc67db9ef09ec20e451598051b14f79e4a33daba17672f2f0186461dcbbc66e83e2953c1fffd3b887fb31e6bf5b9633af59e44e4b2ce29bab82135f
 
 outputs.2.1.filename=appassembler-booter-2.1.0-sources.jar
 outputs.2.1.length=4080
-outputs.2.1.checksums.sha512=c3a4415f74ffde6827a912cb184aaf19d64e24088dd93216de931b2be68f36c9f8e9d423fa568c662791bb00b705207fd520695d1c5f466608c4262e95c510f0
+outputs.2.1.checksums.sha512=37be2f0523faa24105a1dfe217e5df317920796fea5c6494cd6d3e2a08c5e8dde0be08e7ee520246bb9e762635a87f135c9af3173abe3fe8506a1932378baf82
 
 outputs.3.coordinates=org.codehaus.mojo:appassembler-maven-plugin
 
 outputs.3.0.filename=appassembler-maven-plugin-2.1.0.jar
-outputs.3.0.length=1351093
-outputs.3.0.checksums.sha512=b2f6792860473480d52bb2700cf9fc0f2146b2f9c2f2429a35204a836378f1f28a1163d40802cbdfc8695b62cbee2b47a5b304be9da7a9407a74ffdf20aefd18
+outputs.3.0.length=1351101
+outputs.3.0.checksums.sha512=a60d6191959562d76ceea3843a2959240b94ce7b0e611acbeefb11de6901dd731ff64d13fa487a629baef02c4e5c7fcdb2d42f66845b7154c4ec8f59756d1afe
 
 outputs.3.1.filename=appassembler-maven-plugin-2.1.0-sources.jar
 outputs.3.1.length=1333403
-outputs.3.1.checksums.sha512=6ad54480aec1cb2726a86acfe1f64b657c8e78f155cdaf603537e0225a6d6240165c9d456caf1448ab3710bd4fbaf10913d4ec90acd45cf02b95eced247635f6
+outputs.3.1.checksums.sha512=28a85c3b8a9780d2bf05361982d778e6c77bb4313bbadd8ce4e36de136c183d070e4388ef4aee55a962f4f841f6380d6d99f00b80607f38fb4427c21b21d98f4

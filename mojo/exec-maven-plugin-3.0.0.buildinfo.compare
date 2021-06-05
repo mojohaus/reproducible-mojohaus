@@ -1,0 +1,10 @@
+version=3.0.0
+ok=0
+ko=3
+okFiles=""
+koFiles="exec-maven-plugin-3.0.0.jar exec-maven-plugin-3.0.0-source-release.zip exec-maven-plugin-3.0.0-sources.jar"
+reference_java_version="11.0.5 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/exec-maven-plugin-3.0.0.jar target/exec-maven-plugin-3.0.0.jar
+# diffoscope target/reference/exec-maven-plugin-3.0.0-source-release.zip target/exec-maven-plugin-3.0.0-source-release.zip
+# diffoscope target/reference/exec-maven-plugin-3.0.0-sources.jar target/exec-maven-plugin-3.0.0-sources.jar

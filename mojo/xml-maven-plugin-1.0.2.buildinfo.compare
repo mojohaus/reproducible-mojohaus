@@ -2,4 +2,9 @@ version=1.0.2
 ok=0
 ko=3
 okFiles=""
-koFiles="xml-maven-plugin-1.0.2-sources.jar xml-maven-plugin-1.0.2.jar xml-maven-plugin-1.0.2-source-release.zip"
+koFiles="xml-maven-plugin-1.0.2.jar xml-maven-plugin-1.0.2-source-release.zip xml-maven-plugin-1.0.2-sources.jar"
+reference_java_version="1.8.0_121 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/xml-maven-plugin-1.0.2.jar target/xml-maven-plugin-1.0.2.jar
+# diffoscope target/reference/xml-maven-plugin-1.0.2-source-release.zip target/xml-maven-plugin-1.0.2-source-release.zip
+# diffoscope target/reference/xml-maven-plugin-1.0.2-sources.jar target/xml-maven-plugin-1.0.2-sources.jar

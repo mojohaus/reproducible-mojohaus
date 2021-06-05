@@ -2,4 +2,11 @@ version=1.3-SNAPSHOT
 ok=0
 ko=5
 okFiles=""
-koFiles="truezip-1.3-SNAPSHOT-source-release.zip truezip-maven-plugin-1.3-SNAPSHOT.jar truezip-utils-1.3-SNAPSHOT.jar truezip-utils-1.3-SNAPSHOT-sources.jar truezip-maven-plugin-1.3-SNAPSHOT-sources.jar"
+koFiles="truezip-1.3-SNAPSHOT-source-release.zip truezip-utils-1.3-SNAPSHOT.jar truezip-utils-1.3-SNAPSHOT-sources.jar truezip-maven-plugin-1.3-SNAPSHOT.jar truezip-maven-plugin-1.3-SNAPSHOT-sources.jar"
+reference_java_version="1.7.0_211 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/truezip-1.3-SNAPSHOT-source-release.zip target/truezip-1.3-SNAPSHOT-source-release.zip
+# diffoscope target/reference/truezip-utils-1.3-SNAPSHOT.jar truezip-utils/target/truezip-utils-1.3-SNAPSHOT.jar
+# diffoscope target/reference/truezip-utils-1.3-SNAPSHOT-sources.jar truezip-utils/target/truezip-utils-1.3-SNAPSHOT-sources.jar
+# diffoscope target/reference/truezip-maven-plugin-1.3-SNAPSHOT.jar truezip-maven-plugin/target/truezip-maven-plugin-1.3-SNAPSHOT.jar
+# diffoscope target/reference/truezip-maven-plugin-1.3-SNAPSHOT-sources.jar truezip-maven-plugin/target/truezip-maven-plugin-1.3-SNAPSHOT-sources.jar

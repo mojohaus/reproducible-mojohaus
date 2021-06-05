@@ -2,4 +2,19 @@ version=1.4
 ok=0
 ko=13
 okFiles=""
-koFiles="keytool-api-test-1.4.jar keytool-api-1.4.jar keytool-api-1.5-1.4-sources.jar keytool-api-1.7-1.4.jar keytool-api-test-1.4-sources.jar keytool-api-1.6-1.4.jar keytool-api-1.4-sources.jar keytool-api-1.5-1.4.jar keytool-api-1.6-1.4-sources.jar keytool-api-1.7-1.4-sources.jar keytool-1.4-source-release.zip keytool-maven-plugin-1.4-sources.jar keytool-maven-plugin-1.4.jar"
+koFiles="keytool-1.4-source-release.zip keytool-api-1.4.jar keytool-api-1.4-sources.jar keytool-api-test-1.4.jar keytool-api-test-1.4-sources.jar keytool-api-1.5-1.4.jar keytool-api-1.5-1.4-sources.jar keytool-api-1.6-1.4.jar keytool-api-1.6-1.4-sources.jar keytool-api-1.7-1.4.jar keytool-api-1.7-1.4-sources.jar keytool-maven-plugin-1.4.jar keytool-maven-plugin-1.4-sources.jar"
+reference_java_version="1.7.0_45 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/keytool-1.4-source-release.zip target/keytool-1.4-source-release.zip
+# diffoscope target/reference/keytool-api-1.4.jar keytool-api/target/keytool-api-1.4.jar
+# diffoscope target/reference/keytool-api-1.4-sources.jar keytool-api/target/keytool-api-1.4-sources.jar
+# diffoscope target/reference/keytool-api-test-1.4.jar keytool-api-test/target/keytool-api-test-1.4.jar
+# diffoscope target/reference/keytool-api-test-1.4-sources.jar keytool-api-test/target/keytool-api-test-1.4-sources.jar
+# diffoscope target/reference/keytool-api-1.5-1.4.jar keytool-api-1.5/target/keytool-api-1.5-1.4.jar
+# diffoscope target/reference/keytool-api-1.5-1.4-sources.jar keytool-api-1.5/target/keytool-api-1.5-1.4-sources.jar
+# diffoscope target/reference/keytool-api-1.6-1.4.jar keytool-api-1.6/target/keytool-api-1.6-1.4.jar
+# diffoscope target/reference/keytool-api-1.6-1.4-sources.jar keytool-api-1.6/target/keytool-api-1.6-1.4-sources.jar
+# diffoscope target/reference/keytool-api-1.7-1.4.jar keytool-api-1.7/target/keytool-api-1.7-1.4.jar
+# diffoscope target/reference/keytool-api-1.7-1.4-sources.jar keytool-api-1.7/target/keytool-api-1.7-1.4-sources.jar
+# diffoscope target/reference/keytool-maven-plugin-1.4.jar keytool-maven-plugin/target/keytool-maven-plugin-1.4.jar
+# diffoscope target/reference/keytool-maven-plugin-1.4-sources.jar keytool-maven-plugin/target/keytool-maven-plugin-1.4-sources.jar

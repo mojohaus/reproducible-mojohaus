@@ -3,3 +3,8 @@ ok=0
 ko=3
 okFiles=""
 koFiles="eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT.jar eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT-sources.jar reusable-ide-preferences-0.0.1-SNAPSHOT-source-release.zip"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT.jar eclipse-preferences-maven-plugin/target/eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT.jar
+# diffoscope target/reference/eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT-sources.jar eclipse-preferences-maven-plugin/target/eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT-sources.jar
+# diffoscope target/reference/reusable-ide-preferences-0.0.1-SNAPSHOT-source-release.zip target/reusable-ide-preferences-0.0.1-SNAPSHOT-source-release.zip

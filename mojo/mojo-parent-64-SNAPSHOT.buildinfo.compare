@@ -1,0 +1,5 @@
+version=64-SNAPSHOT
+ok=2
+ko=0
+okFiles="mojo-parent-64-SNAPSHOT-site.xml mojo-parent-64-SNAPSHOT-source-release.zip"
+koFiles=""

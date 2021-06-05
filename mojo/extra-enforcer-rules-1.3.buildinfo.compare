@@ -1,0 +1,10 @@
+version=1.3
+ok=0
+ko=3
+okFiles=""
+koFiles="extra-enforcer-rules-1.3.jar extra-enforcer-rules-1.3-source-release.zip extra-enforcer-rules-1.3-sources.jar"
+reference_java_version="1.8.0_252 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/extra-enforcer-rules-1.3.jar target/extra-enforcer-rules-1.3.jar
+# diffoscope target/reference/extra-enforcer-rules-1.3-source-release.zip target/extra-enforcer-rules-1.3-source-release.zip
+# diffoscope target/reference/extra-enforcer-rules-1.3-sources.jar target/extra-enforcer-rules-1.3-sources.jar

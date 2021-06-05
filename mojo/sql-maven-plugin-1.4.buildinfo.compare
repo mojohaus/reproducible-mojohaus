@@ -2,4 +2,9 @@ version=1.4
 ok=0
 ko=3
 okFiles=""
-koFiles="sql-maven-plugin-1.4-source-release.zip sql-maven-plugin-1.4-sources.jar sql-maven-plugin-1.4.jar"
+koFiles="sql-maven-plugin-1.4.jar sql-maven-plugin-1.4-source-release.zip sql-maven-plugin-1.4-sources.jar"
+reference_java_version="1.6.0_12 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/sql-maven-plugin-1.4.jar target/sql-maven-plugin-1.4.jar
+# diffoscope target/reference/sql-maven-plugin-1.4-source-release.zip target/sql-maven-plugin-1.4-source-release.zip
+# diffoscope target/reference/sql-maven-plugin-1.4-sources.jar target/sql-maven-plugin-1.4-sources.jar

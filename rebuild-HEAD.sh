@@ -54,17 +54,20 @@ git pull || fatal "failed to git pull"
 pwd
 
 # the effective rebuild command for latest, adding buildinfo plugin to compare with central content
-mvn_rebuild_latest="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
+mvn_rebuild_latest="${command} -V -e artifact:buildinfo  -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
 # the effective rebuild commands for master HEAD, adding buildinfo plugin and install on first run to compare on second
 mvn_rebuild_1="${command} -V -e install:install"
-mvn_rebuild_2="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
+mvn_rebuild_2="${command} -V -e artifact:buildinfo  -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
 
 mvnBuildDocker() {
   local mvnCommand mvnImage
   mvnCommand="$1"
   # select Docker image to match required JDK version
   case ${jdk} in
-    6 | 7)
+    6)
+      mvnImage=maven:3-jdk-${jdk}
+      ;;
+    7)
       mvnImage=maven:3.6.1-jdk-${jdk}-alpine
       ;;
     9)
@@ -79,10 +82,9 @@ mvnBuildDocker() {
   local mvn_docker_params="-Duser.home=/var/maven"
   if [ "${newline}" == "crlf" ]
   then
-    ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
-  else
-    ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
+    mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
   fi
+  ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
 }
 
 # TODO not tested
@@ -93,10 +95,9 @@ mvnBuildLocal() {
   # TODO need to define settings with ${base}/repository local repository to avoid mixing reproducible-central dependencies with day to day builds
   if [ "${newline}" == "crlf" ]
   then
-    ${mvnCommand} -Dline.separator=$'\r\n'
-  else
-    ${mvnCommand}
+    mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
   fi
+  ${mvnCommand}
 }
 
 # by default, build with Docker
@@ -121,7 +122,43 @@ then
   git checkout ${gitTag} || fatal "failed to git checkout latest ${version}"
   mvnBuildDocker "${mvn_rebuild_latest}" || fatal "failed to build latest"
 
+  dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
+  sed -i 's/\(reference_[^=]*\)=\([^"].*\)/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
+
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
+  echo
+  echo -e "rebuild from \033[1m${buildspec}\033[0m"
+  compare=""
+  for f in ${buildinfo}*.compare
+  do
+    compare=$f
+    echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildinfo.compare).buildinfo\033[0m"
+    echo -e "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
+  done
+  . ${buildinfo}*.compare
+  if [[ ${ko} > 0 ]]
+  then
+    echo -e "    ok=${ok}"
+    echo -e "    okFiles=\"${okFiles}\""
+    echo -e "    \033[31;1mko=${ko}\033[0m"
+    echo -e "    koFiles=\"${koFiles}\""
+    if [ -n "${reference_java_version}" ]
+    then
+      echo -e "    check .buildspec \033[1mjdk=${jdk}\033[0m vs reference \033[1mjava.version=${reference_java_version}\033[0m"
+    fi
+    if [ -n "${reference_os_name}" ]
+    then
+      echo -e "    check .buildspec \033[1mnewline=${newline}\033[0m vs reference \033[1mos.name=${reference_os_name}\033[0m (newline should be crlf if os.name is Windows, lf instead)"
+    fi
+    echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
+    grep '# diffoscope ' ${buildinfo}*.compare
+    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
+#    echo -e "To see every differences between current rebuild and reference, run:"
+#    echo -e "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${artifactId}\033[0m"
+  else
+    echo -e "    \033[32;1mok=${ok}\033[0m"
+    echo -e "    okFiles=\"${okFiles}\""
+  fi
 fi
 
 git checkout master || fatal "failed to git checkout master"
@@ -140,6 +177,8 @@ else
   mvnBuildDocker "${mvn_rebuild_1}" || fatal "failed to build first time"
   mvnBuildDocker "${mvn_rebuild_2}" || fatal "failed to build second time"
 
+  dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
+  sed -i 's/^\(reference_[^=]*\)=\([^"].*\)/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
   # TODO detect if buildinfo.commit has changed: if not, restore previous buildinfo since update is mostly noise
 

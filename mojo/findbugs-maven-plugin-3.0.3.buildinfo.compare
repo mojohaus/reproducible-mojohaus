@@ -2,4 +2,9 @@ version=3.0.3
 ok=0
 ko=3
 okFiles=""
-koFiles="findbugs-maven-plugin-3.0.3.jar findbugs-maven-plugin-3.0.3-sources.jar findbugs-maven-plugin-3.0.3-source-release.zip"
+koFiles="findbugs-maven-plugin-3.0.3.jar findbugs-maven-plugin-3.0.3-source-release.zip findbugs-maven-plugin-3.0.3-sources.jar"
+reference_java_version="1.7.0_80 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/findbugs-maven-plugin-3.0.3.jar target/findbugs-maven-plugin-3.0.3.jar
+# diffoscope target/reference/findbugs-maven-plugin-3.0.3-source-release.zip target/findbugs-maven-plugin-3.0.3-source-release.zip
+# diffoscope target/reference/findbugs-maven-plugin-3.0.3-sources.jar target/findbugs-maven-plugin-3.0.3-sources.jar

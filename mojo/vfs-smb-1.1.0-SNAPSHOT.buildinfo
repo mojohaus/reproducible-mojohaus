@@ -13,52 +13,51 @@ source.scm.tag=master
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=vfs-smb
 
 # aggregated output
 
 outputs.0.coordinates=org.codehaus.mojo:vfs
 
 outputs.0.0.filename=vfs-1.1.0-SNAPSHOT-source-release.zip
-outputs.0.0.length=83895
-outputs.0.0.checksums.sha512=7e59e15968596e7509c2295e212cd07b0ec54e597da296e460e18355f09c5fde135369946c482599f0f0cbca1cf93a657a60a204bfb42a77f8371054e4430219
+outputs.0.0.length=83769
+outputs.0.0.checksums.sha512=0a39cae4097fb8fb3596e5211d5f903e861bd0edd2d5b0f5e523377ffc5ab1d4487ede60e3b088213f6ed01f724344f03a3308f8aff8ebf1cca9832a6b6dcd6e
 
 outputs.1.coordinates=org.codehaus.mojo:vfs-utils
 
 outputs.1.0.filename=vfs-utils-1.1.0-SNAPSHOT.jar
-outputs.1.0.length=19325
-outputs.1.0.checksums.sha512=fff1d19dfd8d2e6d525966a4ad1d0de955dc51b23778b6656f05512b8442355c9a5c78ce4861fc668dcc580680881ccee2b6e0971e25b6a4d49d4eaab614b94d
+outputs.1.0.length=19409
+outputs.1.0.checksums.sha512=209b2a831618db063dcd05ff4946975c30333ac99db70076519a3a8b607ba26b254612cfa28248da630b96224769d49704046fddd302d89abfdf77fdd7ae82d4
 
 outputs.1.1.filename=vfs-utils-1.1.0-SNAPSHOT-sources.jar
-outputs.1.1.length=20105
-outputs.1.1.checksums.sha512=8ef3ce91c6e5991a7da2832027cf964ead6e98438d915e06462fe564f7312f76d18f760dcbfe91e0d3fbdaf586c40f49cf688ed6f591af5fa6dc9d93c34c773e
+outputs.1.1.length=20108
+outputs.1.1.checksums.sha512=29af3dff4e2b91cd2bb893e10cab2a3f97d8fb97d04a96468b994ccd8522a1f3d539b2522702e51bb25b2ebd6cbb240afe2395546bcfb6dd45fb131f13502f38
 
 outputs.1.2.filename=vfs-utils-1.1.0-SNAPSHOT-sources.jar
-outputs.1.2.length=20105
-outputs.1.2.checksums.sha512=8ef3ce91c6e5991a7da2832027cf964ead6e98438d915e06462fe564f7312f76d18f760dcbfe91e0d3fbdaf586c40f49cf688ed6f591af5fa6dc9d93c34c773e
+outputs.1.2.length=20108
+outputs.1.2.checksums.sha512=29af3dff4e2b91cd2bb893e10cab2a3f97d8fb97d04a96468b994ccd8522a1f3d539b2522702e51bb25b2ebd6cbb240afe2395546bcfb6dd45fb131f13502f38
 
 outputs.2.coordinates=org.codehaus.mojo:vfs-maven-plugin
 
 outputs.2.0.filename=vfs-maven-plugin-1.1.0-SNAPSHOT.jar
-outputs.2.0.length=28618
-outputs.2.0.checksums.sha512=53daa02995101712c9b2a6abe0604adcf82abb58f747f064dc774dc790868cd62357b0511a0eada8fdec62522bd82523ff5950a437753cae390d1b9b24df6bf8
+outputs.2.0.length=28706
+outputs.2.0.checksums.sha512=1d88146fdd38ef65d97f6bcd38840bad5e2116697ec77e218c71e35ef54d038f2346b6f8a852d2e9443b2766cbf816df57174b42127cf6c125cf1e961af4d3b1
 
 outputs.2.1.filename=vfs-maven-plugin-1.1.0-SNAPSHOT-sources.jar
-outputs.2.1.length=21482
-outputs.2.1.checksums.sha512=fcffe61851207b8900fc1f6b22c69e9c1640911be69c11a2aa27a960e85fd1d300a5c3f9b0835110d20a81df04fa6fc070bbc1e41b9e273e3816b904655b3b3b
+outputs.2.1.length=21488
+outputs.2.1.checksums.sha512=93d5e64e742c37e19e1abf5910017ea754c16e46726e32f1fa850cccd401230c79f38df106d4274f90b0e5886ffcdef36f3b44f71202bf3f941cc31304cb7257
 
 outputs.3.coordinates=org.codehaus.mojo:vfs-smb
 
 outputs.3.0.filename=vfs-smb-1.1.0-SNAPSHOT.jar
-outputs.3.0.length=13674
-outputs.3.0.checksums.sha512=c816ea65cd190dec91621d6325481cd0e6ce113e26393d3c716008adf5008ec73fd1965aa49206bffc1e170e2f8cde456199092127f2b369722946e3b16728c4
+outputs.3.0.length=13646
+outputs.3.0.checksums.sha512=4a3e1cae8482f269c102abff5b6372f058ad7e6f441cd978b8a904727bd0a728221548bf91b8b6f0d23d341ecd025668120b9bbf462520748e7a1f059aa27c79
 
 outputs.3.1.filename=vfs-smb-1.1.0-SNAPSHOT-sources.jar
-outputs.3.1.length=11657
-outputs.3.1.checksums.sha512=08c905706298d0b2a0614796c005d9d6db869c18a59ec0ff506b568d7a43ea5a8ec3735c534118998bffb32fa94b96d76acbada56f1c97347fb604bfaf88764e
+outputs.3.1.length=11661
+outputs.3.1.checksums.sha512=211beabca349a2379babd7f09ab34ff4953c8d37cfdcd5a9efe463c5ef3927a72a15a6a4bb27f6a37d71234ca4845618fbffea90e955299a0b3540b0bd2378b7

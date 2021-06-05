@@ -3,8 +3,8 @@ artifactId=flatten-maven-plugin
 
 gitRepo=https://github.com/mojohaus/${artifactId}.git
 
-jdk=8
-newline=lf
+jdk=11
+newline=crlf
 
 command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-*.buildinfo

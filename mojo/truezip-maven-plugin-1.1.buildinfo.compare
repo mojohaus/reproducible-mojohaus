@@ -2,4 +2,11 @@ version=1.1
 ok=0
 ko=5
 okFiles=""
-koFiles="truezip-utils-1.1.jar truezip-1.1-source-release.zip truezip-maven-plugin-1.1-sources.jar truezip-utils-1.1-sources.jar truezip-maven-plugin-1.1.jar"
+koFiles="truezip-1.1-source-release.zip truezip-utils-1.1.jar truezip-utils-1.1-sources.jar truezip-maven-plugin-1.1.jar truezip-maven-plugin-1.1-sources.jar"
+reference_java_version="1.6.0_27 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/truezip-1.1-source-release.zip target/truezip-1.1-source-release.zip
+# diffoscope target/reference/truezip-utils-1.1.jar truezip-utils/target/truezip-utils-1.1.jar
+# diffoscope target/reference/truezip-utils-1.1-sources.jar truezip-utils/target/truezip-utils-1.1-sources.jar
+# diffoscope target/reference/truezip-maven-plugin-1.1.jar truezip-maven-plugin/target/truezip-maven-plugin-1.1.jar
+# diffoscope target/reference/truezip-maven-plugin-1.1-sources.jar truezip-maven-plugin/target/truezip-maven-plugin-1.1-sources.jar

@@ -13,14 +13,13 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.2.1
+mvn.aggregate.artifact-id=mrm-maven-plugin
 
 # aggregated output
 
@@ -28,7 +27,7 @@ outputs.0.coordinates=org.codehaus.mojo:mrm
 
 outputs.0.0.filename=mrm-1.2.1-SNAPSHOT-source-release.zip
 outputs.0.0.length=169234
-outputs.0.0.checksums.sha512=02eabca2038d8584394cba1d01f7f69415df48d40b6227058fa2b7e4035a55fe35a0c472c6786e489f4e89014142034ee1c4ee206a7a43a861468c9f5b964af2
+outputs.0.0.checksums.sha512=c2eec61aa57eb8b89967175839339b7a1f766f0b034374ffd7b4a71fdd8a2608833c94d3a941de4bc5fce474ae627d1c45ac06e52123a9a374473663f1b875f8
 
 outputs.0.1.filename=mrm-1.2.1-SNAPSHOT-site.xml
 outputs.0.1.length=1146
@@ -37,35 +36,35 @@ outputs.0.1.checksums.sha512=a9a25996a501dae2dac02edf9765440197a65cc23635f051f38
 outputs.1.coordinates=org.codehaus.mojo:mrm-api
 
 outputs.1.0.filename=mrm-api-1.2.1-SNAPSHOT.jar
-outputs.1.0.length=17592
-outputs.1.0.checksums.sha512=a0a720dedb769d63c261f083132583cc767d55f16f48b6ca024cfc154311a370577c5428823b1ded1c93d68b0f981bb9fdff33f6e228367e354226dee6d23a75
+outputs.1.0.length=17596
+outputs.1.0.checksums.sha512=654267dce7dd4bc493d4451c099097514e609c1c0cadb977751ff2cb80185008fc74815bb48fbeed24386df1ee432c5b7c661ea59ae7ad2898d9154137b2450d
 
 outputs.1.1.filename=mrm-api-1.2.1-SNAPSHOT-sources.jar
-outputs.1.1.length=24270
-outputs.1.1.checksums.sha512=4ce2bc2faaa2347a8f50166df1211a60d0cdde110f5e0a2b9c058188d57bf3fd585384926b36fb630b48e53e0ce857b2c2dc4a265395666ba908a9ee40ccbd2f
+outputs.1.1.length=24274
+outputs.1.1.checksums.sha512=f16d5e85f37603422cac3fab3eb94d769e7bb620e1d5a55a0e7a35f917ead9d952a9724a05f42a0694fc33f5d2f443bd6445d2bc0906e5f435768ec8dc42f63f
 
 outputs.2.coordinates=org.codehaus.mojo:mrm-servlet
 
 outputs.2.0.filename=mrm-servlet-1.2.1-SNAPSHOT.jar
-outputs.2.0.length=92426
-outputs.2.0.checksums.sha512=f1a80308f7c89a81d22f4495da1055921cf3f8f5c961032f7539b8159192b81ff5b481f0bfa846cffb4b9e66b8a05d8469f94966458a7656d5da134d4c6a8dd1
+outputs.2.0.length=92430
+outputs.2.0.checksums.sha512=b5bec5146b4cdc1d985630d3ce9f1dd630d7e392de51bf63a622db0e7048d7a112796f4439fbd55f928ac350481b7fb75aaa1300dfbb6e9ce8634df7c846d840
 
 outputs.2.1.filename=mrm-servlet-1.2.1-SNAPSHOT-sources.jar
-outputs.2.1.length=57177
-outputs.2.1.checksums.sha512=56e04ce14b811a46a0a699bf578d6a05e40ed439c3716cb956f9527c6497dc6e7fb139d054545ad2dd0977400a3bb8c93dd6d7ada87c9c90c515d3164b377da4
+outputs.2.1.length=57181
+outputs.2.1.checksums.sha512=1852de37d0909a65d1599c89bc9f4d49f5b5abbe03255cd526133add999e276e45cb27ca7a701555be5553796b016323273d02f3b72faad7249964d97c1296c1
 
 outputs.3.coordinates=org.codehaus.mojo:mrm-webapp
 
 outputs.3.0.filename=mrm-webapp-1.2.1-SNAPSHOT.war
-outputs.3.0.length=4258763
-outputs.3.0.checksums.sha512=0edc2eea7230676f464490f12bab958172ecbc9991d937a3b77d39aca88c883bebdecfe157a684e28555c70de3a3e5ff6bf0534a40fe7e1e7b3424634fdbf886
+outputs.3.0.length=4258855
+outputs.3.0.checksums.sha512=9c95248179ce7bc439b089d234db0c4dfc5260c63bc5e2e18f8cf0909e928650ba86446a22f5dec1fd775c0c4f8f929dbfb53c070026d744d30ce11e53aac1f3
 
 outputs.4.coordinates=org.codehaus.mojo:mrm-maven-plugin
 
 outputs.4.0.filename=mrm-maven-plugin-1.2.1-SNAPSHOT.jar
-outputs.4.0.length=37356
-outputs.4.0.checksums.sha512=76189238cd3309eddc6fd45fe44ad90f2aa67ff1e51d782b186762478daf6e5e26f03a7f1cf962c602e19a02e095732d0d28d37df63f9ee91ef70d202d217bde
+outputs.4.0.length=37396
+outputs.4.0.checksums.sha512=db43e96cd06691aa289eafcebdcc3891ecede90559f609b40bcd1472aeeba4fa9e9b9e137dd46ad35c2be383a7b08b2009d869142305e6c4a985070c3edd416a
 
 outputs.4.1.filename=mrm-maven-plugin-1.2.1-SNAPSHOT-sources.jar
-outputs.4.1.length=23299
-outputs.4.1.checksums.sha512=77b369cce479ef5642b0e356e69277025ee602b8a4e4d8906db408950c7b78b7a61e4610df6909bf3357145a744634c74fad9aa3a094356be904c2bd7cb6bfd6
+outputs.4.1.length=23306
+outputs.4.1.checksums.sha512=559731ce1260981f8b0f22beb0b6e207b46df606db9a7bf455d4193c3a5ddaeac7c7a871cc8e221f1621992d4ff7480b2b472fbd50b990abc9d57aa674e58ca3

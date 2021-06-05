@@ -1,0 +1,7 @@
+version=1.2.8-SNAPSHOT
+ok=3
+ko=0
+okFiles="flatten-maven-plugin-1.2.8-SNAPSHOT.jar flatten-maven-plugin-1.2.8-SNAPSHOT-source-release.zip flatten-maven-plugin-1.2.8-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

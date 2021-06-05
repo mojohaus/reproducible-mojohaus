@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0.6
 
 # output
 
 outputs.0.filename=siteskinner-maven-plugin-1.0.jar
 outputs.0.length=22278
-outputs.0.checksums.sha512=5d97d2ecbf131ce387690a4ae5ec0b1424841a15ba207c3d3b9b6fe59f72d595863672639abdb2e8e5ec9efc7f762e7f99685aa2170081542f8954db60493eb4
+outputs.0.checksums.sha512=b5f42198da4b8fa7e7fce29bda64665602bbb68145ed58437211a216035d4465948bf591dde44243a796b8243ca2674071af1dad50fa4c4cf45f2b4f773a717e
 
 outputs.1.filename=siteskinner-maven-plugin-1.0-source-release.zip
 outputs.1.length=53243
-outputs.1.checksums.sha512=2302c918db9c242ce3329f637173e1c8e14d74132433e6e6fa54f78f9c1d46e319796eb7bb58c7cf66af5f3221088893a3913f9efe6c26b0dd1e74f189d8c98f
+outputs.1.checksums.sha512=e3afcd2500e50460a30589ca34dbd2d314d5f8bb7cf30a7d80e641fc6200d19f71d2601695197cb6206d38f4b0e4bf41fefb279847f9a09bc99c29aed07c66a8
 
 outputs.2.filename=siteskinner-maven-plugin-1.0-sources.jar
 outputs.2.length=10877
-outputs.2.checksums.sha512=81ce0af6d8258129c576da085c1104f3379c6d72c43c3ee19c97a95d1ec1bac664854bb2f7f675461b474c8f0d9f597d275ac8d78cab4701fe848e0e72fba7bb
+outputs.2.checksums.sha512=9e1fdfa203f089735176886cf991ad23943deb8deb01cfbfbed3591cb2ce699d6df8d63c00711c33977a6108bf8c897115da2d816dd8f27f0c0b92700f0e892a

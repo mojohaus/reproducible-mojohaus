@@ -2,4 +2,9 @@ version=1.3
 ok=0
 ko=3
 okFiles=""
-koFiles="rmic-maven-plugin-1.3-source-release.zip rmic-maven-plugin-1.3-sources.jar rmic-maven-plugin-1.3.jar"
+koFiles="rmic-maven-plugin-1.3.jar rmic-maven-plugin-1.3-source-release.zip rmic-maven-plugin-1.3-sources.jar"
+reference_java_version="1.7.0_65 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/rmic-maven-plugin-1.3.jar target/rmic-maven-plugin-1.3.jar
+# diffoscope target/reference/rmic-maven-plugin-1.3-source-release.zip target/rmic-maven-plugin-1.3-source-release.zip
+# diffoscope target/reference/rmic-maven-plugin-1.3-sources.jar target/rmic-maven-plugin-1.3-sources.jar

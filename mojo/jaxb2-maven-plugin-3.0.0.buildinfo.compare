@@ -1,0 +1,8 @@
+version=3.0.0
+ok=0
+ko=3
+okFiles=""
+koFiles="jaxb2-maven-plugin-3.0.0.jar jaxb2-maven-plugin-3.0.0-source-release.zip jaxb2-maven-plugin-3.0.0-sources.jar"
+# diffoscope target/reference/jaxb2-maven-plugin-3.0.0.jar target/jaxb2-maven-plugin-3.0.0.jar
+# diffoscope target/reference/jaxb2-maven-plugin-3.0.0-source-release.zip target/jaxb2-maven-plugin-3.0.0-source-release.zip
+# diffoscope target/reference/jaxb2-maven-plugin-3.0.0-sources.jar target/jaxb2-maven-plugin-3.0.0-sources.jar

@@ -2,4 +2,9 @@ version=2.6
 ok=0
 ko=3
 okFiles=""
-koFiles="jaxws-maven-plugin-2.6-source-release.zip jaxws-maven-plugin-2.6-sources.jar jaxws-maven-plugin-2.6.jar"
+koFiles="jaxws-maven-plugin-2.6.jar jaxws-maven-plugin-2.6-source-release.zip jaxws-maven-plugin-2.6-sources.jar"
+reference_java_version="1.8.0_231 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jaxws-maven-plugin-2.6.jar target/jaxws-maven-plugin-2.6.jar
+# diffoscope target/reference/jaxws-maven-plugin-2.6-source-release.zip target/jaxws-maven-plugin-2.6-source-release.zip
+# diffoscope target/reference/jaxws-maven-plugin-2.6-sources.jar target/jaxws-maven-plugin-2.6-sources.jar

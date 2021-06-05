@@ -2,4 +2,9 @@ version=1.2.2
 ok=0
 ko=3
 okFiles=""
-koFiles="idlj-maven-plugin-1.2.2.jar idlj-maven-plugin-1.2.2-sources.jar idlj-maven-plugin-1.2.2-source-release.zip"
+koFiles="idlj-maven-plugin-1.2.2.jar idlj-maven-plugin-1.2.2-source-release.zip idlj-maven-plugin-1.2.2-sources.jar"
+reference_java_version="1.7.0_65 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/idlj-maven-plugin-1.2.2.jar target/idlj-maven-plugin-1.2.2.jar
+# diffoscope target/reference/idlj-maven-plugin-1.2.2-source-release.zip target/idlj-maven-plugin-1.2.2-source-release.zip
+# diffoscope target/reference/idlj-maven-plugin-1.2.2-sources.jar target/idlj-maven-plugin-1.2.2-sources.jar

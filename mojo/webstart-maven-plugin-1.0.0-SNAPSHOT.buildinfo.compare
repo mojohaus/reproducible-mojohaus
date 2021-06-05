@@ -2,4 +2,11 @@ version=1.0.0-SNAPSHOT
 ok=0
 ko=5
 okFiles=""
-koFiles="webstart-maven-plugin-1.0.0-SNAPSHOT.jar webstart-maven-plugin-1.0.0-SNAPSHOT-sources.jar webstart-1.0.0-SNAPSHOT-source-release.zip webstart-jnlp-servlet-1.0.0-SNAPSHOT-sources.jar webstart-jnlp-servlet-1.0.0-SNAPSHOT.jar"
+koFiles="webstart-1.0.0-SNAPSHOT-source-release.zip webstart-jnlp-servlet-1.0.0-SNAPSHOT.jar webstart-jnlp-servlet-1.0.0-SNAPSHOT-sources.jar webstart-maven-plugin-1.0.0-SNAPSHOT.jar webstart-maven-plugin-1.0.0-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/webstart-1.0.0-SNAPSHOT-source-release.zip target/webstart-1.0.0-SNAPSHOT-source-release.zip
+# diffoscope target/reference/webstart-jnlp-servlet-1.0.0-SNAPSHOT.jar webstart-jnlp-servlet/target/webstart-jnlp-servlet-1.0.0-SNAPSHOT.jar
+# diffoscope target/reference/webstart-jnlp-servlet-1.0.0-SNAPSHOT-sources.jar webstart-jnlp-servlet/target/webstart-jnlp-servlet-1.0.0-SNAPSHOT-sources.jar
+# diffoscope target/reference/webstart-maven-plugin-1.0.0-SNAPSHOT.jar webstart-maven-plugin/target/webstart-maven-plugin-1.0.0-SNAPSHOT.jar
+# diffoscope target/reference/webstart-maven-plugin-1.0.0-SNAPSHOT-sources.jar webstart-maven-plugin/target/webstart-maven-plugin-1.0.0-SNAPSHOT-sources.jar

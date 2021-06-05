@@ -2,4 +2,9 @@ version=1.4
 ok=0
 ko=3
 okFiles=""
-koFiles="buildnumber-maven-plugin-1.4-source-release.zip buildnumber-maven-plugin-1.4-sources.jar buildnumber-maven-plugin-1.4.jar"
+koFiles="buildnumber-maven-plugin-1.4.jar buildnumber-maven-plugin-1.4-source-release.zip buildnumber-maven-plugin-1.4-sources.jar"
+reference_java_version="1.7.0_80 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/buildnumber-maven-plugin-1.4.jar target/buildnumber-maven-plugin-1.4.jar
+# diffoscope target/reference/buildnumber-maven-plugin-1.4-source-release.zip target/buildnumber-maven-plugin-1.4-source-release.zip
+# diffoscope target/reference/buildnumber-maven-plugin-1.4-sources.jar target/buildnumber-maven-plugin-1.4-sources.jar

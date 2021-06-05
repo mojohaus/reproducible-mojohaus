@@ -3,3 +3,8 @@ ok=0
 ko=3
 okFiles=""
 koFiles="templating-maven-plugin-1.0.0.jar templating-maven-plugin-1.0.0-source-release.zip templating-maven-plugin-1.0.0-sources.jar"
+reference_java_version="1.7.0_79 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/templating-maven-plugin-1.0.0.jar target/templating-maven-plugin-1.0.0.jar
+# diffoscope target/reference/templating-maven-plugin-1.0.0-source-release.zip target/templating-maven-plugin-1.0.0-source-release.zip
+# diffoscope target/reference/templating-maven-plugin-1.0.0-sources.jar target/templating-maven-plugin-1.0.0-sources.jar

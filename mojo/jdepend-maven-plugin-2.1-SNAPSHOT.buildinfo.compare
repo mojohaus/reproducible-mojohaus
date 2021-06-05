@@ -2,4 +2,9 @@ version=2.1-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="jdepend-maven-plugin-2.1-SNAPSHOT-source-release.zip jdepend-maven-plugin-2.1-SNAPSHOT-sources.jar jdepend-maven-plugin-2.1-SNAPSHOT.jar"
+koFiles="jdepend-maven-plugin-2.1-SNAPSHOT.jar jdepend-maven-plugin-2.1-SNAPSHOT-source-release.zip jdepend-maven-plugin-2.1-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jdepend-maven-plugin-2.1-SNAPSHOT.jar target/jdepend-maven-plugin-2.1-SNAPSHOT.jar
+# diffoscope target/reference/jdepend-maven-plugin-2.1-SNAPSHOT-source-release.zip target/jdepend-maven-plugin-2.1-SNAPSHOT-source-release.zip
+# diffoscope target/reference/jdepend-maven-plugin-2.1-SNAPSHOT-sources.jar target/jdepend-maven-plugin-2.1-SNAPSHOT-sources.jar

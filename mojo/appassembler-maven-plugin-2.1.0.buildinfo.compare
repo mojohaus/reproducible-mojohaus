@@ -2,4 +2,13 @@ version=2.1.0
 ok=0
 ko=7
 okFiles=""
-koFiles="appassembler-model-2.1.0-sources.jar appassembler-maven-plugin-2.1.0-sources.jar appassembler-2.1.0-source-release.zip appassembler-model-2.1.0.jar appassembler-booter-2.1.0.jar appassembler-maven-plugin-2.1.0.jar appassembler-booter-2.1.0-sources.jar"
+koFiles="appassembler-2.1.0-source-release.zip appassembler-model-2.1.0.jar appassembler-model-2.1.0-sources.jar appassembler-booter-2.1.0.jar appassembler-booter-2.1.0-sources.jar appassembler-maven-plugin-2.1.0.jar appassembler-maven-plugin-2.1.0-sources.jar"
+reference_java_version="1.8.0_202 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/appassembler-2.1.0-source-release.zip target/appassembler-2.1.0-source-release.zip
+# diffoscope target/reference/appassembler-model-2.1.0.jar appassembler-model/target/appassembler-model-2.1.0.jar
+# diffoscope target/reference/appassembler-model-2.1.0-sources.jar appassembler-model/target/appassembler-model-2.1.0-sources.jar
+# diffoscope target/reference/appassembler-booter-2.1.0.jar appassembler-booter/target/appassembler-booter-2.1.0.jar
+# diffoscope target/reference/appassembler-booter-2.1.0-sources.jar appassembler-booter/target/appassembler-booter-2.1.0-sources.jar
+# diffoscope target/reference/appassembler-maven-plugin-2.1.0.jar appassembler-maven-plugin/target/appassembler-maven-plugin-2.1.0.jar
+# diffoscope target/reference/appassembler-maven-plugin-2.1.0-sources.jar appassembler-maven-plugin/target/appassembler-maven-plugin-2.1.0-sources.jar

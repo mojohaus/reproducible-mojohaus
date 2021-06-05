@@ -2,4 +2,9 @@ version=2.6.1-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="jaxws-maven-plugin-2.6.1-SNAPSHOT.jar jaxws-maven-plugin-2.6.1-SNAPSHOT-sources.jar jaxws-maven-plugin-2.6.1-SNAPSHOT-source-release.zip"
+koFiles="jaxws-maven-plugin-2.6.1-SNAPSHOT.jar jaxws-maven-plugin-2.6.1-SNAPSHOT-source-release.zip jaxws-maven-plugin-2.6.1-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jaxws-maven-plugin-2.6.1-SNAPSHOT.jar target/jaxws-maven-plugin-2.6.1-SNAPSHOT.jar
+# diffoscope target/reference/jaxws-maven-plugin-2.6.1-SNAPSHOT-source-release.zip target/jaxws-maven-plugin-2.6.1-SNAPSHOT-source-release.zip
+# diffoscope target/reference/jaxws-maven-plugin-2.6.1-SNAPSHOT-sources.jar target/jaxws-maven-plugin-2.6.1-SNAPSHOT-sources.jar

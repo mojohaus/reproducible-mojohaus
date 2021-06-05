@@ -13,28 +13,27 @@ source.scm.tag=mojo-parent-40
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=reusable-ide-preferences
 
 # aggregated output
 
 outputs.0.coordinates=org.codehaus.mojo:eclipse-preferences-maven-plugin
 
 outputs.0.0.filename=eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT.jar
-outputs.0.0.length=20380
-outputs.0.0.checksums.sha512=573edecee8a1ce839748c650e185d571d1cb130d211b8a6f474c9ef5e8007ea7748a76c36d1ab01e0f5cdd354853c2e2ff49fe4d89aef64c1d641e6a0db6b05b
+outputs.0.0.length=20381
+outputs.0.0.checksums.sha512=4f5976ce8a467e34dd771256b619d7267611d725ec9188b791a785d57ba89ecb2f3d1ffc81ec527be26d88a7afdfe8f71f382fc29d0f98365300c6bd9004c325
 
 outputs.0.1.filename=eclipse-preferences-maven-plugin-0.0.3-SNAPSHOT-sources.jar
 outputs.0.1.length=13047
-outputs.0.1.checksums.sha512=06a147ada1e7d4ecb52b7a8780d5bfd63ce0926e721a982684ca8d10cc2997bf53589ae7b920a080446b3488bcc7962ec923d90d731afe416ab8403940874201
+outputs.0.1.checksums.sha512=72e254a0365a7012b5d80460fcb43138b7b4a0ac259c12ad5d03e518243955c6275c81166ed06f4f13ac0f155a6a33e063076256ab39305e62401491dc94ff0d
 
 outputs.1.coordinates=org.codehaus.mojo:reusable-ide-preferences
 
 outputs.1.0.filename=reusable-ide-preferences-0.0.1-SNAPSHOT-source-release.zip
 outputs.1.0.length=40567
-outputs.1.0.checksums.sha512=ca50614002b06ecc54cf7c561da1267ede634b15f41c5dfcbe51dc97615492f17c1d192cfbb5fae071ee4d514922063d06b61e273a65cfa3f3630b4e249a5a84
+outputs.1.0.checksums.sha512=1cdaf3c58cbdcf8215cdae4acab9ee5401a236ab672dee2f174215f92fe56cc4dca578edf8642c70722fc67d254d39e86c1ccf509ec3c7f8588136accedcb34b

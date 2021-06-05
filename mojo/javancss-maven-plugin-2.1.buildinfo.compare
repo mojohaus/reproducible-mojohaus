@@ -2,4 +2,9 @@ version=2.1
 ok=0
 ko=3
 okFiles=""
-koFiles="javancss-maven-plugin-2.1.jar javancss-maven-plugin-2.1-sources.jar javancss-maven-plugin-2.1-source-release.zip"
+koFiles="javancss-maven-plugin-2.1.jar javancss-maven-plugin-2.1-source-release.zip javancss-maven-plugin-2.1-sources.jar"
+reference_java_version="1.7.0_65 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/javancss-maven-plugin-2.1.jar target/javancss-maven-plugin-2.1.jar
+# diffoscope target/reference/javancss-maven-plugin-2.1-source-release.zip target/javancss-maven-plugin-2.1-source-release.zip
+# diffoscope target/reference/javancss-maven-plugin-2.1-sources.jar target/javancss-maven-plugin-2.1-sources.jar

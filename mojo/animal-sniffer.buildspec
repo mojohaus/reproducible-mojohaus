@@ -1,10 +1,10 @@
 groupId=org.codehaus.mojo
-artifactId=animal-sniffer
+artifactId=animal-sniffer-parent
 
-gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitRepo=https://github.com/mojohaus/animal-sniffer.git
 
-jdk=8
+jdk=11
 newline=lf
 
 command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=animal-sniffer-ant-tasks/target/animal-sniffer-ant-tasks-*.buildinfo
+buildinfo=target/${artifactId}-*.buildinfo

@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0
 
 # output
 
 outputs.0.filename=idlj-maven-plugin-1.2.3-SNAPSHOT.jar
-outputs.0.length=43786
-outputs.0.checksums.sha512=15655afc58f0560d422e76c9bedda082d1a167ab860b2ce0131dd3f79aceda8b07ee70c004026e8340c6794b1d8ec3b81c44b76c4304262203379c146c104036
+outputs.0.length=44100
+outputs.0.checksums.sha512=64603f558a6198c78fdf82a51fdd0863daafd741839541490d2cf83f1ebd0978ddfa44e0c6063098f4e91e3c54d897d2b3848a86c17ba443c4bd827480696dd9
 
 outputs.1.filename=idlj-maven-plugin-1.2.3-SNAPSHOT-source-release.zip
 outputs.1.length=61585
-outputs.1.checksums.sha512=85ff31dfea840c98e2b741dc1e610e269831e940c01f10a176c267cb89d751fc06fea7e754f692e69fa1cc85c307d21e0396c710832e811f181c51901d2fb57e
+outputs.1.checksums.sha512=20ac9ac074e015595db5252ec55284e847c3f38b8c226df9799d2e1a66153ffe2e4cc6a203458c0335d105b455517255301bb998c0adec4ae5bef9f9a71678ca
 
 outputs.2.filename=idlj-maven-plugin-1.2.3-SNAPSHOT-sources.jar
-outputs.2.length=31281
-outputs.2.checksums.sha512=16fe8f592854d93c660fd7960c54b854f40c7c40ffbc03b5eadd7e4c8e088763af0e1d23f46766ee917df0a48fb3bc13a6f07f95ffe369c852da8eda0a1f644e
+outputs.2.length=31280
+outputs.2.checksums.sha512=6c99f4b17169a2d8cad08c46a01ee3cb800612a0326ab878f1b139ebc4ff191b5205ec204e52d1dd6712bf2e54b37dfbbbbbf6543a30bda3d48fcfd7e0369c84

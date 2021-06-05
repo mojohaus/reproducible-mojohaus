@@ -2,4 +2,9 @@ version=2.2.0
 ok=0
 ko=3
 okFiles=""
-koFiles="rpm-maven-plugin-2.2.0-sources.jar rpm-maven-plugin-2.2.0.jar rpm-maven-plugin-2.2.0-source-release.zip"
+koFiles="rpm-maven-plugin-2.2.0.jar rpm-maven-plugin-2.2.0-source-release.zip rpm-maven-plugin-2.2.0-sources.jar"
+reference_java_version="1.7.0_80 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/rpm-maven-plugin-2.2.0.jar target/rpm-maven-plugin-2.2.0.jar
+# diffoscope target/reference/rpm-maven-plugin-2.2.0-source-release.zip target/rpm-maven-plugin-2.2.0-source-release.zip
+# diffoscope target/reference/rpm-maven-plugin-2.2.0-sources.jar target/rpm-maven-plugin-2.2.0-sources.jar

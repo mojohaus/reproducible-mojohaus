@@ -2,4 +2,15 @@ version=1.2.0
 ok=0
 ko=9
 okFiles=""
-koFiles="mrm-maven-plugin-1.2.0-sources.jar mrm-api-1.2.0.jar mrm-1.2.0-source-release.zip mrm-1.2.0-site.xml mrm-servlet-1.2.0-sources.jar mrm-servlet-1.2.0.jar mrm-api-1.2.0-sources.jar mrm-webapp-1.2.0.war mrm-maven-plugin-1.2.0.jar"
+koFiles="mrm-1.2.0-source-release.zip mrm-1.2.0-site.xml mrm-api-1.2.0.jar mrm-api-1.2.0-sources.jar mrm-servlet-1.2.0.jar mrm-servlet-1.2.0-sources.jar mrm-webapp-1.2.0.war mrm-maven-plugin-1.2.0.jar mrm-maven-plugin-1.2.0-sources.jar"
+reference_java_version="1.8.0_172 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/mrm-1.2.0-source-release.zip target/mrm-1.2.0-source-release.zip
+# diffoscope target/reference/mrm-1.2.0-site.xml target/mrm-1.2.0-site.xml
+# diffoscope target/reference/mrm-api-1.2.0.jar mrm-api/target/mrm-api-1.2.0.jar
+# diffoscope target/reference/mrm-api-1.2.0-sources.jar mrm-api/target/mrm-api-1.2.0-sources.jar
+# diffoscope target/reference/mrm-servlet-1.2.0.jar mrm-servlet/target/mrm-servlet-1.2.0.jar
+# diffoscope target/reference/mrm-servlet-1.2.0-sources.jar mrm-servlet/target/mrm-servlet-1.2.0-sources.jar
+# diffoscope target/reference/mrm-webapp-1.2.0.war mrm-webapp/target/mrm-webapp-1.2.0.war
+# diffoscope target/reference/mrm-maven-plugin-1.2.0.jar mrm-maven-plugin/target/mrm-maven-plugin-1.2.0.jar
+# diffoscope target/reference/mrm-maven-plugin-1.2.0-sources.jar mrm-maven-plugin/target/mrm-maven-plugin-1.2.0-sources.jar

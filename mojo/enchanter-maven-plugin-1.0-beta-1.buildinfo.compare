@@ -2,4 +2,11 @@ version=1.0-beta-1
 ok=0
 ko=5
 okFiles=""
-koFiles="enchanter-1.0-beta-1-source-release.zip enchanter-maven-plugin-1.0-beta-1.jar enchanter-core-1.0-beta-1.jar enchanter-maven-plugin-1.0-beta-1-sources.jar enchanter-core-1.0-beta-1-sources.jar"
+koFiles="enchanter-1.0-beta-1-source-release.zip enchanter-core-1.0-beta-1.jar enchanter-core-1.0-beta-1-sources.jar enchanter-maven-plugin-1.0-beta-1.jar enchanter-maven-plugin-1.0-beta-1-sources.jar"
+reference_java_version="1.7.0_03 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/enchanter-1.0-beta-1-source-release.zip target/enchanter-1.0-beta-1-source-release.zip
+# diffoscope target/reference/enchanter-core-1.0-beta-1.jar enchanter-core/target/enchanter-core-1.0-beta-1.jar
+# diffoscope target/reference/enchanter-core-1.0-beta-1-sources.jar enchanter-core/target/enchanter-core-1.0-beta-1-sources.jar
+# diffoscope target/reference/enchanter-maven-plugin-1.0-beta-1.jar enchanter-maven-plugin/target/enchanter-maven-plugin-1.0-beta-1.jar
+# diffoscope target/reference/enchanter-maven-plugin-1.0-beta-1-sources.jar enchanter-maven-plugin/target/enchanter-maven-plugin-1.0-beta-1-sources.jar

@@ -2,4 +2,9 @@ version=1.3
 ok=0
 ko=3
 okFiles=""
-koFiles="sqlj-maven-plugin-1.3.jar sqlj-maven-plugin-1.3-sources.jar sqlj-maven-plugin-1.3-source-release.zip"
+koFiles="sqlj-maven-plugin-1.3.jar sqlj-maven-plugin-1.3-source-release.zip sqlj-maven-plugin-1.3-sources.jar"
+reference_java_version="1.7.0_25 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/sqlj-maven-plugin-1.3.jar target/sqlj-maven-plugin-1.3.jar
+# diffoscope target/reference/sqlj-maven-plugin-1.3-source-release.zip target/sqlj-maven-plugin-1.3-source-release.zip
+# diffoscope target/reference/sqlj-maven-plugin-1.3-sources.jar target/sqlj-maven-plugin-1.3-sources.jar

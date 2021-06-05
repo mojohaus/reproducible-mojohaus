@@ -2,4 +2,9 @@ version=2.8-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="cobertura-maven-plugin-2.8-SNAPSHOT-source-release.zip cobertura-maven-plugin-2.8-SNAPSHOT.jar cobertura-maven-plugin-2.8-SNAPSHOT-sources.jar"
+koFiles="cobertura-maven-plugin-2.8-SNAPSHOT.jar cobertura-maven-plugin-2.8-SNAPSHOT-source-release.zip cobertura-maven-plugin-2.8-SNAPSHOT-sources.jar"
+reference_java_version="1.7.0_211 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/cobertura-maven-plugin-2.8-SNAPSHOT.jar target/cobertura-maven-plugin-2.8-SNAPSHOT.jar
+# diffoscope target/reference/cobertura-maven-plugin-2.8-SNAPSHOT-source-release.zip target/cobertura-maven-plugin-2.8-SNAPSHOT-source-release.zip
+# diffoscope target/reference/cobertura-maven-plugin-2.8-SNAPSHOT-sources.jar target/cobertura-maven-plugin-2.8-SNAPSHOT-sources.jar

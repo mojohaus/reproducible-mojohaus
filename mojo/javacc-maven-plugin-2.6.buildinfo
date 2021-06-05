@@ -13,17 +13,15 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0.6
 
 # output
 
 outputs.0.filename=javacc-maven-plugin-2.6.jar
-outputs.0.length=74862
-outputs.0.checksums.sha512=a0cc9796ba953d28859feb311838e04122017f1bea25ae8722d85e8c1f70b2de0186fd93f3cab2d33b57a9da93c1a94c944d7abfe43357c346cc1c3623cc488d
+outputs.0.length=75252
+outputs.0.checksums.sha512=b2623ee892c372f237dfd6a7c4f8f7420215350223a0bc762945dcaa9e113e398cde31c27a0434776bab097bea26f740e353549e3804f62eaed7b85a379e72d2

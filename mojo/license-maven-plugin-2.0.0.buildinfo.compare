@@ -2,4 +2,10 @@ version=2.0.0
 ok=1
 ko=4
 okFiles="test.license.properties"
-koFiles="THIRD-PARTY.properties license-maven-plugin-2.0.0.jar license-maven-plugin-2.0.0-sources.jar license-maven-plugin-2.0.0-source-release.zip"
+koFiles="license-maven-plugin-2.0.0.jar THIRD-PARTY.properties license-maven-plugin-2.0.0-source-release.zip license-maven-plugin-2.0.0-sources.jar"
+reference_java_version="1.8.0_201 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/license-maven-plugin-2.0.0.jar target/license-maven-plugin-2.0.0.jar
+# diffoscope target/reference/license-maven-plugin-2.0.0-third-party.properties src/license/THIRD-PARTY.properties
+# diffoscope target/reference/license-maven-plugin-2.0.0-source-release.zip target/license-maven-plugin-2.0.0-source-release.zip
+# diffoscope target/reference/license-maven-plugin-2.0.0-sources.jar target/license-maven-plugin-2.0.0-sources.jar

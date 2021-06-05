@@ -2,4 +2,9 @@ version=2.2-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="javancss-maven-plugin-2.2-SNAPSHOT-sources.jar javancss-maven-plugin-2.2-SNAPSHOT.jar javancss-maven-plugin-2.2-SNAPSHOT-source-release.zip"
+koFiles="javancss-maven-plugin-2.2-SNAPSHOT.jar javancss-maven-plugin-2.2-SNAPSHOT-source-release.zip javancss-maven-plugin-2.2-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/javancss-maven-plugin-2.2-SNAPSHOT.jar target/javancss-maven-plugin-2.2-SNAPSHOT.jar
+# diffoscope target/reference/javancss-maven-plugin-2.2-SNAPSHOT-source-release.zip target/javancss-maven-plugin-2.2-SNAPSHOT-source-release.zip
+# diffoscope target/reference/javancss-maven-plugin-2.2-SNAPSHOT-sources.jar target/javancss-maven-plugin-2.2-SNAPSHOT-sources.jar

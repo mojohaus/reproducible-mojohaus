@@ -2,4 +2,9 @@ version=1.0.0
 ok=0
 ko=3
 okFiles=""
-koFiles="properties-maven-plugin-1.0.0.jar properties-maven-plugin-1.0.0-sources.jar properties-maven-plugin-1.0.0-source-release.zip"
+koFiles="properties-maven-plugin-1.0.0.jar properties-maven-plugin-1.0.0-source-release.zip properties-maven-plugin-1.0.0-sources.jar"
+reference_java_version="1.7.0_79 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/properties-maven-plugin-1.0.0.jar target/properties-maven-plugin-1.0.0.jar
+# diffoscope target/reference/properties-maven-plugin-1.0.0-source-release.zip target/properties-maven-plugin-1.0.0-source-release.zip
+# diffoscope target/reference/properties-maven-plugin-1.0.0-sources.jar target/properties-maven-plugin-1.0.0-sources.jar

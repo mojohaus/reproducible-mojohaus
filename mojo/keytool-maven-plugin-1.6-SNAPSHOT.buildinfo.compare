@@ -2,4 +2,19 @@ version=1.6-SNAPSHOT
 ok=0
 ko=13
 okFiles=""
-koFiles="keytool-api-1.6-1.6-SNAPSHOT-sources.jar keytool-maven-plugin-1.6-SNAPSHOT.jar keytool-api-1.5-1.6-SNAPSHOT.jar keytool-api-1.5-1.6-SNAPSHOT-sources.jar keytool-api-1.6-1.6-SNAPSHOT.jar keytool-api-test-1.6-SNAPSHOT-sources.jar keytool-api-1.6-SNAPSHOT.jar keytool-api-1.7-1.6-SNAPSHOT.jar keytool-api-1.6-SNAPSHOT-sources.jar keytool-api-test-1.6-SNAPSHOT.jar keytool-api-1.7-1.6-SNAPSHOT-sources.jar keytool-maven-plugin-1.6-SNAPSHOT-sources.jar keytool-1.6-SNAPSHOT-source-release.zip"
+koFiles="keytool-1.6-SNAPSHOT-source-release.zip keytool-api-1.6-SNAPSHOT.jar keytool-api-1.6-SNAPSHOT-sources.jar keytool-api-test-1.6-SNAPSHOT.jar keytool-api-test-1.6-SNAPSHOT-sources.jar keytool-api-1.5-1.6-SNAPSHOT.jar keytool-api-1.5-1.6-SNAPSHOT-sources.jar keytool-api-1.6-1.6-SNAPSHOT.jar keytool-api-1.6-1.6-SNAPSHOT-sources.jar keytool-api-1.7-1.6-SNAPSHOT.jar keytool-api-1.7-1.6-SNAPSHOT-sources.jar keytool-maven-plugin-1.6-SNAPSHOT.jar keytool-maven-plugin-1.6-SNAPSHOT-sources.jar"
+reference_java_version="1.7.0_211 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/keytool-1.6-SNAPSHOT-source-release.zip target/keytool-1.6-SNAPSHOT-source-release.zip
+# diffoscope target/reference/keytool-api-1.6-SNAPSHOT.jar keytool-api/target/keytool-api-1.6-SNAPSHOT.jar
+# diffoscope target/reference/keytool-api-1.6-SNAPSHOT-sources.jar keytool-api/target/keytool-api-1.6-SNAPSHOT-sources.jar
+# diffoscope target/reference/keytool-api-test-1.6-SNAPSHOT.jar keytool-api-test/target/keytool-api-test-1.6-SNAPSHOT.jar
+# diffoscope target/reference/keytool-api-test-1.6-SNAPSHOT-sources.jar keytool-api-test/target/keytool-api-test-1.6-SNAPSHOT-sources.jar
+# diffoscope target/reference/keytool-api-1.5-1.6-SNAPSHOT.jar keytool-api-1.5/target/keytool-api-1.5-1.6-SNAPSHOT.jar
+# diffoscope target/reference/keytool-api-1.5-1.6-SNAPSHOT-sources.jar keytool-api-1.5/target/keytool-api-1.5-1.6-SNAPSHOT-sources.jar
+# diffoscope target/reference/keytool-api-1.6-1.6-SNAPSHOT.jar keytool-api-1.6/target/keytool-api-1.6-1.6-SNAPSHOT.jar
+# diffoscope target/reference/keytool-api-1.6-1.6-SNAPSHOT-sources.jar keytool-api-1.6/target/keytool-api-1.6-1.6-SNAPSHOT-sources.jar
+# diffoscope target/reference/keytool-api-1.7-1.6-SNAPSHOT.jar keytool-api-1.7/target/keytool-api-1.7-1.6-SNAPSHOT.jar
+# diffoscope target/reference/keytool-api-1.7-1.6-SNAPSHOT-sources.jar keytool-api-1.7/target/keytool-api-1.7-1.6-SNAPSHOT-sources.jar
+# diffoscope target/reference/keytool-maven-plugin-1.6-SNAPSHOT.jar keytool-maven-plugin/target/keytool-maven-plugin-1.6-SNAPSHOT.jar
+# diffoscope target/reference/keytool-maven-plugin-1.6-SNAPSHOT-sources.jar keytool-maven-plugin/target/keytool-maven-plugin-1.6-SNAPSHOT-sources.jar

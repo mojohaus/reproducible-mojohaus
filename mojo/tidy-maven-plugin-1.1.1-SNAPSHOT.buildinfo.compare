@@ -1,5 +1,7 @@
 version=1.1.1-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="tidy-maven-plugin-1.1.1-SNAPSHOT.jar tidy-maven-plugin-1.1.1-SNAPSHOT-sources.jar tidy-maven-plugin-1.1.1-SNAPSHOT-source-release.zip"
+ok=3
+ko=0
+okFiles="tidy-maven-plugin-1.1.1-SNAPSHOT.jar tidy-maven-plugin-1.1.1-SNAPSHOT-source-release.zip tidy-maven-plugin-1.1.1-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

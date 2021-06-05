@@ -2,4 +2,9 @@ version=2.2.1-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="rpm-maven-plugin-2.2.1-SNAPSHOT-source-release.zip rpm-maven-plugin-2.2.1-SNAPSHOT.jar rpm-maven-plugin-2.2.1-SNAPSHOT-sources.jar"
+koFiles="rpm-maven-plugin-2.2.1-SNAPSHOT.jar rpm-maven-plugin-2.2.1-SNAPSHOT-source-release.zip rpm-maven-plugin-2.2.1-SNAPSHOT-sources.jar"
+reference_java_version="1.7.0_211 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/rpm-maven-plugin-2.2.1-SNAPSHOT.jar target/rpm-maven-plugin-2.2.1-SNAPSHOT.jar
+# diffoscope target/reference/rpm-maven-plugin-2.2.1-SNAPSHOT-source-release.zip target/rpm-maven-plugin-2.2.1-SNAPSHOT-source-release.zip
+# diffoscope target/reference/rpm-maven-plugin-2.2.1-SNAPSHOT-sources.jar target/rpm-maven-plugin-2.2.1-SNAPSHOT-sources.jar

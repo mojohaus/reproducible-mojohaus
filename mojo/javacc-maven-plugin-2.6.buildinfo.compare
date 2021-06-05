@@ -3,3 +3,6 @@ ok=0
 ko=1
 okFiles=""
 koFiles="javacc-maven-plugin-2.6.jar"
+reference_java_version="1.4.2_16 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/javacc-maven-plugin-2.6.jar target/javacc-maven-plugin-2.6.jar

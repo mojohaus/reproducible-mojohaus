@@ -2,4 +2,9 @@ version=2.0.2-SNAPSHOT
 ok=0
 ko=3
 okFiles=""
-koFiles="native2ascii-maven-plugin-2.0.2-SNAPSHOT-source-release.zip native2ascii-maven-plugin-2.0.2-SNAPSHOT.jar native2ascii-maven-plugin-2.0.2-SNAPSHOT-sources.jar"
+koFiles="native2ascii-maven-plugin-2.0.2-SNAPSHOT.jar native2ascii-maven-plugin-2.0.2-SNAPSHOT-source-release.zip native2ascii-maven-plugin-2.0.2-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/native2ascii-maven-plugin-2.0.2-SNAPSHOT.jar target/native2ascii-maven-plugin-2.0.2-SNAPSHOT.jar
+# diffoscope target/reference/native2ascii-maven-plugin-2.0.2-SNAPSHOT-source-release.zip target/native2ascii-maven-plugin-2.0.2-SNAPSHOT-source-release.zip
+# diffoscope target/reference/native2ascii-maven-plugin-2.0.2-SNAPSHOT-sources.jar target/native2ascii-maven-plugin-2.0.2-SNAPSHOT-sources.jar

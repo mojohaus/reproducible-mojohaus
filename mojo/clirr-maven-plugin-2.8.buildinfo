@@ -13,25 +13,23 @@ source.scm.tag=clirr-maven-plugin-2.8
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0.6
 
 # output
 
 outputs.0.filename=clirr-maven-plugin-2.8.jar
-outputs.0.length=75110
-outputs.0.checksums.sha512=2c7fcbfe55bdbce7c150bb7671ef43dfcb1af2cdee2e7e98902cb81c763b0293d542987dc917547e79aae6e2b518c9175929121eb5c19b453cca55f55fb4c107
+outputs.0.length=75109
+outputs.0.checksums.sha512=70f85f64c27ec1b3fa9c9189930353bae010d9d765ee996bf98a1ac960323322e0aa2d86d3457c86aed97789a97f159ed510e63aa790650e4a3d478a5b794354
 
 outputs.1.filename=clirr-maven-plugin-2.8-source-release.zip
 outputs.1.length=91821
-outputs.1.checksums.sha512=cf4cc865f20fe9a8d607d3abed0848fff3d26a99a7b82802c81d76bf13ccbc5e5ed753a2eb863d3c4a691606d1e8a33e40a7ee66856957c8f54b517c4d4929db
+outputs.1.checksums.sha512=35cb3f2a31568fbb08082241caf9e980bb7e106d4766ec9fedf66fd0179fe701990b60f595d0194a0b038de394639b34ee1eea55bfd3d711de7387e9ae83b10d
 
 outputs.2.filename=clirr-maven-plugin-2.8-sources.jar
 outputs.2.length=46559
-outputs.2.checksums.sha512=d90a3721b83f3db25d60632751402f941034f75de05c2ece0e83eb5231d109cbc574b45cdd762969e0a5fb72566a0f04e9ce3b33c3e031d8f9f051deb3d7e34a
+outputs.2.checksums.sha512=0a5a1215b901cd6bb80bbb66d969914532b6e2e2649ad02d824d732779260da8b8469c0305815389f401fb0567f4a9a7638aa82ba6e829a6c291072750a7e398

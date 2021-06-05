@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Service Documentation Generator Plugin
+group-id=org.codehaus.mojo
+artifact-id=servicedocgen-maven-plugin
+version=1.0.0-beta-7-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/servicedocgen-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=servicedocgen-maven-plugin-1.0.0-beta-7-SNAPSHOT.jar
+outputs.0.length=85391
+outputs.0.checksums.sha512=9019b84c7c457839984e96e2bb25b16dc0514c2e5f25141676a47cef29b8e571a909c12a5275dd55d0fa3ed2463a94c406f7daa40ac93a3727c48d3d0ef378e2
+
+outputs.1.filename=servicedocgen-maven-plugin-1.0.0-beta-7-SNAPSHOT-source-release.zip
+outputs.1.length=111930
+outputs.1.checksums.sha512=88b920c39b9a42f8ca79c06cb3d35c761f87de869ed8db47a36a5d775b349cde9325ebd8a522d1eb07f73aa97f66fe2b38be763761efba115080418d7a4716d8
+
+outputs.2.filename=servicedocgen-maven-plugin-1.0.0-beta-7-SNAPSHOT-sources.jar
+outputs.2.length=63785
+outputs.2.checksums.sha512=d14ddfdd60d743c93a096fdb2b45afa6c30f6db51363c02e02ca2c2b5a2c13e31948b8a0df2d379329693d5d86ac7bf47fdef760d5b6304f5b53d3365d07c0e7

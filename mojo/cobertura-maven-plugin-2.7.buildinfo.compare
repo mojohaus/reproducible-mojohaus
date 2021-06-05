@@ -2,4 +2,9 @@ version=2.7
 ok=0
 ko=3
 okFiles=""
-koFiles="cobertura-maven-plugin-2.7-source-release.zip cobertura-maven-plugin-2.7.jar cobertura-maven-plugin-2.7-sources.jar"
+koFiles="cobertura-maven-plugin-2.7.jar cobertura-maven-plugin-2.7-source-release.zip cobertura-maven-plugin-2.7-sources.jar"
+reference_java_version="1.6.0_45 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/cobertura-maven-plugin-2.7.jar target/cobertura-maven-plugin-2.7.jar
+# diffoscope target/reference/cobertura-maven-plugin-2.7-source-release.zip target/cobertura-maven-plugin-2.7-source-release.zip
+# diffoscope target/reference/cobertura-maven-plugin-2.7-sources.jar target/cobertura-maven-plugin-2.7-sources.jar

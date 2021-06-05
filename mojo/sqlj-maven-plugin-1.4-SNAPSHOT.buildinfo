@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0
 
 # output
 
 outputs.0.filename=sqlj-maven-plugin-1.4-SNAPSHOT.jar
-outputs.0.length=21013
-outputs.0.checksums.sha512=62c01f5d1e126eb42965ddf75bf06d32fd9780262d437c51461aacd2495d752f235cf527c942c1402371a1866b46345b1c74a3b50343c047ecaafd87f5a9eb72
+outputs.0.length=21014
+outputs.0.checksums.sha512=eddc2baf203069efc619ef1abb45703209a4c38c3ee64da0b46b2e99e4f8ec6e5b64a7468d5868d3c66197f965a08e5bc00a0cfb27e89ecf0056f1d89d080376
 
 outputs.1.filename=sqlj-maven-plugin-1.4-SNAPSHOT-source-release.zip
 outputs.1.length=39626
-outputs.1.checksums.sha512=3ff2c8327000584b3e5e549f5430acb55f5594d883ebc6d55fdf2ab89598865897b9ca5cc71ad70eb64a21064acfdf55fef5723f6fba2aa2bec95daf9baa651d
+outputs.1.checksums.sha512=1400ed5fcf787a2c13936552cdf62dbaa1115e63cdb184681cdb2ad9b4b50e29d28595f7243e3939e92a16120f3018b3bd9f7d51e097c1f499daeda2bb4a9526
 
 outputs.2.filename=sqlj-maven-plugin-1.4-SNAPSHOT-sources.jar
 outputs.2.length=12322
-outputs.2.checksums.sha512=fbeca907a78b4e03a982db4ebfc1d8e86acb71ceb7a2f22b4d91835c7246462a69c70c91b25fab84f99198c76a799cb1766709898f44d650ec71ff865c0311f4
+outputs.2.checksums.sha512=ac8e9dd425400b7a960d3500c67c7a92220342f2b1cdd9929ca15a0f28ca0b1b3eeec52ba134a5ed21f8e2882f10d0764c1a2e78e2f8d6cc0aa002d84d0600ad

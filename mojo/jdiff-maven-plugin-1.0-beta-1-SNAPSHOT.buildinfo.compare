@@ -3,3 +3,8 @@ ok=0
 ko=3
 okFiles=""
 koFiles="jdiff-maven-plugin-1.0-beta-1-SNAPSHOT.jar jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-source-release.zip jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_275 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jdiff-maven-plugin-1.0-beta-1-SNAPSHOT.jar target/jdiff-maven-plugin-1.0-beta-1-SNAPSHOT.jar
+# diffoscope target/reference/jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-source-release.zip target/jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-source-release.zip
+# diffoscope target/reference/jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-sources.jar target/jdiff-maven-plugin-1.0-beta-1-SNAPSHOT-sources.jar

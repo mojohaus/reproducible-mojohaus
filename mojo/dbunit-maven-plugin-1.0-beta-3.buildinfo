@@ -13,17 +13,15 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0
 
 # output
 
 outputs.0.filename=dbunit-maven-plugin-1.0-beta-3.jar
-outputs.0.length=16712
-outputs.0.checksums.sha512=35ccf0433d2def8190fc5048f7d310d0638baff51fdbad4e2d8dea9b2463bc794a06015de23e347b14fac64d40e7f28232d52901ec34c67146014f30913b9169
+outputs.0.length=16706
+outputs.0.checksums.sha512=3e3c8453e7500a10ef8396924016dcbdad60d70f829a9b71880917b7c56f99cf1aa2852018126f41328580bd01499c268eeb063df5a51476dc3d8224570f1dd5

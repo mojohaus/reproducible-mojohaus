@@ -3,8 +3,8 @@ artifactId=castor-maven-plugin
 
 gitRepo=https://github.com/mojohaus/${artifactId}.git
 
-jdk=8
-newline=lf
+jdk=7
+newline=crlf
 
 command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-*.buildinfo

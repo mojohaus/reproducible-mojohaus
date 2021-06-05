@@ -2,4 +2,9 @@ version=1.11
 ok=0
 ko=3
 okFiles=""
-koFiles="aspectj-maven-plugin-1.11-source-release.zip aspectj-maven-plugin-1.11.jar aspectj-maven-plugin-1.11-sources.jar"
+koFiles="aspectj-maven-plugin-1.11.jar aspectj-maven-plugin-1.11-source-release.zip aspectj-maven-plugin-1.11-sources.jar"
+reference_java_version="1.8.0_152 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/aspectj-maven-plugin-1.11.jar target/aspectj-maven-plugin-1.11.jar
+# diffoscope target/reference/aspectj-maven-plugin-1.11-source-release.zip target/aspectj-maven-plugin-1.11-source-release.zip
+# diffoscope target/reference/aspectj-maven-plugin-1.11-sources.jar target/aspectj-maven-plugin-1.11-sources.jar

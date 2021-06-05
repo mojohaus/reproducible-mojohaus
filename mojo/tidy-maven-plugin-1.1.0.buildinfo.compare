@@ -2,4 +2,9 @@ version=1.1.0
 ok=0
 ko=3
 okFiles=""
-koFiles="tidy-maven-plugin-1.1.0-sources.jar tidy-maven-plugin-1.1.0.jar tidy-maven-plugin-1.1.0-source-release.zip"
+koFiles="tidy-maven-plugin-1.1.0.jar tidy-maven-plugin-1.1.0-source-release.zip tidy-maven-plugin-1.1.0-sources.jar"
+reference_java_version="1.7.0_79 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/tidy-maven-plugin-1.1.0.jar target/tidy-maven-plugin-1.1.0.jar
+# diffoscope target/reference/tidy-maven-plugin-1.1.0-source-release.zip target/tidy-maven-plugin-1.1.0-source-release.zip
+# diffoscope target/reference/tidy-maven-plugin-1.1.0-sources.jar target/tidy-maven-plugin-1.1.0-sources.jar

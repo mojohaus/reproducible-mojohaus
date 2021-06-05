@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.2.1
 
 # output
 
 outputs.0.filename=cassandra-maven-plugin-3.7-SNAPSHOT.jar
 outputs.0.length=84749
-outputs.0.checksums.sha512=f28965af47d2eeb70e853abfd14e5da925af252f712529f556335eb6c6bb9f4ef82fbdf051da7f456ac5fa1478eed1b30611d6b7deb2b3015ae27a7004083da0
+outputs.0.checksums.sha512=ed4d7f7c7a34babb4070e8489b4daa63517d701916dc0f994b148f66335bc1f73984e1e9cd2a0cdb4083ba5bd8350e68fa3994d99502ebb037237edbfa26899b
 
 outputs.1.filename=cassandra-maven-plugin-3.7-SNAPSHOT-source-release.zip
 outputs.1.length=93456
-outputs.1.checksums.sha512=2ba820287b2109b411a2b5b08607faf4546a5508069ab9aa3f1d7b5a669b154c8f2a7d15ee6405c15b8485a3b5e897811bf1df77ca7daf07167f74963e8dc9bc
+outputs.1.checksums.sha512=6fd4e48a4989fd4b28efccf4bb64f06f74a8d8e6e14f581a0fb625a0a46205aca7c2ddac28126ae3a989b6622085a4e538205544734b71d43044e88716a7995d
 
 outputs.2.filename=cassandra-maven-plugin-3.7-SNAPSHOT-sources.jar
 outputs.2.length=59649
-outputs.2.checksums.sha512=c5c8f55adf16d1b0dff7df37414829cdcf2730be537a28f8e4232ac4a6743f6878270a6ffe4982483634c16b6dd218f8aaea9f3420233aea1b6ec85437e8c494
+outputs.2.checksums.sha512=8f4a72538eaa579920eeb2ae212b0f3fe13db7967aba2cc3f23e37020b028384832b41914ea1f59de176a6188e30dfafa9fdbb6259dcffaa671ba8b31d42d831

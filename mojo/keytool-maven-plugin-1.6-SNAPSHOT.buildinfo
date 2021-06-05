@@ -13,14 +13,13 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.1.0
+mvn.aggregate.artifact-id=keytool-maven-plugin
 
 # aggregated output
 
@@ -28,64 +27,64 @@ outputs.0.coordinates=org.codehaus.mojo:keytool
 
 outputs.0.0.filename=keytool-1.6-SNAPSHOT-source-release.zip
 outputs.0.0.length=218809
-outputs.0.0.checksums.sha512=916938c280412713d9c9727bb342c6cc44291104613de00e65af30387a5f0517b0b73caa11263120651b565d3be1412fb5d14e1205025101f9a08e8b8987674e
+outputs.0.0.checksums.sha512=fa3e8dfe9c1b0120021f0966ac0726ce265e1a9bfb475ec7a71dbb92243bea36a1b718423bd103134e23d85479136a55a81a26f8ea37a1b5cc887ef7cf86f2c5
 
 outputs.1.coordinates=org.codehaus.mojo:keytool-api
 
 outputs.1.0.filename=keytool-api-1.6-SNAPSHOT.jar
-outputs.1.0.length=27322
-outputs.1.0.checksums.sha512=7c2a8f37af29a1d0983b86402cd66b1db80160befe48977ebab5bedd89568d8459e05f36a3a214661c3a6a928bbf7e0eeeed5ee9380b92042095615dd1c7e1cc
+outputs.1.0.length=27342
+outputs.1.0.checksums.sha512=c3d4065a436fe104f179423ca7bf3a5856ab729e8d1340c0cf41266a6e73682bcf35fa6b7d93ba2fb11fcc8e389fdd32427afb9e8bcda1bbd3ee267f8f09ceac
 
 outputs.1.1.filename=keytool-api-1.6-SNAPSHOT-sources.jar
 outputs.1.1.length=33272
-outputs.1.1.checksums.sha512=7859519c188e734baf69a01b51c594ed82c5ea8749f1aeffc9a2fc60accf2067ecd805592cf2e0262c523cabd7fe259aa72f3e2912338010d989bd66e3a5695d
+outputs.1.1.checksums.sha512=6966490b412c1a72b02715f6e78413bb81a25d31def0db5b52d89242659ecf6ad6a882a4572cf3087e3101a0d0bf029916f0faaea8418b659a3ecefb399cedbf
 
 outputs.2.coordinates=org.codehaus.mojo:keytool-api-test
 
 outputs.2.0.filename=keytool-api-test-1.6-SNAPSHOT.jar
-outputs.2.0.length=27333
-outputs.2.0.checksums.sha512=3244a415893f8cd5a49e6895558c07614e80e154f2f4903b496f2cd448c00e02f8069b72f3d742cf3446282101b83eb8ad28bc69d0f1bb8ef21a69f54604e23c
+outputs.2.0.length=27283
+outputs.2.0.checksums.sha512=91fa6552070a78025f8bb5b1f9f836b063b0b4f34e84e8666ae71dc57a80bd36a416b952354082705c3b7b47fff2555eff4a1e927fcaa559c960710c0cf607cb
 
 outputs.2.1.filename=keytool-api-test-1.6-SNAPSHOT-sources.jar
 outputs.2.1.length=23432
-outputs.2.1.checksums.sha512=e46f299f29be3330b806fc7e428f69970fd2f73430fdc5a00c5d613054d2ae0ce02658ce4ddd6b2643ae78b7da57300785c9843d28ce55a98b539e95996a5d69
+outputs.2.1.checksums.sha512=5a7290ac22d16cbb73d8c27df0138361e0da2d8e4ed90b420331e338fb90581ff9ff53f599a12a042f5951b96cd4b978aa3a5ea5b47f61dfd62e9bc0f956587f
 
 outputs.3.coordinates=org.codehaus.mojo:keytool-api-1.5
 
 outputs.3.0.filename=keytool-api-1.5-1.6-SNAPSHOT.jar
-outputs.3.0.length=7158
-outputs.3.0.checksums.sha512=6933aeb2ae7ed37a8fcd818cde93a36498626a34635d5bc77b85910a38de53164b3edb54e077894f2ab9c028402a33f489b13da3bf34f233696fff10953ff499
+outputs.3.0.length=7159
+outputs.3.0.checksums.sha512=a536a59e40434c94c3e06fe280e2beea1e781564ff17fbd94cb66466107de886524788a1521f8f0b455c7b3b653d6d4e66204b77aa7347ed53594f9ae5284535
 
 outputs.3.1.filename=keytool-api-1.5-1.6-SNAPSHOT-sources.jar
 outputs.3.1.length=2994
-outputs.3.1.checksums.sha512=3bff83a89033c0aaf4988fe5a4d7f72dc280ef279cbcb3b614223dd45e96cea4c6b83ad1c526f7799b22498339563790a20a98bda3055438e6e9fd3e3ba84e43
+outputs.3.1.checksums.sha512=6fb7266d6fc0850d8f93b4fe90a60297dceeaa677d236ee7cfb24b55143435b93237ca32cf714887863fb211d0d24040e1f7d023df913f009b36afdfd26c3fbf
 
 outputs.4.coordinates=org.codehaus.mojo:keytool-api-1.6
 
 outputs.4.0.filename=keytool-api-1.6-1.6-SNAPSHOT.jar
-outputs.4.0.length=7173
-outputs.4.0.checksums.sha512=e11c795465429b77f21be05c69c38fc67c6cec23907fdfd692a83b3cbc77a726120bfa308201d003d27845fb00037f82ccdb45be579fa8bcf93e01362aa506aa
+outputs.4.0.length=7175
+outputs.4.0.checksums.sha512=aa2e135b16a156bf9111d9ef08e4539f7f91103727f52a12cb37c07f7422d7f4aeffbf3944b0bc419d6079d544c5317932030d3198af644dd3318ccfab3bd804
 
 outputs.4.1.filename=keytool-api-1.6-1.6-SNAPSHOT-sources.jar
 outputs.4.1.length=2979
-outputs.4.1.checksums.sha512=ff7c797d0ea4d6092f4abdddbc97390c1ef5fa15f8b437444708390e442162bdd3e833f09567041b8e965ef6c8efb2ded8bd9b71cae2b7c7659fb0fad48c197a
+outputs.4.1.checksums.sha512=dedb8d0dc7060588c9eeeff1765b3c6ba81893d24fb73b10983cbdfd09ba771b3ee95b81651d355ab6a683d61f688df1fdf8acbcc488ebe61de514097f20e3ad
 
 outputs.5.coordinates=org.codehaus.mojo:keytool-api-1.7
 
 outputs.5.0.filename=keytool-api-1.7-1.6-SNAPSHOT.jar
-outputs.5.0.length=7169
-outputs.5.0.checksums.sha512=0b07bf3946787655607500a225b2f3d70d7bc98814585109b11f404937defd3e054cc0473b44c0d5e9d3313f7d4e5c6f8bf65211383edf32ac8029cc8643f5b1
+outputs.5.0.length=7167
+outputs.5.0.checksums.sha512=c2bd195b9ff9c27666484492621c3dfc8e022261db9f571296f52177ef68f6b42e713ad7765a9da1f9e99f7d479a1dd8253ead3034bb76c83617811324093ac5
 
 outputs.5.1.filename=keytool-api-1.7-1.6-SNAPSHOT-sources.jar
 outputs.5.1.length=2956
-outputs.5.1.checksums.sha512=7fbac1c11746376386f4c41b4942ccbe5e59a15803046366277350bda63138c41aff657eee1fd732c8ddf5817e722ec2aa542e108a88f7bcf15ed80a21ad65e2
+outputs.5.1.checksums.sha512=2586df0b81820b3735d124eab7d7fa213ba27ae4e328845a2a535b0df052d9871975b019c45014d8bcbedd5f905cc9da83063582b229c6f1b9203c0a1474580c
 
 outputs.6.coordinates=org.codehaus.mojo:keytool-maven-plugin
 
 outputs.6.0.filename=keytool-maven-plugin-1.6-SNAPSHOT.jar
-outputs.6.0.length=44193
-outputs.6.0.checksums.sha512=addec7070395b73680fe770c8b90bb137dd6c6351adbb5da820122c7a7f389ddd2028e5a461c88c3c3f4e45b08ec9bc7f56fae7c113fb353cbc8aabbc898584e
+outputs.6.0.length=44264
+outputs.6.0.checksums.sha512=79258c923b3f3985a0872facbcf6617970650facf1c2471c028ae6d8a97085c4ae00c34f7b9b92a1a8ea925ed3aa32f60a053f3a367951ea6ea6b415a85ad8a8
 
 outputs.6.1.filename=keytool-maven-plugin-1.6-SNAPSHOT-sources.jar
 outputs.6.1.length=34688
-outputs.6.1.checksums.sha512=0248aee1db8457fb826e2729e786f9de811e2191f45a6914325513960cf98887c6fea6e27a920260194f89bd924371117ea03170d4c4104a2a6a2883d0c661f2
+outputs.6.1.checksums.sha512=5894dcc767a8e0e6da5ee5eb646cdc9a969d4df4689a177cf71cb668bf5a1ed75bb3a86394fff0cf8e4452709e05e9a62d434976e5bd8b999dd799042f33047f

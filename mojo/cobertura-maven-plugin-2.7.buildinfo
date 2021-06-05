@@ -13,25 +13,23 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=2.0.8
 
 # output
 
 outputs.0.filename=cobertura-maven-plugin-2.7.jar
-outputs.0.length=57095
-outputs.0.checksums.sha512=df5052373573ac8eaa0536b781fd6464dc354f7d307967282a33d1141a8a0b6b287097d0c6706894055fc88a2f1bb9f00d51e8d63e51d652f89570b4ed9df44e
+outputs.0.length=57243
+outputs.0.checksums.sha512=0e0b68fc08a81bbd15eced6148232944c6704f5bac7840f3bf1928457596a4eaf77660e65d5dcf16820e78d8515be01239f8427cc6bc74a8d18f0970e95595c8
 
 outputs.1.filename=cobertura-maven-plugin-2.7-source-release.zip
 outputs.1.length=2446810
-outputs.1.checksums.sha512=727d80e6062d6687bce87a29c2f1502a8e2f496342f3638df5d10f86873c6b42fc0de24da87f3a816c1565b3e381ed82a80b3cc5e8161007adde933db7807c9d
+outputs.1.checksums.sha512=1ec73fb5b35c0d5a6951ae366dc173d6cb40836c94f6cbb8cf2a00c91caca20a8982bb51ca675f67db4ead957d4e9e42da55bfd233d0eaa82fc46b4642416547
 
 outputs.2.filename=cobertura-maven-plugin-2.7-sources.jar
-outputs.2.length=41964
-outputs.2.checksums.sha512=5bacfcc366f5ab731e73aa11e4165c2d897f0c16960cc898d93dd9fed7123954b772a0bd721c9ffb42736193956fa27dff3a105d71880ca05ddc94d1b672c452
+outputs.2.length=41963
+outputs.2.checksums.sha512=a309d53b1974ea4f23342dcdefe9f33d97c6cef39a9e9aee075f381cc1cc84af1b582872e3354da34c096bad99e43d9a80151dc901c4be75fc8690458fde970b

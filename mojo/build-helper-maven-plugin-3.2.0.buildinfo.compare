@@ -1,0 +1,10 @@
+version=3.2.0
+ok=0
+ko=3
+okFiles=""
+koFiles="build-helper-maven-plugin-3.2.0.jar build-helper-maven-plugin-3.2.0-source-release.zip build-helper-maven-plugin-3.2.0-sources.jar"
+reference_java_version="1.8.0_221 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/build-helper-maven-plugin-3.2.0.jar target/build-helper-maven-plugin-3.2.0.jar
+# diffoscope target/reference/build-helper-maven-plugin-3.2.0-source-release.zip target/build-helper-maven-plugin-3.2.0-source-release.zip
+# diffoscope target/reference/build-helper-maven-plugin-3.2.0-sources.jar target/build-helper-maven-plugin-3.2.0-sources.jar

@@ -2,4 +2,9 @@ version=2.8
 ok=0
 ko=3
 okFiles=""
-koFiles="clirr-maven-plugin-2.8-source-release.zip clirr-maven-plugin-2.8-sources.jar clirr-maven-plugin-2.8.jar"
+koFiles="clirr-maven-plugin-2.8.jar clirr-maven-plugin-2.8-source-release.zip clirr-maven-plugin-2.8-sources.jar"
+reference_java_version="1.8.0_51 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/clirr-maven-plugin-2.8.jar target/clirr-maven-plugin-2.8.jar
+# diffoscope target/reference/clirr-maven-plugin-2.8-source-release.zip target/clirr-maven-plugin-2.8-source-release.zip
+# diffoscope target/reference/clirr-maven-plugin-2.8-sources.jar target/clirr-maven-plugin-2.8-sources.jar

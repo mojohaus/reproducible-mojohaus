@@ -1,0 +1,6 @@
+version=3.10-SNAPSHOT
+ok=0
+ko=1
+okFiles=""
+koFiles="sonar-maven-plugin-3.10-SNAPSHOT-source-release.zip"
+# diffoscope target/reference/sonar-maven-plugin-3.10-SNAPSHOT-source-release.zip target/sonar-maven-plugin-3.10-SNAPSHOT-source-release.zip

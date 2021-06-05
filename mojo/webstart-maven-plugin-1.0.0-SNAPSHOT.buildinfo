@@ -13,13 +13,12 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=webstart-maven-plugin
 
 # aggregated output
 
@@ -27,24 +26,24 @@ outputs.0.coordinates=org.codehaus.mojo:webstart
 
 outputs.0.0.filename=webstart-1.0.0-SNAPSHOT-source-release.zip
 outputs.0.0.length=449225
-outputs.0.0.checksums.sha512=679674407a7f39d8e36ce19e4eeba48b00ee9f3d6acd0e0f1b7526b5efd5fe4786136e3ecea9e98e328a99f1bed1ea22e2f696af79e5cb238d30ef5298193654
+outputs.0.0.checksums.sha512=4698f68f6ebf02d1a765a77d0e4383260296e994050f72c1528a6835842ebeee2937069ad2b6cb9a97219a9de48e93313e2252f2f9997926cf5c8039e7d0a5f2
 
 outputs.1.coordinates=org.codehaus.mojo:webstart-jnlp-servlet
 
 outputs.1.0.filename=webstart-jnlp-servlet-1.0.0-SNAPSHOT.jar
 outputs.1.0.length=80016
-outputs.1.0.checksums.sha512=300208abddef294e2177b1f3603b6f951f595dcb75127544cd050d6f1152a95e16b073412645bb90a2ea1ae5d63680d153e92bec9bdac4b3c996e607bf64af09
+outputs.1.0.checksums.sha512=acecc8808b54923e388357304eab2ec16c9ef40f4fd8d543f6009d046e796b5021e1a393642ab0b8bc9bdfc62130daed9d71d81da54265906e8b20ec2920a6dd
 
 outputs.1.1.filename=webstart-jnlp-servlet-1.0.0-SNAPSHOT-sources.jar
 outputs.1.1.length=63605
-outputs.1.1.checksums.sha512=3a3d037523b18196ff3d8b582d569beaf97d831c522186bb6bf6cafc44ca0d7f3d73bdd088d67ca484da503138eab326ad6c329e679885c6cb9c755e0bc4b2e7
+outputs.1.1.checksums.sha512=d5f1cfb908ccab6b8d44c324fdf0fd30243273a7f449781d789a5cba6440ad9242482c3e0cc78c2408a794981fb2c6caa4ebfc799c56e5437df74f2135df4791
 
 outputs.2.coordinates=org.codehaus.mojo:webstart-maven-plugin
 
 outputs.2.0.filename=webstart-maven-plugin-1.0.0-SNAPSHOT.jar
-outputs.2.0.length=157615
-outputs.2.0.checksums.sha512=c72e567faf088ada0e1bc68f8150c0c9044eae3c347fd730bc2e8dc897bda3aeaa197e6a6db9b97dd85c0ee2e8aae3416bdd7c32075ca95abac75ff73b66bb72
+outputs.2.0.length=157614
+outputs.2.0.checksums.sha512=a0d83c983b7bb462ffb1c1c8079b377eb64e3a98a232b67fb0c9ef5688057f8ca9ffa44d7023bdf8f9d82e2ae9d276b74da257fbbb4d359dfc0ceddc545ae4b5
 
 outputs.2.1.filename=webstart-maven-plugin-1.0.0-SNAPSHOT-sources.jar
 outputs.2.1.length=130796
-outputs.2.1.checksums.sha512=ab59ad1535dfad4949050b69354c21043d10d83582d9edae6d1719d223e5f4eeb63b53c825f8961d20cc2560016c762338d0751e4f3056fd6aa721165aa6bfad
+outputs.2.1.checksums.sha512=92831d2f71533d3a3a3f59b96573c57c25d4642576a35d3408547eba1c9ac101df2aa8ea38a84e984bdb6aa30a91eaf441eacc10b8bdba8065b64e123452727b

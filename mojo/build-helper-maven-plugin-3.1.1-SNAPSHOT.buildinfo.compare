@@ -1,5 +1,0 @@
-version=3.1.1-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="build-helper-maven-plugin-3.1.1-SNAPSHOT-source-release.zip build-helper-maven-plugin-3.1.1-SNAPSHOT.jar build-helper-maven-plugin-3.1.1-SNAPSHOT-sources.jar"
