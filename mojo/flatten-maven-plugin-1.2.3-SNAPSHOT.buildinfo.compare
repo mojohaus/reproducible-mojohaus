@@ -1,5 +1,0 @@
-version=1.2.3-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="flatten-maven-plugin-1.2.3-SNAPSHOT-source-release.zip flatten-maven-plugin-1.2.3-SNAPSHOT.jar flatten-maven-plugin-1.2.3-SNAPSHOT-sources.jar"

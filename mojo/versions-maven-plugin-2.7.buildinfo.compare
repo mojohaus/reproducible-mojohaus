@@ -1,5 +1,0 @@
-version=2.7
-ok=0
-ko=3
-okFiles=""
-koFiles="versions-maven-plugin-2.7.jar versions-maven-plugin-2.7-sources.jar versions-maven-plugin-2.7-source-release.zip"

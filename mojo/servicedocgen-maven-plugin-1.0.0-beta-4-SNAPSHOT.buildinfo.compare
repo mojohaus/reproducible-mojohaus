@@ -1,5 +1,0 @@
-version=1.0.0-beta-4-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="servicedocgen-maven-plugin-1.0.0-beta-4-SNAPSHOT-sources.jar servicedocgen-maven-plugin-1.0.0-beta-4-SNAPSHOT.jar servicedocgen-maven-plugin-1.0.0-beta-4-SNAPSHOT-source-release.zip"
