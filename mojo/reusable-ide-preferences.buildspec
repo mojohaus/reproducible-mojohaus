@@ -1,5 +1,6 @@
 groupId=org.codehaus.mojo
 artifactId=reusable-ide-preferences
+centralLink=https://github.com/mojohaus/reusable-ide-preferences
 
 gitRepo=https://github.com/mojohaus/${artifactId}.git
 
