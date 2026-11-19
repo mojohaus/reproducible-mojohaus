@@ -1,5 +1,6 @@
 groupId=org.codehaus.mojo
 artifactId=maven-native
+centralLink=https://repo.maven.apache.org/maven2/org/codehaus/mojo/native-maven-plugin
 
 gitRepo=https://github.com/mojohaus/${artifactId}.git
 

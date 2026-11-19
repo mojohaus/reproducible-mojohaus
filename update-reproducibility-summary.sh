@@ -15,12 +15,15 @@ prevDist=""
 for buildspec in `find mojo -name *.buildspec -print | sort`
 do
   count=$(($count+1))
+  # A buildspec may set centralLink for artifacts that were never published to Central.
+  unset centralLink
   . $buildspec
 
   groupDir=$(echo ${groupId} | tr '.' '/')
+  centralLink=${centralLink:-https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}}
 
   echo -n "| [`echo ${groupId} | sed s/org.apache.maven/m/`](https://repo.maven.apache.org/maven2/${groupDir}) "
-  echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
+  echo -n "| [${artifactId}](${centralLink}) "
   echo -n "([spec](https://github.com/mojohaus/reproducible-mojohaus/tree/master/${buildspec}), "
   echo -n "[Git](${gitRepo})) "
 

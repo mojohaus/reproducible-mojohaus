@@ -1,5 +1,6 @@
 groupId=org.codehaus.mojo
 artifactId=jdiff-maven-plugin
+centralLink=https://github.com/mojohaus/jdiff-maven-plugin
 
 gitRepo=https://github.com/mojohaus/${artifactId}.git
 
